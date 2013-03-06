@@ -1,4 +1,4 @@
 wok
-yaml
+PyYAML
 jinja2
 markdown2
