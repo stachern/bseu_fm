@@ -1,10 +1,19 @@
 <div class="nav-collapse collapse">
     <ul class="nav">
         {% block navigation %}
-            <ul class="nav">
-                <li class="active"><a href="/">Главная</a></li>
-                <li><a href="/help">Помощь</a></li>
-            </ul>
+            {% if '_nav' in page.tags %}
+                <ul class="nav">
+                {% for system_name, display_name in settings.menu_names.items() %}
+                    {% for category_name, category_page in site.categories.items() %}
+                        {% if category_name == system_name %}
+                            <li {% if  category_name == page.slug or category_name in page.categories %} class="active" {% endif %} >
+                                <a href="/{{ category_name }}">{{ display_name }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+                </ul>
+            {% endif %}
         {% endblock %}
     </ul>
 </div><!--/.nav-collapse -->
