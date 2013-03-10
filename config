@@ -1,6 +1,6 @@
 site_title: Факультет Менеджмента БГЭУ
 url_include_index: no
 url_pattern: "/{category}/{slug}/{page}/index.html"
-relative_urls: true
+relative_urls: false
 output_dir: site
 author: Stanislau Charniakou <stas.cherniakov@gmail.com>
