@@ -1,4 +1,4 @@
-title: Кафедра Экономической Информатики
+title: Кафедра экономической информатики
 slug: ei
 category: [departments]
 tags: [_nav]
