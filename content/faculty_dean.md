@@ -1,5 +1,5 @@
 title: Деканат
-slug: dean
+slug: deans_office
 category: [faculty]
 tags: [_nav]
 ---

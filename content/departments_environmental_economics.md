@@ -1,5 +1,5 @@
 title: Кафедра экономики природопользования
-slug: priroda
+slug: environmental_economics
 category: [departments]
 tags: [_nav]
 ---

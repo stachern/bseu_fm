@@ -1,5 +1,5 @@
 title: Кафедра экономики труда
-slug: trud
+slug: labor_economics
 category: [departments]
 tags: [_nav]
 ---

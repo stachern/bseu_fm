@@ -1,5 +1,5 @@
 title: Кафедра экономической информатики
-slug: ei
+slug: economic_informatics
 category: [departments]
 tags: [_nav]
 ---

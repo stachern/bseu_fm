@@ -1,5 +1,5 @@
 title: Самоуправление
-slug: selfmanegement
+slug: management
 tags: [_nav]
 ---
 

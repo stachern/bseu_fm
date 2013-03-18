@@ -1,6 +1,6 @@
 title: Студенческое научное общество
-slug: sco
-category: [students]
+slug: students_science
+category: [student]
 tags: [_nav]
 ---
 

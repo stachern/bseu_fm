@@ -1,5 +1,5 @@
 title: Студенту
-slug: students
+slug: student
 tags: [_nav]
 ---
 

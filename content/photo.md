@@ -1,5 +1,5 @@
 title: Галерея
-slug: gallery
+slug: photo
 tags: [_nav]
 ---
 

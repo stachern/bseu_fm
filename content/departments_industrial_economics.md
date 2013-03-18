@@ -1,5 +1,5 @@
 title: Кафедра экономики промышленных предприятий
-slug: prom
+slug: industrial_economics
 category: [departments]
 tags: [_nav]
 ---

@@ -1,5 +1,5 @@
 title: Кафедра прикладной математики и экономической кибернетики
-slug: ek
+slug: economic_cybernetics
 category: [departments]
 tags: [_nav]
 ---

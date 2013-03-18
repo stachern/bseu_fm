@@ -2,8 +2,7 @@ title: Новости
 slug: main
 url: '/index.htm'
 tags: [_nav]
-moto: Супердевиз вот тут.
-
+type: main
 ---
 
 main page text
