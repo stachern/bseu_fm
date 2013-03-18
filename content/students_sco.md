@@ -1,5 +1,5 @@
 title: Студенческое научное общество
-slug: students_science
+slug: student_science
 category: [student]
 tags: [_nav]
 ---
