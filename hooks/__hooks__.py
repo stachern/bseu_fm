@@ -1,5 +1,4 @@
 import logging
-import settings_to_template
 hook_count = 0
 
 
@@ -21,7 +20,7 @@ hooks = {
     'page.meta.post': make_hook('page.template.post'),
     'page.render.pre': make_hook('page.template.pre'),
     'page.render.post': make_hook('page.template.post'),
-    'page.template.pre': make_hook('page.template.pre') + [settings_to_template.settings_to_template],
+    'page.template.pre': make_hook('page.template.pre'),
     'page.template.post': make_hook('page.template.post'),
     'site.stop': make_hook('site.stop'),
     }
