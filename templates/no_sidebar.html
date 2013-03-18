@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12" id="headimage">
+                <img src="/img/headers/{{ page.slug }}.jpg" alt="{{ page.title }}"/>
+            </div>
+         </div>
+        <div class="container-fluid-fluid">
+            <h2>{{ page.title }}</h2>
+            {{ page.content }}
+        </div>
+    </div>
+{% endblock %}
