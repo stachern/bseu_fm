@@ -1,19 +1,29 @@
 <div class="nav-collapse collapse">
-    <ul class="nav">
-        {% block navigation %}
-            {% if '_nav' in page.tags %}
-                <ul class="nav">
-                {% for system_name, display_name in settings.menu_names.items() %}
-                    {% for category_name, category_page in site.categories.items() %}
-                        {% if category_name == system_name %}
-                            <li {% if  category_name == page.slug or category_name in page.categories %} class="active" {% endif %} >
-                                <a href="/{{ category_name }}">{{ display_name }}</a>
-                            </li>
-                        {% endif %}
-                    {% endfor %}
-                {% endfor %}
-                </ul>
-            {% endif %}
-        {% endblock %}
-    </ul>
+{% block navigation %}
+    {% if '_nav' in page.tags %}
+        <ul class="nav">
+            {% for spage in site.pages %}
+                {% if spage.menu %}
+                    {% if spage.subpages %}
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                {{ spage.menu }}
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                {% for sub_spage in spage.subpages %}
+                                    <li><a tabindex="-1" href="{{ sub_spage.url }}">{{ sub_spage.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% else %}
+                        <li class="active">
+                            <a href="{{ spage.url }}" {% if spage.title == page.title %}class="active"{% endif %} >{{ spage.menu }}</a>
+                        </li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}
 </div><!--/.nav-collapse -->
