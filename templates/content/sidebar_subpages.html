@@ -2,7 +2,7 @@
 <ul>
     {% for subpage in  page.subpages %}
         {% if not subpage.slug == 'en' %}
-            <li><a href="{{ subpage.url }}">{{ subpage.title }}</a></li>
+            <li class="white"><a class="white" href="{{ subpage.url }}">{{ subpage.title }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>

@@ -9,15 +9,14 @@
         <div class="row-fluid">
             <div class="span8" id="schedule-display">
                 <!--displaying main page content-->
+                  <br/>
                 <h2>{{ page.title }}</h2>
                 {{ page.content }}
             </div>
             <div class="span4" id="student-info">
                 <!--page sidebar-->
                     <br/>
-                    <blockquote class="pull-right">
-                     <p>{{ page.moto }}</p>
-                    </blockquote>
+                    
                 <div class="container-fluid well">
                      {% include "content/sidebar_subpages.html" %}
                 </div>

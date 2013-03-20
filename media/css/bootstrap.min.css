@@ -61,7 +61,7 @@ html {
 }
 
 a:focus {
-    outline: thin dotted #333;
+    outline: thin dotted #DE2346;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
@@ -767,6 +767,7 @@ ul ul, ul ol, ol ol, ol ul {
 
 li {
     line-height: 20px
+   
 }
 
 ul.unstyled, ol.unstyled {
@@ -2699,6 +2700,7 @@ table td[class*="span"], table th[class*="span"], .row-fluid table td[class*="sp
     border-color: rgba(0, 0, 0, 0.15)
 }
 
+
 .well-large {
     padding: 24px;
     -webkit-border-radius: 0;
@@ -2711,6 +2713,10 @@ table td[class*="span"], table th[class*="span"], .row-fluid table td[class*="sp
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0
+}
+
+.well>li>a {
+    color: #FFFFFF;
 }
 
 .fade {
@@ -5965,11 +5971,11 @@ legend {
 }
 
 a.thumbnail {
-    background-color: #dfdfdf
+    background-color: #fff
 }
 
 a.thumbnail:hover {
-    background-color: #bbb;
+    background-color: #DE2346;
     border-color: transparent
 }
 
@@ -6056,4 +6062,5 @@ a.thumbnail:hover {
 .affix {
     position: fixed
 }
+
 

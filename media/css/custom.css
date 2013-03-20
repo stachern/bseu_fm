@@ -58,10 +58,10 @@ body {
 }
 #rssdata ul.rss-items a
 {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 5px;
     display: block;
-    font: 12px/16px  Verdana, Tahoma, Arial, sans-serif;
+    font: 14px/16px  Verdana, Tahoma, Arial, sans-serif;
     padding: 2px 6px;
     background: #1A52C9;
     color: #ffffff;
@@ -99,5 +99,10 @@ body {
 } 
 
 .white {
+    color: #FFFFFF;  
+}
+
+
+a:hover.white {
     color: #FFFFFF;  
 }
