@@ -43,3 +43,61 @@ body {
 .container .credit {
     margin: 20px 0;
 }
+
+#rssdata ul.rss-items
+{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+#rssdata ul.rss-items li
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#rssdata ul.rss-items a
+{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font: 12px/16px  Verdana, Tahoma, Arial, sans-serif;
+    padding: 2px 6px;
+    background: #1A52C9;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
+#rssdata ul.rss-items a:hover
+{
+    background: #DE2346;
+    color: #fff;
+  
+    text-decoration: none;
+}
+#rsstitle
+
+{    
+  padding: 6px 6px;   
+  
+    color: #fff;
+    font: 16px/18px bold Verdana, Tahoma, Arial, sans-serif;
+    text-decoration: none;
+  border-bottom: 2px solid #eee;
+  
+} 
+
+#rssbottom
+
+{    
+  padding: 2px 6px;
+    background: #1A52C9;
+    color: #fff;
+    text-decoration: none;
+ border-top: 2px solid #eee;
+  
+} 
+
+.white {
+    color: #FFFFFF;  
+}
