@@ -106,3 +106,7 @@ body {
 a:hover.white {
     color: #FFFFFF;  
 }
+
+.article .thumbnail {
+    margin: 15px;
+}
