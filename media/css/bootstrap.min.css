@@ -61,7 +61,7 @@ html {
 }
 
 a:focus {
-    outline: thin dotted #DE2346;
+    outline: thin dotted #333;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
@@ -164,7 +164,7 @@ textarea {
     }
 
     pre, blockquote {
-        border: 1px solid #DE2346;
+        border: 1px solid #999;
         page-break-inside: avoid
     }
 
@@ -207,7 +207,6 @@ a {
     color: #007fff;
     text-decoration: none
 }
-
 
 a:hover, a:focus {
     color: #06c;
@@ -767,7 +766,6 @@ ul ul, ul ol, ol ol, ol ul {
 
 li {
     line-height: 20px
-   
 }
 
 ul.unstyled, ol.unstyled {
@@ -852,7 +850,7 @@ abbr.initialism {
 blockquote {
     padding: 0 0 0 15px;
     margin: 0 0 20px;
-    border-left: 5px solid #DE2346
+    border-left: 5px solid #eee
 }
 
 blockquote p {
@@ -860,13 +858,12 @@ blockquote p {
     font-size: 17.5px;
     font-weight: 300;
     line-height: 1.25
-    color: #FFFFFF;
 }
 
 blockquote small {
     display: block;
     line-height: 20px;
-    color: #FFFFFF
+    color: #dfdfdf
 }
 
 blockquote small:before {
@@ -877,11 +874,8 @@ blockquote.pull-right {
     float: right;
     padding-right: 15px;
     padding-left: 0;
-    border-right: 5px solid #C71636;
-    color: #FFFFFF;
-    background:	#DE2346;
+    border-right: 5px solid #eee;
     border-left: 0
-
 }
 
 blockquote.pull-right p, blockquote.pull-right small {
@@ -2549,7 +2543,7 @@ table td[class*="span"], table th[class*="span"], .row-fluid table td[class*="sp
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
     color: #fff;
     text-decoration: none;
-    background-color: #DE2346;
+    background-color: #007af5;
     background-image: -moz-linear-gradient(top, #007fff, #0072e6);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#007fff), to(#0072e6));
     background-image: -webkit-linear-gradient(top, #007fff, #0072e6);
@@ -2562,7 +2556,7 @@ table td[class*="span"], table th[class*="span"], .row-fluid table td[class*="sp
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #DE2346;
+    background-color: #007af5;
     background-image: -moz-linear-gradient(top, #007fff, #0072e6);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#007fff), to(#0072e6));
     background-image: -webkit-linear-gradient(top, #007fff, #0072e6);
@@ -2685,7 +2679,7 @@ table td[class*="span"], table th[class*="span"], .row-fluid table td[class*="sp
     min-height: 20px;
     padding: 19px;
     margin-bottom: 20px;
-    background-color: #1A52C9;
+    background-color: #eee;
     border: 1px solid #dcdcdc;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -2700,7 +2694,6 @@ table td[class*="span"], table th[class*="span"], .row-fluid table td[class*="sp
     border-color: rgba(0, 0, 0, 0.15)
 }
 
-
 .well-large {
     padding: 24px;
     -webkit-border-radius: 0;
@@ -2713,10 +2706,6 @@ table td[class*="span"], table th[class*="span"], .row-fluid table td[class*="sp
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0
-}
-
-.well>li>a {
-    color: #FFFFFF;
 }
 
 .fade {
@@ -3818,7 +3807,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
     min-height: 50px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: #1A52C9;
+    background-color: #080808;
     background-image: -moz-linear-gradient(top, #080808, #080808);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#080808), to(#080808));
     background-image: -webkit-linear-gradient(top, #080808, #080808);
@@ -4194,7 +4183,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inverse .navbar-inner {
-    background-color: #2760D9;
+    background-color: #007fff;
     background-image: -moz-linear-gradient(top, #007fff, #007fff);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#007fff), to(#007fff));
     background-image: -webkit-linear-gradient(top, #007fff, #007fff);
@@ -4224,7 +4213,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 
 .navbar-inverse .nav>li>a:focus, .navbar-inverse .nav>li>a:hover {
     color: #fff;
-    background-color: #DE2346
+    background-color: rgba(0, 0, 0, 0.05)
 }
 
 .navbar-inverse .nav .active>a, .navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus {
@@ -4247,7 +4236,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 
 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle, .navbar-inverse .nav li.dropdown.active>.dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle {
     color: #fff;
-    background-color: #DE2346
+    background-color: #007fff
 }
 
 .navbar-inverse .nav li.dropdown>a:hover .caret, .navbar-inverse .nav li.dropdown>a:focus .caret {
@@ -4947,8 +4936,7 @@ a.thumbnail:hover, a.thumbnail:focus {
 }
 
 .media, .media .media {
-    margin-top: 15px;
-   
+    margin-top: 15px
 }
 
 .media:first-child {
@@ -5592,7 +5580,7 @@ a.text-success:hover {
 
 .navbar-inverse .brand:hover, .navbar-inverse .nav>.active>a, .navbar-inverse .nav>.active>a:hover, .navbar-inverse .nav>.active>a:focus {
     color: #fff;
-    background-color: #DE2346;
+    background-color: rgba(0, 0, 0, 0.05);
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none
@@ -5971,11 +5959,11 @@ legend {
 }
 
 a.thumbnail {
-    background-color: #fff
+    background-color: #dfdfdf
 }
 
 a.thumbnail:hover {
-    background-color: #DE2346;
+    background-color: #bbb;
     border-color: transparent
 }
 
@@ -6062,5 +6050,3 @@ a.thumbnail:hover {
 .affix {
     position: fixed
 }
-
-

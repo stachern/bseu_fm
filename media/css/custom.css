@@ -110,3 +110,66 @@ a:hover.white {
 .article .thumbnail {
     margin: 15px;
 }
+
+ a:focus {
+     outline: thin dotted #DE2346;
+     outline: 5px auto -webkit-focus-ring-color;
+     outline-offset: -2px
+ }
+
+ .well>li>a {
+   color: #FFFFFF;
+}
+
+ a.thumbnail {
+  
+   background-color: #fff
+ }
+
+ .well {
+   
+    background-color: #1A52C9;   
+}
+
+
+.navbar-inverse .brand:hover, .navbar-inverse .nav>.active>a, .navbar-inverse .nav>.active>a:hover, .navbar-inverse .nav>.active>a:focus {
+   
+    background-color: #DE2346;
+   
+}
+
+
+.navbar-inner {  
+    background-color: #1A52C9;    
+}
+
+.navbar-inverse .navbar-inner {
+    background-color: #2760D9;
+    }
+
+.navbar-inverse .nav li.dropdown.open>.dropdown-toggle, .navbar-inverse .nav li.dropdown.active>.dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle {    
+    background-color: #DE2346
+}
+
+.navbar-inverse .brand:hover, .navbar-inverse .nav>.active>a, .navbar-inverse .nav>.active>a:hover, .navbar-inverse .nav>.active>a:focus {   
+    background-color: #DE2346;   
+}
+a.thumbnail:hover {
+    background-color: #DE2346;   
+}
+a:focus {
+    outline: thin dotted #DE2346;    
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {  
+    background-image:none;
+    background-color: #DE2346;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {   
+    
+     background-image: -moz-linear-gradient(top, #DE2346, #DE2346);   
+}
+.navbar-inverse .nav>li>a:focus, .navbar-inverse .nav>li>a:hover {  
+    background-color: #DE2346;
+     
+}
