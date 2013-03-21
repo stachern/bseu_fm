@@ -1,8 +1,10 @@
-<b class="white">{{ page.title }}:</b>
-<ul>
-    {% for subpage in  page.subpages %}
-        {% if not subpage.slug == 'en' %}
-            <li class="white"><a class="white" href="{{ subpage.url }}">{{ subpage.title }}</a></li>
-        {% endif %}
-    {% endfor %}
-</ul>
+<div class="container-fluid well">
+    <b class="white">{{ page.title }}:</b>
+    <ul>
+        {% for subpage in  page.subpages %}
+            {% if not subpage.slug == 'en' %}
+                <li class="white"><a class="white" href="{{ subpage.url }}">{{ subpage.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
