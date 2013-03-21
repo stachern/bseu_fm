@@ -2,7 +2,6 @@ title: Деканат
 slug: deans_office
 category: [faculty]
 tags: [_nav]
-type: no_sidebar
 ---
 
 Декан

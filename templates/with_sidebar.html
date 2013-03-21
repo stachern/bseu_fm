@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block content %}
+{% block base_content %}
     <div class="container-fluid">
         <div class="row-fluid">
          <div class="span12" id="headimage">
@@ -9,17 +9,13 @@
         <div class="row-fluid">
             <div class="span8" id="schedule-display">
                 <!--displaying main page content-->
-                  <br/>
-                <h2>{{ page.title }}</h2>
-                {{ page.content }}
+                 <br/>
+                 {%block main_content%}{%endblock%}                
             </div>
             <div class="span4" id="student-info">
                 <!--page sidebar-->
-                    <br/>
-                    
-                <div class="container-fluid well">
-                     {% include "content/sidebar_subpages.html" %}
-                </div>
+                    <br/>  
+                {%block sidebar_content%}{%endblock%}
             </div>
         </div>
     </div>

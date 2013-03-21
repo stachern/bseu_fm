@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block content %}
+{% block base_content %}
     <div class="container-fluid">
         <div class="row-fluid">
             <div class="span12" id="headimage">
@@ -7,8 +7,8 @@
             </div>
          </div>
         <div class="container-fluid-fluid">
-            <h2>{{ page.title }}</h2>
-            {{ page.content }}
+           <br/>
+            {%block main_content%}{%endblock%}
         </div>
     </div>
 {% endblock %}

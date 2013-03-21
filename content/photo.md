@@ -3,7 +3,6 @@ menu: Галерея
 menu_index: 7
 slug: photo
 tags: [_nav, _menu]
-type: no_sidebar
 ---
 
 <center>

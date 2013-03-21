@@ -1,1 +1,7 @@
-{% extends "with_sidebar.html" %}
+{% extends "no_sidebar.html" %}
+ {%block main_content%}
+  <h2>{{ page.title }}</h2>
+   {{ page.content }}
+ {%endblock%}
+    
+
