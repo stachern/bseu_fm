@@ -1,0 +1,10 @@
+{% extends "with_sidebar.html" %}
+{% block main_content %}
+    <h2>{{ page.title }}</h2>
+    {{ page.content }}
+{% endblock %}
+{% block sidebar_content %}
+    <div class="container-fluid">
+        <img class="media-object" src="/img/logos/depts/{{ page.slug }}.png">
+    </div>
+{% endblock %}
