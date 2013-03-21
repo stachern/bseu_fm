@@ -1,5 +1,5 @@
 <div class="row-fluid">
     <div id="headimage">
-        <img src="/img/headers/{% if '_eng' in page.tags %}/en/{% endif %}{{ page.slug }}.jpg" alt="{{ page.title }}"/>
+        <img src="/img/headers/{% if '_eng' in page.tags %}en/{{ page.category.0 }}{% else %}{{ page.slug }}{% endif %}.jpg" alt="{{ page.title }}"/>
     </div>
 </div>
