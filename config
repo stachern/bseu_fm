@@ -1,4 +1,6 @@
 site_title: Факультет Менеджмента БГЭУ
+keywords: БГЭУ, факультет, менеджмент, фм, Белорусский Государственный Экономический Университет, BSEU
+description: официальный сайт факультета менеджмента БГЭУ
 url_include_index: no
 url_pattern: "/{category}/{slug}/{page}/index.html"
 relative_urls: false
