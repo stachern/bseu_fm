@@ -1,7 +1,8 @@
 {% extends "with_sidebar.html" %}
 {% block main_content %}
     <script type="text/javascript" src="/js/ejs.js"></script>
-    <script type="text/javascript" src="/js/newsfeed.js"></script>     
+    <script type="text/javascript" src="/js/newsfeed.js"></script>  
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>   
                 <div id="feed">
                 </div>
                 <br/>
@@ -10,7 +11,30 @@
               </div>     
 {% endblock %}
 {%block sidebar_content%}
+    <div class="container-fluid well"> 
+    {% include "content/twitter_widget.html" %}   
+     </div>   
+   <div class="container-fluid well"> 
+    {% include "content/about_faculty.html" %}   
+     </div>
+      <div class="container-fluid well"> 
+    {% include "content/it_is_interesting.html" %}   
+     </div>   
    <div class="container-fluid well">
      {% include "content/newswidget.html" %}
+      <br/>
+      <center><a class="white" href="rubriki.html">[все материалы рубрик]</a></center>  
       </div>
 {%endblock%}
+
+
+
+          
+
+    
+  
+
+ 
+        
+
+

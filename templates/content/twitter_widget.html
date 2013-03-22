@@ -1,0 +1,29 @@
+ <div class="twitter">
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 5,
+  interval: 30000,  
+  height: 300,
+  width: 260,
+  theme: {
+    shell: {
+      background: '#1A52C9',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#1A52C9',
+      color: '#ffffff',     
+      links: '#DE2346'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    behavior: 'default'
+  }
+}).render().setUser('FmBseu').start();
+</script>
+</div>
