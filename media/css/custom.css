@@ -178,9 +178,7 @@ a:focus {
      
 }
 
-img.media-object {
-     background-color: #DE2346;   
-}
+
 
 .navbar .brand {
     max-height: 50px;
@@ -188,5 +186,11 @@ img.media-object {
     padding-top: 0px;
     padding-bottom: 0px;
     margin-right: 10px;
+}
+
+#photo-feed.thumbnails>li.span3 {
+    height: 350px;
+    margin: 5px 5px 5px 5px;
+
 }
 
