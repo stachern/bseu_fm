@@ -1,8 +1,7 @@
 /* Sticky footer styles
 -------------------------------------------------- */
 
-html,
-body {
+html, body {
     height: 100%;
     /* The html and body elements cannot have any padding or margin. */
 }
@@ -22,10 +21,11 @@ body {
 }
 
 /* Set the fixed height of the footer here */
-#push,
-#footer {
+
+#push, #footer {
     height: 66px;
 }
+
 #footer {
     background-color: #f5f5f5;
 }
@@ -44,58 +44,49 @@ body {
     margin: 20px 0;
 }
 
-#rssdata ul.rss-items
-{
+#rssdata ul.rss-items {
     display: none;
     margin: 0;
     padding: 0;
 }
-#rssdata ul.rss-items li
-{
+
+#rssdata ul.rss-items li {
     display: block;
     margin: 0;
     padding: 0;
 }
-#rssdata ul.rss-items a
-{
+
+#rssdata ul.rss-items a {
     margin: 0px;
-    padding: 5px;
     display: block;
     font: 14px/16px  Verdana, Tahoma, Arial, sans-serif;
-    padding: 2px 6px;
+    padding: 5px;
     background: #1A52C9;
     color: #ffffff;
     text-decoration: none;
     border-bottom: 1px solid #eee;
 }
-#rssdata ul.rss-items a:hover
-{
+
+#rssdata ul.rss-items a:hover {
     background: #DE2346;
     color: #fff;
-  
     text-decoration: none;
 }
-#rsstitle
 
-{    
-  padding: 6px 6px;   
-  
+#rsstitle {
+    padding: 6px 6px;
     color: #fff;
     font: 16px/18px bold Verdana, Tahoma, Arial, sans-serif;
     text-decoration: none;
-  border-bottom: 2px solid #eee;
-  
+    border-bottom: 2px solid #eee;
 } 
 
-#rssbottom
-
-{    
-  padding: 2px 6px;
+#rssbottom {
+    padding: 2px 6px;
     background: #1A52C9;
     color: #fff;
     text-decoration: none;
- border-top: 2px solid #eee;
-  
+    border-top: 2px solid #eee;
 } 
 
 .white {
@@ -106,7 +97,6 @@ a.white {
     color: #FFFFFF;  
 }
 
-
 a:hover.white {
     color: #FFFFFF;  
 }
@@ -115,33 +105,34 @@ a:hover.white {
     margin: 15px;
 }
 
- a:focus {
-     outline: thin dotted #DE2346;
-     outline: 5px auto -webkit-focus-ring-color;
-     outline-offset: -2px
- }
-
- .well>li>a {
-   color: #FFFFFF;
+a:focus {
+    outline: thin dotted #DE2346;
+    outline-offset: -2px;
 }
 
- a.thumbnail {
-  
-   background-color: #fff
- }
-
- .well {
-   
-    background-color: #1A52C9;   
+.well li a {
+    color: #FFFFFF;
 }
 
+a.thumbnail {
+    background-color: #FFFFFF;
+}
+
+.well {
+    background-color: #1A52C9;
+}
+
+#sidebar .well, #sidebar h2, #sidebar a  {
+    color: #FFFFFF;
+}
+
+#sidebar a:hover {
+    color: #DE2346;
+}
 
 .navbar-inverse .brand:hover, .navbar-inverse .nav>.active>a, .navbar-inverse .nav>.active>a:hover, .navbar-inverse .nav>.active>a:focus {
-   
     background-color: #DE2346;
-   
 }
-
 
 .navbar-inner {  
     background-color: #1A52C9;    
@@ -149,7 +140,7 @@ a:hover.white {
 
 .navbar-inverse .navbar-inner {
     background-color: #2760D9;
-    }
+}
 
 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle, .navbar-inverse .nav li.dropdown.active>.dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle {    
     background-color: #DE2346
@@ -158,27 +149,26 @@ a:hover.white {
 .navbar-inverse .brand:hover, .navbar-inverse .nav>.active>a, .navbar-inverse .nav>.active>a:hover, .navbar-inverse .nav>.active>a:focus {   
     background-color: #DE2346;   
 }
+
 a.thumbnail:hover {
     background-color: #DE2346;   
 }
+
 a:focus {
     outline: thin dotted #DE2346;    
 }
 
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {  
-    background-image:none;
-    background-color: #DE2346;
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
+    background: #de2346 none;
 }
-.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {   
-    
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
      background-image: -moz-linear-gradient(top, #DE2346, #DE2346);   
 }
+
 .navbar-inverse .nav>li>a:focus, .navbar-inverse .nav>li>a:hover {  
     background-color: #DE2346;
-     
 }
-
-
 
 .navbar .brand {
     max-height: 50px;
@@ -191,6 +181,5 @@ a:focus {
 #photo-feed.thumbnails>li.span3 {
     height: 350px;
     margin: 5px 5px 5px 5px;
-
 }
 

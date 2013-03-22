@@ -10,20 +10,10 @@
     </div>
 {% endblock %}
 {%block sidebar_content%}
-    <div class="container-fluid well"> 
-    {% include "content/twitter_widget.html" %}   
-     </div>   
-   <div class="container-fluid well"> 
-    {% include "content/about_faculty.html" %}   
-     </div>
-      <div class="container-fluid well"> 
-    {% include "content/it_is_interesting.html" %}   
-     </div>   
-   <div class="container-fluid well">
-     {% include "content/newswidget.html" %}
-      <br/>
-      <center><a class="white" href="rubriki.html">[все материалы рубрик]</a></center>  
-      </div>
+    {% include "widgets/twitter_widget.html" %}
+    {% include "content/about_faculty.html" %}
+    {% include "content/it_is_interesting.html" %}
+    {% include "widgets/news_widget.html" %}
 {%endblock%}
 
 
