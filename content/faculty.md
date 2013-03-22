@@ -49,6 +49,7 @@ Cпециальности и специализации
 Гимн факультета
 ---------------
 <embed type="application/x-shockwave-flash" flashvars="audioUrl=http://bseu.by/fm/files/fm2.mp3" src="http://www.google.com/reader/ui/3523697345-audio-player.swf" width="400" height="27" quality="best">
+
 Гимн университета
 -----------------
 <embed type="application/x-shockwave-flash" flashvars="audioUrl=http://bseu.by/fm/files/fm.mp3" src="http://www.google.com/reader/ui/3523697345-audio-player.swf" width="400" height="27" quality="best">

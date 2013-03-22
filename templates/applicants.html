@@ -1,9 +1,9 @@
 {% extends "with_sidebar.html" %}
-{%block main_content%}
+{% block main_content %}
     <h2>{{ page.title }}</h2>
     {{ page.content }}
-{%endblock%} 
-{%block sidebar_content%}
+{% endblock %}
+{% block sidebar_content %}
     <div class="container-fluid well">
         <h3 class='white'>Справочная информация</h3>
         <li class='white'><a href="http://bseu.by/russian/abiturient/meeting.htm">правила приема в БГЭУ</a></li>
@@ -11,4 +11,4 @@
         <li class='white'><a href="http://bseu.by/fm/files/scores08_11.xls">проходные баллы на ФМ 2008-2011</a></li>
         <li class='white'><a href="http://bseu.by/fm/files/scores12.xls">проходные баллы на ФМ 2012</a></li>
     </div>
-{%endblock%}
+{% endblock %}
