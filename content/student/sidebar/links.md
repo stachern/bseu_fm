@@ -1,6 +1,5 @@
 title: Полезные ссылки
 slug: links
-category: [student]
 tags: [student]
 ---
 
@@ -20,4 +19,4 @@ tags: [student]
 
 - [Блог библиотеки БГЭУ](http://library.bseu.blog.tut.by/)
 
-- [Расписание в новом формате](http://app.inside.by/)
+- [Расписание занятий](http://app.inside.by/)

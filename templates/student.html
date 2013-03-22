@@ -1,4 +1,8 @@
 {% extends "with_sidebar.html" %}
+{% block main_content %}
+    <h2>{{ page.title }}</h2>
+    {{ page.content }}
+{% endblock %}
 {% block sidebar_content %}
     {% include "content/about_student.html" %}
     {% include "content/subpages.html" %}
