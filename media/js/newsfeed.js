@@ -19,20 +19,25 @@ function get_feed(offset){
 }
 
 $(document).ready(function(){
-    get_feed(FeedOffset);
+    get_feed(FeedOffset);    
+
 });
 
 $(window).scroll(function() {
     if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
        FeedOffset += 10;
-           get_feed(FeedOffset);
+           get_feed(FeedOffset);          
     }
 });
 
-$('#rssdata').ready(function(){
+$('#rssdata').ready(function()
+{
     var pipe_url = 'http://pipes.yahoo.com/pipes/pipe.run?_id=3f5db5135e0d956c2ef490cd1ae22878&_render=json&_callback=?';
-    $.getJSON(pipe_url,function(data){
-        $(data.value.items).each(function(index,item){
+    $.getJSON(pipe_url,function(data)
+    {
+      
+      $(data.value.items).each(function(index,item)
+        {
             var item_html = '<li><a href="'+item.link+'">'+item.title+'</a></li>';
             $('#rssdata ul.rss-items').append(item_html);
         });

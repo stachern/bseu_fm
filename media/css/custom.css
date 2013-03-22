@@ -173,3 +173,17 @@ a:focus {
     background-color: #DE2346;
      
 }
+
+img.media-object {
+     background-color: #DE2346;   
+}
+
+.navbar .brand {
+    max-height: 50px;
+    overflow: visible;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+}
+
+

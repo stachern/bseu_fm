@@ -1,16 +1,16 @@
 {% extends "with_sidebar.html" %}
 {% block main_content %}
     <script type="text/javascript" src="/js/ejs.js"></script>
-    <script type="text/javascript" src="/js/newsfeed.js"></script>
-    <div id="feed">
-    </div>
-    <br/>
-    <div id="loader"  class="badge badge-important">
-        Загрузка ленты...
-    </div>
+    <script type="text/javascript" src="/js/newsfeed.js"></script>     
+                <div id="feed">
+                </div>
+                <br/>
+              <div class="progress progress-striped active">
+                     <div class="bar" style="width:0%;"></div>
+              </div>     
 {% endblock %}
 {%block sidebar_content%}
    <div class="container-fluid well">
-        {% include "content/newswidget.html" %}
-   </div>
+     {% include "content/newswidget.html" %}
+      </div>
 {%endblock%}

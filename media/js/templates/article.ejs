@@ -5,12 +5,13 @@
     <% } %>
     <br>
     <h3 class="media-heading"><%= articles[i].header %></h3>
-    <% if (articles[i].img) { %>
+   
+    <div class="media-body">
+     <% if (articles[i].img) { %>
         <a class="pull-left thumbnail" href="http://2.bseu-fm.appspot.com/img?id=<%= articles[i].img.id %>">
             <img class="media-object" src="http://2.bseu-fm.appspot.com/img?thumb=true&id=<%= articles[i].img.id %>">
         </a>
     <% } %>
-    <div class="media-body">
         <%= articles[i].body %>
     </div>
 </div>
