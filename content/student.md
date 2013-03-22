@@ -3,7 +3,7 @@ menu: Студенту
 menu_index: 6
 slug: student
 tags: [_nav, _menu]
-type: subpages_sidebar
+type: student
 ---
 
 Советы выпускникам ФМ

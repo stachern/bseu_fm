@@ -1,0 +1,6 @@
+<div class="container-fluid well">
+    {% for faculty_page in site.tags.get('student') %}
+        <h2>{{ faculty_page.title }}</h2>
+        <p>{{ faculty_page.content }}</p>
+    {% endfor %}
+</div>
