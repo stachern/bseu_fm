@@ -5,10 +5,23 @@ import shutil
 import settings
 import urllib2
 import zipfile
-import logging
+import logging as lg
 import os
 import ftptool
+import pprint
+from threading import Thread
 from wok.engine import Engine
+
+
+class WidgetLogger(lg.Handler):
+
+    def __init__(self, widget):
+        lg.Handler.__init__(self)
+        self.widget = widget
+
+    def emit(self, record):
+        # Append message (record) to the widget
+        self.widget.insert(Tkinter.INSERT, str(record.msg) + '\n')
 
 
 class GUI(Frame):
@@ -18,8 +31,7 @@ class GUI(Frame):
 
     def initialize(self):
         self.master.title(settings.APP_TITLE)
-        self.style = Style()
-        self.style.theme_use("default")
+
         self.pack(fill=Tkinter.BOTH, expand=1)
 
         self.columnconfigure(1, weight=1)
@@ -32,10 +44,36 @@ class GUI(Frame):
 
         self.area = Tkinter.Text(self)
         self.area.grid(row=1, column=0, columnspan=2, rowspan=4,
-                  padx=5, sticky=Tkinter.E + Tkinter.W + Tkinter.S + Tkinter.N)
+                       padx=5, sticky=Tkinter.E + Tkinter.W + Tkinter.S + Tkinter.N)
 
-        self.deploybtn = Button(self, text="Начать обновление", command=full_cycle)
-        self.deploybtn.grid(row=5)
+        self.widgetLogger = WidgetLogger(self.area)
+
+        lbl = Label(self, text="Адрес репозитория: ")
+        lbl.grid(row=6)
+
+        self.repo_addr_str = Tkinter.StringVar()
+        self.repo_addr = Tkinter.Entry(self, textvariable=self.repo_addr_str)
+        self.repo_addr.grid(row=7)
+
+        lbl = Label(self, text="FTP для размещения: ")
+        lbl.grid(row=6, column=1)
+
+        self.ftp_addr_str = Tkinter.StringVar()
+        self.ftp_addr = Tkinter.Entry(self, textvariable=self.ftp_addr_str)
+        self.ftp_addr.grid(row=7, column=1, pady=1)
+
+        self.deploybtn = Button(self, text="Начать обновление", command=self.start_update_thread)
+        self.deploybtn.grid(row=10)
+
+    def start_update_thread(self):
+        # resetting vars
+        settings.DEFAULT_FTP_HOST = self.ftp_addr_str.get()
+        settings.DEFAULT_GIT_REPO = self.repo_addr_str.get()
+
+        self.deploybtn.config(text="Идет обновление...", state=Tkinter.DISABLED)
+
+        tr = Thread(target=full_cycle)
+        tr.start()
 
 
 def download_chunks(src, tmp_file):
@@ -78,7 +116,7 @@ def download_file(url, target_dir, tmp_file_name):
 
 def extract_all_files(zip_file, extract_dir):
     zip = zipfile.ZipFile(zip_file)
-    logging.info('Extracting: %s' % zip.namelist())
+    logging.info('Extracting: %s' % pprint.pformat(zip.namelist()))
     zip.extractall(extract_dir)
     zip.close()
 
@@ -119,5 +157,13 @@ if __name__ == "__main__":
     root = Tkinter.Tk()
     root.geometry("350x300+300+300")
     app = GUI(root)
-    app.area.setvar('text', 'asdasd')
+
+    # some voodoo to display log in a widget
+    logging = lg.getLogger('update')
+    logging.setLevel(lg.INFO)
+    logging.addHandler(app.widgetLogger)
+
+    app.repo_addr_str.set(settings.DEFAULT_GIT_REPO)
+    app.ftp_addr_str.set(settings.DEFAULT_FTP_HOST)
+
     root.mainloop()
