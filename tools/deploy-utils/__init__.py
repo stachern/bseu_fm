@@ -1,5 +1,6 @@
-
+# coding: utf8
 import Tkinter
+from ttk import Frame, Label, Style, Button
 import shutil
 import settings
 import urllib2
@@ -10,9 +11,31 @@ import ftptool
 from wok.engine import Engine
 
 
-class checkout_and_deploy(Tkinter.Tk):
-    pass
-    # TODO: tkinter interface
+class GUI(Frame):
+    def __init__(self, master=None, **kw):
+        Frame.__init__(self, master, **kw)
+        self.initialize()
+
+    def initialize(self):
+        self.master.title(settings.APP_TITLE)
+        self.style = Style()
+        self.style.theme_use("default")
+        self.pack(fill=Tkinter.BOTH, expand=1)
+
+        self.columnconfigure(1, weight=1)
+        self.columnconfigure(3, pad=7)
+        self.rowconfigure(3, weight=1)
+        self.rowconfigure(5, pad=7)
+
+        lbl = Label(self, text="Журнал")
+        lbl.grid(sticky=Tkinter.W, pady=4, padx=5)
+
+        self.area = Tkinter.Text(self)
+        self.area.grid(row=1, column=0, columnspan=2, rowspan=4,
+                  padx=5, sticky=Tkinter.E + Tkinter.W + Tkinter.S + Tkinter.N)
+
+        self.deploybtn = Button(self, text="Начать обновление", command=full_cycle)
+        self.deploybtn.grid(row=5)
 
 
 def download_chunks(src, tmp_file):
@@ -93,4 +116,8 @@ def full_cycle():
 
 
 if __name__ == "__main__":
-    full_cycle()
+    root = Tkinter.Tk()
+    root.geometry("350x300+300+300")
+    app = GUI(root)
+    app.area.setvar('text', 'asdasd')
+    root.mainloop()
