@@ -1,10 +1,12 @@
 # coding: utf8
+from datetime import datetime
 
+import tempfile
 import os
 
 APP_TITLE = 'Обновление сайта'
 
-PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+PROJECT_ROOT = tempfile.gettempdir()
 
 DEFAULT_GIT_REPO = 'https://github.com/stachern/bseu_fm/archive/master.zip'
 DEFAULT_FTP_HOST = '192.168.1.110'
@@ -16,7 +18,7 @@ DEFAULT_BUILT_SITE_DIR = os.path.join(DEFAULT_SITE_DIR, 'site')
 LOGGING_FORMAT_SIMPLE = '%(message)s'
 LOGGING_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 
-LOGGING_FILE = os.path.join(PROJECT_ROOT, 'logs', 'deploy.log')
+LOGGING_FILE = os.path.join(PROJECT_ROOT, 'fm-build-logs', '%s.log' % datetime.now().strftime('%Y-%m-%d_%H-%M'))
 
 
 if not os.path.exists(os.path.dirname(LOGGING_FILE)):
