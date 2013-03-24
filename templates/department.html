@@ -8,5 +8,7 @@
         <img class="media-object" src="/img/logos/depts/{{ page.slug }}.png">
     <br>
     </div>
-    {% include "content/tag_by_category.html" %}
+    {% if not '_eng' in page.tags %}
+        {% include "content/tag_by_category.html" %}
+    {% endif %}
 {% endblock %}
