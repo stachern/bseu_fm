@@ -9,9 +9,13 @@ APP_TITLE = 'Обновление сайта'
 PROJECT_ROOT = tempfile.gettempdir()
 
 DEFAULT_GIT_REPO = 'https://github.com/stachern/bseu_fm/archive/master.zip'
-DEFAULT_FTP_HOST = '192.168.1.110'
+DEFAULT_FTP_HOST = '127.0.0.1'
+DEFAULT_FTP_USER = 'anonymous'
+DEFAULT_FTP_PASS = 'fake@domail.com'
+DEFAULT_FTP_PATH = '/'
+DEFAULT_FTP_SYNC_OPTS = {"force": True, "delete_unmatched": False, "verbose": 5, "dry_run": False}
 
-DEFAULT_TMP_DIR = os.path.join(PROJECT_ROOT, 'tmp')
+DEFAULT_TMP_DIR = os.path.join(PROJECT_ROOT, 'fm-build')
 DEFAULT_SITE_DIR = os.path.join(DEFAULT_TMP_DIR, 'bseu_fm-master')
 DEFAULT_BUILT_SITE_DIR = os.path.join(DEFAULT_SITE_DIR, 'site')
 
@@ -51,7 +55,7 @@ LOGGING_CONFIG = {
     },
     'root': {
         'level': 'DEBUG',
-        'handlers': ['file', 'console'],
+        'handlers': ['file'],
     }
 
 }

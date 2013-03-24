@@ -1,13 +1,14 @@
 # coding: utf8
 import Tkinter
-from ttk import Frame, Label, Style, Button
+from ttk import Frame, Label, Button
 import shutil
 import settings
 import urllib2
 import zipfile
 import logging as lg
 import os
-import ftptool
+from ftpsync.targets import FsTarget, UploadSynchronizer
+from ftpsync.ftp_target import FtpTarget
 import pprint
 from threading import Thread
 from wok.engine import Engine
@@ -72,7 +73,7 @@ class GUI(Frame):
 
         self.deploybtn.config(text="Идет обновление...", state=Tkinter.DISABLED)
 
-        tr = Thread(target=full_cycle)
+        tr = Thread(target=lambda: full_cycle(self))
         tr.start()
 
 
@@ -129,8 +130,10 @@ def build_site(site_dir):
 
 def copy_to_ftp(source_folder, dest_host):
     logging.info('Copying %s to %s' % (source_folder, dest_host))
-    ftp = ftptool.FTPHost.connect(dest_host)
-    ftp.mirror_to_remote(source_folder, 'upload/site')
+    local = FsTarget(source_folder)
+    remote = FtpTarget(settings.DEFAULT_FTP_PATH, dest_host, settings.DEFAULT_FTP_USER, settings.DEFAULT_FTP_PASS)
+    s = UploadSynchronizer(local, remote, settings.DEFAULT_FTP_SYNC_OPTS)
+    s.run()
 
 
 def cleanup_tmp_files(tmp_dir):
@@ -141,7 +144,7 @@ def cleanup_tmp_files(tmp_dir):
         os.remove(tmp_dir)
 
 
-def full_cycle():
+def full_cycle(app):
     try:
         zfile = download_file(settings.DEFAULT_GIT_REPO, settings.DEFAULT_TMP_DIR, 'master.zip')
         extract_all_files(zfile, settings.DEFAULT_TMP_DIR)
@@ -149,6 +152,9 @@ def full_cycle():
         copy_to_ftp(settings.DEFAULT_BUILT_SITE_DIR, settings.DEFAULT_FTP_HOST)
     except Exception, e:
         logging.error('Error: %s' % e)
+        app.deploybtn.config(text="Ошибка. Повторить.", state=Tkinter.NORMAL)
+    else:
+        app.deploybtn.config(text="Обновлено успешно", state=Tkinter.DISABLED)
     finally:
         cleanup_tmp_files(settings.DEFAULT_TMP_DIR)
 
