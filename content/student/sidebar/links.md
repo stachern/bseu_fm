@@ -1,6 +1,7 @@
 title: Полезные ссылки
 slug: links
 tags: [student]
+sidebar_index: 1
 ---
 
 -   [Правила внутреннего распорядка БГЭУ](http://www.bseu.by/russian/pvr/pvr3.htm)

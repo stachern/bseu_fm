@@ -1,6 +1,7 @@
 title: Рекомендуемые формы документов
 slug: documents
 tags: [student]
+sidebar_index: 2
 ---
 
 -   [О выдаче академической справки](http://bseu.by/fm/files/ak_spravka.doc)
