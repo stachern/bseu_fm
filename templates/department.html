@@ -6,5 +6,7 @@
 {% block sidebar_content %}
     <div class="container-fluid">
         <img class="media-object" src="/img/logos/depts/{{ page.slug }}.png">
+    <br>
     </div>
+    {% include "content/tag_by_category.html" %}
 {% endblock %}

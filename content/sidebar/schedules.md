@@ -1,6 +1,6 @@
 title: Графики дежурств преподавателей кафедр
 slug: schedules
-tags: [student]
+tags: [student, departments]
 sidebar_index: 4
 ---
 
