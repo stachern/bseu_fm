@@ -1,6 +1,6 @@
 title: Студсовет
 slug: council
-category: [student]
+category: student
 tags: [_nav]
 ---
 

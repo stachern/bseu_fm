@@ -1,6 +1,6 @@
 title: Кафедра экономики промышленных предприятий
 slug: industrial_economics
-category: [departments]
+category: departments
 tags: [_nav]
 type: department
 ---

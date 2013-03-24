@@ -1,6 +1,6 @@
 title: Кафедра экономики природопользования
 slug: environmental_economics
-category: [departments]
+category: departments
 tags: [_nav]
 type: department
 ---

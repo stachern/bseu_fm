@@ -1,6 +1,6 @@
 title: Кафедра экономики труда
 slug: labor_economics
-category: [departments]
+category: departments
 tags: [_nav]
 type: department
 ---

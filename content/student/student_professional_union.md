@@ -1,6 +1,6 @@
 title: Профсоюз
 slug: professional_union
-category: [student]
+category: student
 tags: [_nav]
 ---
 

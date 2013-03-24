@@ -1,6 +1,6 @@
 title: БРСМ
 slug: brsm
-category: [student]
+category: student
 tags: [_nav]
 ---
 

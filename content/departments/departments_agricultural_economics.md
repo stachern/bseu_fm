@@ -1,6 +1,6 @@
 title: Кафедра экономики и управления предприятиями АПК
 slug: agricultural_economics
-category: [departments]
+category: departments
 tags: [_nav]
 type: department
 ---

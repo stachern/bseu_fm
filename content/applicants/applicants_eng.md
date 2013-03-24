@@ -1,6 +1,6 @@
 title: Applicants
 slug: en
-category: [applicants]
+category: applicants
 tags: [_nav, _eng]
 ---
 

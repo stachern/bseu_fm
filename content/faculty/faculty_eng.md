@@ -1,6 +1,6 @@
 title: About the faculty
 slug: en
-category: [faculty]
+category: faculty
 tags: [_nav, _eng]
 ---
 

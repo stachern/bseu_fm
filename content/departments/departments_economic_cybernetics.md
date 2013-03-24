@@ -1,6 +1,6 @@
 title: Кафедра прикладной математики и экономической кибернетики
 slug: economic_cybernetics
-category: [departments]
+category: departments
 tags: [_nav]
 type: department
 ---

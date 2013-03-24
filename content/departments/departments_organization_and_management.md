@@ -1,6 +1,6 @@
 title: Кафедра организации и управления
 slug: organization_and_management
-category: [departments]
+category: departments
 tags: [_nav]
 type: department
 ---

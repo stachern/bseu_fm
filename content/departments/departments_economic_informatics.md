@@ -1,6 +1,6 @@
 title: Кафедра экономической информатики
 slug: economic_informatics
-category: [departments]
+category: departments
 tags: [_nav]
 type: department
 ---

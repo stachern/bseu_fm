@@ -1,6 +1,6 @@
 title: Кафедра национальной экономики и государственного управления
 slug: national_economy
-category: [departments]
+category: departments
 tags: [_nav]
 type: department
 ---
