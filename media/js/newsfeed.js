@@ -45,3 +45,20 @@ $('#rssdata').ready(function()
         $('#rssdata ul.rss-items').slideDown();
     });
 });
+
+$('#twitter').ready(function()
+{
+    var pipe_url = 'http://pipes.yahoo.com/pipes/pipe.run?_id=ca64fc1563fcf96ef51ec38da7ca3cfc&_render=json&_callback=?';
+    $.getJSON(pipe_url,function(data)
+    {
+      
+      $(data.value.items).each(function(index,item)
+        {
+            var item_id=item.link.substring(35);           
+            var item_html = '<li><p class="pull-right"><a href="https://twitter.com/intent/tweet?in_reply_to='+item_id+'"><img src="/img/logos/twitter/reply.png"></a>&nbsp;<a href="https://twitter.com/intent/retweet?tweet_id='+item_id+'"><img src="/img/logos/twitter/rt.png"></a>&nbsp;<a href="https://twitter.com/intent/favorite?tweet_id='+item_id+'"><img src="/img/logos/twitter/fv.png"></a>&nbsp;</p><p><a class="tw" href="'+item.link+'">'+item.title.substring(8)+'</a></p></li>';
+            $('#twitter ul.twits').append(item_html);
+        });
+        $('#twitter div.loading').fadeOut();
+        $('#twitter ul.twits').slideDown();
+    });
+});

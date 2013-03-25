@@ -89,6 +89,52 @@ html, body {
     border-top: 2px solid #eee;
 } 
 
+
+
+#twitter ul.twits {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+#twitter ul.twits li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#twitter ul.twits a.tw {
+    margin: 0px;
+    display: block;
+    font: 14px/16px  Verdana, Tahoma, Arial, sans-serif;
+    padding: 5px;
+    background: #1A52C9;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
+
+#twitter ul.twits a.tw:hover {
+    background: #DE2346;
+    color: #fff;
+    text-decoration: none;
+}
+
+#twitter_title {
+    padding: 6px 6px;
+    color: #fff;
+    font: 16px/18px bold Verdana, Tahoma, Arial, sans-serif;
+    text-decoration: none;
+    border-bottom: 2px solid #eee;
+} 
+
+#twitter_bottom {
+    padding: 2px 6px;
+    background: #1A52C9;
+    color: #fff;
+    text-decoration: none;   
+} 
+
 .white {
     color: #FFFFFF;  
 }
@@ -171,11 +217,12 @@ a:focus {
 }
 
 .navbar .brand {
-    max-height: 50px;
+    max-height: 51px;
     overflow: visible;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-right: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 #photo-feed.thumbnails>li.span3 {
@@ -183,3 +230,14 @@ a:focus {
     margin: 5px 5px 5px 5px;
 }
 
+.twitter-follow-button{
+    margin-top: 3px;
+}
+
+.btn-danger{
+    background-color: #DE2346;
+}
+
+.badge-important{
+    background-color: #DE2346;
+}
