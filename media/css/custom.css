@@ -217,7 +217,7 @@ a:focus {
 }
 
 .navbar .brand {
-    max-height: 51px;
+    max-height: 50px;
     overflow: visible;
     padding-top: 0px;
     padding-bottom: 0px;
