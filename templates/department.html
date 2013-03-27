@@ -5,7 +5,7 @@
 {% endblock %}
 {% block sidebar_content %}
     <div class="container-fluid">
-        <img class="media-object" src="/img/logos/depts/{{ page.slug }}.png">
+        <img class="media-object" src="/img/logos/depts/{% if "_eng" in page.tags %}{{ page.category.1 }}{% else %}{{ page.slug }}{% endif %}.png">
     <br>
     </div>
     {% if not '_eng' in page.tags %}
