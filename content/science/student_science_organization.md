@@ -1,7 +1,8 @@
 title: Студенческое научное общество
 slug: student_science
-category: student
+category: science
 tags: [_nav]
+type: science
 ---
 
 **СНО: искусство – это «я», наука – это «мы»**

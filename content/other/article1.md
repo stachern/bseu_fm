@@ -1,6 +1,6 @@
 title: Билл Гейтс призвал школьников не обижать «ботаников»
 tags: [_nav, interesting]
-category: other
+category: other/articles
 ---
 
 Самый богатый человек мира поделился мудростью с детьми

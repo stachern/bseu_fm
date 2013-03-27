@@ -3,5 +3,5 @@
     {% set article_page = site.tags.get('interesting')|sort(attribute='date')|last() %}
     <p>{{ article_page.content|truncate(250) }}<br><a href="{{ article_page.url }}"><b>Читать далее</b></a></p>
     <br>
-    <a href="/other/">Все материалы</a>
+    <a href="/other/articles/">Все материалы</a>
 </div>

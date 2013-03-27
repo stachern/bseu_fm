@@ -1,5 +1,6 @@
 title: Полезные ссылки
-slug: links
+slug: links_student
+category: other
 tags: [student]
 sidebar_index: 1
 ---
@@ -10,6 +11,6 @@ sidebar_index: 1
 -   [Положение о переводе на бюджет ](http://www.bseu.by/russian/student/perevod.htm)
 -   [Положение о скидках](http://www.bseu.by/russian/student/skidki.htm)
 -   [Порядок заселения в общежития](http://www.bseu.by/russian/student/polog_zasel.htm)
--   [Как правильно подготовить себя к сдаче экзамена](http://bseu.by/fm/files/examrules.doc)
+-   [Как правильно подготовить себя к сдаче экзамена](/files/examrules.doc)
 -   [Блог библиотеки БГЭУ](http://library.bseu.blog.tut.by/)
 -   [Расписание занятий](http://app.inside.by/)
