@@ -1,6 +1,9 @@
 var FeedServiceUrl = 'http://2.bseu-fm.appspot.com/feed';
 var FeedOffset = 0;
 
+var _throttleTimer = null;
+var _throttleDelay = 100;
+
 $('#loader').hide()
     .ajaxStart(function(){
         $(this).show();
@@ -18,16 +21,21 @@ function get_feed(offset){
     $.getJSON(FeedServiceUrl + '?callback=?&offset=' + offset, display_loaded_articles);
 }
 
+function scroll_handler(e) {
+    clearTimeout(_throttleTimer);
+    _throttleTimer = setTimeout(function () {
+        if ($(window).scrollTop() + $(window).height() > $(document).height() - 50) {
+            FeedOffset += 10;
+            get_feed(FeedOffset);
+        }
+    }, _throttleDelay);
+}
+
 $(document).ready(function(){
-    get_feed(FeedOffset);    
+    get_feed(FeedOffset);
+    $(window).off('scroll', scroll_handler)
+             .on('scroll', scroll_handler);
 
-});
-
-$(window).scroll(function() {
-    if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
-       FeedOffset += 10;
-           get_feed(FeedOffset);          
-    }
 });
 
 $('#rssdata').ready(function(){
