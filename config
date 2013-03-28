@@ -5,4 +5,5 @@ url_include_index: no
 url_pattern: "/{category}/{slug}/{page}/index.html"
 relative_urls: false
 output_dir: site
+main_feed_rss_url: http://pipes.yahoo.com/pipes/pipe.run?_id=bf2c6c7fb35105b7c519a24ba6bcc2e1&_render=rss
 author: Stanislau Charniakou <stas.cherniakov@gmail.com>

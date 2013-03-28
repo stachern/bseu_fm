@@ -52,6 +52,9 @@
         <div class="container">
             <p class="muted credit">
                 {% include "misc/yandex_share.html" %}
+                <a href="{{ site.main_feed_rss_url }}">
+                    <i class="icon icon-bookmark"></i> RSS
+                </a>
                 {% block site_info %}
                     <small class="pull-right">Сайт обновлен {{ site.date }}  © Факультет Менеджмента | <a href="/contacts">Контакты</a></small>
                 {% endblock %}
