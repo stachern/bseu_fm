@@ -223,6 +223,8 @@ a:focus {
     padding-bottom: 0px;
     margin-right: 3px;
     margin-left: 3px;
+    padding-left: 3px; 
+    padding-right: 3px; 
 }
 
 #photo-feed.thumbnails>li.span3 {
