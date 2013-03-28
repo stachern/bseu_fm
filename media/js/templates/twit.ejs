@@ -2,12 +2,14 @@
 <li>
     <p class="pull-right">
         <a href="https://twitter.com/intent/tweet?in_reply_to=<%= twits[i].link.substring(35) %>">
-            <img src="/img/logos/twitter/reply.png">
+            <i class="icon icon-white icon-share-alt"></i>
         </a>
         <a href="https://twitter.com/intent/retweet?tweet_id=<%= twits[i].link.substring(35) %>">
-            <img src="/img/logos/twitter/rt.png"></a>
+            <i class="icon icon-white icon-retweet"></i>
+        </a>
         <a href="https://twitter.com/intent/favorite?tweet_id=<%= twits[i].link.substring(35) %>">
-            <img src="/img/logos/twitter/fv.png"></a>
+            <i class="icon icon-white icon-star-empty"></i>
+        </a>
     </p>
     <p>
         <a class="tw" href="<%= twits[i].link %>"><%= twits[i].title.substring(8) %></a>
