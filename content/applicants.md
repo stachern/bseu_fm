@@ -1,6 +1,6 @@
 title: Абитуриенту
 menu: Абитуриенту
-menu_index: 5
+menu_index: 6
 slug: applicants
 tags: [_nav, _menu]
 type: applicants

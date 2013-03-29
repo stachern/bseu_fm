@@ -1,6 +1,6 @@
 title: Студенту
 menu: Студенту
-menu_index: 6
+menu_index: 5
 slug: student
 tags: [_nav, _menu]
 type: student
