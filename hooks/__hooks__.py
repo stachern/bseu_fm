@@ -1,3 +1,4 @@
+import subdir
 import logging
 hook_count = 0
 
@@ -21,6 +22,6 @@ hooks = {
     'page.render.pre': make_hook('page.template.pre'),
     'page.render.post': make_hook('page.template.post'),
     'page.template.pre': make_hook('page.template.pre'),
-    'page.template.post': make_hook('page.template.post'),
+    'page.template.post': make_hook('page.template.post') + subdir.add_subdir_hook("fm"),
     'site.stop': make_hook('site.stop'),
     }
