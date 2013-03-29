@@ -48,7 +48,7 @@ $('#rssdata').ready(function(){
 });
 
 $('#twitter').ready(function(){
-    $.getJSON('http://pipes.yahoo.com/pipes/pipe.run?_id=ca64fc1563fcf96ef51ec38da7ca3cfc&_render=json&_callback=?', function(data){
+    $.getJSON('http://pipes.yahoo.com/pipes/pipe.run?_id=39cbc56ab57e3e72877c2996bce82259&_render=json&_callback=?', function(data){
         var rendered_html =  new EJS({'url':'/js/templates/twit.ejs'}).render({twits: data.value.items});
         $('#twitter ul.twits').append(rendered_html);
         $('#twitter div.loading').fadeOut();
