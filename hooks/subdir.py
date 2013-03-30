@@ -1,3 +1,4 @@
+import logging
 import re
 import urlparse
 
@@ -12,23 +13,25 @@ def fix_urls(document, base_url, pattern):
     last_end = 0
     for match in pattern.finditer(document):
         url = match.group(1)
-        print "Checking url: %s" % url
+        logging.info("Checking url: %s" % url)
         if url[0] in "\"'":
             url = url.strip(url[0])
         parsed = urlparse.urlparse(url)
         if parsed.scheme == parsed.netloc == '':
-            print "Processing url: %s" % url
-            url = '/%s%s' % (base_url, url)
-            print "Processed url: %s" % url
-            ret.append(document[last_end:match.start(1)])
-            ret.append('"%s"' % (url,))
-            last_end = match.end(1)
+            if not url.startswith('/' + base_url) and not url.startswith(base_url):
+                logging.info("Processing url: %s" % url)
+                url = '/%s%s' % (base_url, url)
+                logging.info("Processed url: %s" % url)
+                ret.append(document[last_end:match.start(1)])
+                ret.append('"%s"' % (url,))
+                last_end = match.end(1)
     ret.append(document[last_end:])
     return ''.join(ret)
 
 
-def add_subdir_hook(subdir):
-    def replace_hook(page):
-        for pattern in PATTERNS:
-            page.rendered = fix_urls(page.rendered, subdir, pattern)
+def add_subdir_hook():
+    def replace_hook(options, page):
+        if options.get('url_subdir'):
+            for pattern in PATTERNS:
+                page.rendered = fix_urls(page.rendered, options['url_subdir'], pattern)
     return [replace_hook]

@@ -11,3 +11,4 @@ _gaq.push(['_trackPageview']);
     s.parentNode.insertBefore(ga, s);
 })();
 
+SUBDIR_PREFIX = '/fm';

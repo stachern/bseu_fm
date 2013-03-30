@@ -13,7 +13,7 @@ $('#loader').hide()
 });
 
 function display_loaded_articles(data){
-    var rendered_articles = new EJS({'url':'/js/templates/article.ejs'}).render({articles: data});
+    var rendered_articles = new EJS({'url': SUBDIR_PREFIX + '/js/templates/article.ejs'}).render({articles: data});
     $('#feed').append(rendered_articles);
 }
 
@@ -40,7 +40,7 @@ $(document).ready(function(){
 
 $('#rssdata').ready(function(){
     $.getJSON('http://pipes.yahoo.com/pipes/pipe.run?_id=3f5db5135e0d956c2ef490cd1ae22878&_render=json&_callback=?' ,function(data){
-        var rendered_html =  new EJS({'url':'/js/templates/news.ejs'}).render({news: data.value.items});
+        var rendered_html =  new EJS({'url': SUBDIR_PREFIX + '/js/templates/news.ejs'}).render({news: data.value.items});
         $('#rssdata ul.rss-items').append(rendered_html);
         $('#rssdata div.loading').fadeOut();
         $('#rssdata ul.rss-items').slideDown();
@@ -49,7 +49,7 @@ $('#rssdata').ready(function(){
 
 $('#twitter').ready(function(){
     $.getJSON('http://pipes.yahoo.com/pipes/pipe.run?_id=39cbc56ab57e3e72877c2996bce82259&_render=json&_callback=?', function(data){
-        var rendered_html =  new EJS({'url':'/js/templates/twit.ejs'}).render({twits: data.value.items});
+        var rendered_html =  new EJS({'url': SUBDIR_PREFIX + '/js/templates/twit.ejs'}).render({twits: data.value.items});
         $('#twitter ul.twits').append(rendered_html);
         $('#twitter div.loading').fadeOut();
         $('#twitter ul.twits').slideDown();
