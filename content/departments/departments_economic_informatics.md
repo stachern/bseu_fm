@@ -9,7 +9,7 @@ type: department
 -------------------
 
 ![Железко Борис Александрович,
-  кандидат технических наук, доцент](/img/content/depts/economic_informatics.jpg)
+  кандидат технических наук, доцент](/img/content/depts/agricultural_economics.jpg)
 >Железко Борис Александрович,
 кандидат технических наук, доцент
 
