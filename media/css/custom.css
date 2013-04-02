@@ -3,6 +3,7 @@
 
 html, body {
     height: 100%;
+
     /* The html and body elements cannot have any padding or margin. */
 }
 
@@ -242,4 +243,8 @@ a:focus {
 
 .badge-important{
     background-color: #DE2346;
+}
+
+p{
+      text-align: justify;
 }

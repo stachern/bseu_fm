@@ -1,5 +1,5 @@
 <div class="container-fluid well">
     {% for faculty_page in site.tags.get('faculty') %}
-        <p>{{ faculty_page.content|truncate(250) }}<br><a href="{{ faculty_page.url }}"><b>Читать далее</b></a></p>
+        <p>{{ faculty_page.content|truncate(250) }}<br><a href="{{ faculty_page.url }}"><br/><b class="pull-right">Читать далее</b></a></p>
     {% endfor %}
 </div>

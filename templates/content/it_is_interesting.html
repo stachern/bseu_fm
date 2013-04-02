@@ -1,7 +1,7 @@
 <div class="container-fluid well">
     <h2>Это интересно</h2>
     {% set article_page = site.tags.get('interesting')|sort(attribute='date')|last() %}
-    <p>{{ article_page.content|truncate(250) }}<br><a href="{{ article_page.url }}"><b>Читать далее</b></a></p>
+    <p>{{ article_page.content|truncate(250) }}<br><a href="{{ article_page.url }}"><br/><b class="pull-right">Читать далее</b></a></p>
     <br>
     <a href="/other/articles/">Все материалы</a>
 </div>
