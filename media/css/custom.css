@@ -3,6 +3,9 @@
 
 html, body {
     height: 100%;
+    text-align: justify;
+    color: #1B264A;
+    font-size: 16px;
 
     /* The html and body elements cannot have any padding or margin. */
 }
@@ -60,7 +63,7 @@ html, body {
 #rssdata ul.rss-items a {
     margin: 0px;
     display: block;
-    font: 14px/16px  Verdana, Tahoma, Arial, sans-serif;
+    font: 15px/16px  Verdana, Tahoma, Arial, sans-serif;
     padding: 5px;
     background: #1A52C9;
     color: #ffffff;
@@ -77,7 +80,7 @@ html, body {
 #rsstitle {
     padding: 6px 6px;
     color: #fff;
-    font: 16px/18px bold Verdana, Tahoma, Arial, sans-serif;
+    font: 17px/18px bold Verdana, Tahoma, Arial, sans-serif;
     text-decoration: none;
     border-bottom: 2px solid #eee;
 } 
@@ -107,7 +110,7 @@ html, body {
 #twitter ul.twits a.tw {
     margin: 0px;
     display: block;
-    font: 14px/16px  Verdana, Tahoma, Arial, sans-serif;
+    font: 15px/16px  Verdana, Tahoma, Arial, sans-serif;
     padding: 5px;
     background: #1A52C9;
     color: #ffffff;
@@ -124,7 +127,7 @@ html, body {
 #twitter_title {
     padding: 6px 6px;
     color: #fff;
-    font: 16px/18px bold Verdana, Tahoma, Arial, sans-serif;
+    font: 17px/18px bold Verdana, Tahoma, Arial, sans-serif;
     text-decoration: none;
     border-bottom: 2px solid #eee;
 } 
@@ -207,6 +210,10 @@ a:focus {
 
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
     background: #de2346 none;
+   
+}
+.dropdown-menu>li>a{
+    color: #13192E; 
 }
 
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
@@ -215,11 +222,12 @@ a:focus {
 
 .navbar-inverse .nav>li>a:focus, .navbar-inverse .nav>li>a:hover {  
     background-color: #DE2346;
+
 }
 
 .navbar .brand {
     max-height: 50px;
-    overflow: visible;
+    overflow: visible;  
     padding-top: 0px;
     padding-bottom: 0px;
     margin-right: 3px;
@@ -245,6 +253,11 @@ a:focus {
     background-color: #DE2346;
 }
 
-p{
-      text-align: justify;
+h1, h2, h3{
+color: #13192E;
 }
+
+.nav{
+     font-size: 14px;
+}
+

@@ -6,6 +6,7 @@ type: department
 ---
 
 Заведующий кафедрой
+-------------------
 
 ![Беляцкий Николай Петрович,
   доктор экономических наук, профессор](/img/content/depts/organization_and_management.jpg)
