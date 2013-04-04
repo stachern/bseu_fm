@@ -2,7 +2,7 @@ import logging
 import re
 import urlparse
 
-find_href = re.compile(r'\bhref\s*=\s*("[^"]*"|\'[^\']*\'|[^"\'<>=\s]+)')
+find_href = re.compile(r'\bhref\s*=\s*(?!.*mailto:)(?!.*&#109;&#97;&#105;&#108;&#116;&#111;&#58;)("[^"]*"|\'[^\']*\'|[^"\'<>=\s]+)')
 find_src = re.compile(r'\bsrc\s*=\s*("[^"]*"|\'[^\']*\'|[^"\'<>=\s]+)')
 
 PATTERNS = [find_href, find_src]
