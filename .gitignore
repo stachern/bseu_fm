@@ -1,3 +1,4 @@
 # ignore generated content
 site/
 # ignored compiled
+.*pyc
