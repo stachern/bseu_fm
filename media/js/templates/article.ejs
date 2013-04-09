@@ -1,5 +1,8 @@
 <% for (var i in articles) { %>
 <div class="media article">
+    <% if (window.location.href.indexOf("#admin") > -1) { %>
+        <a href="<%= service %>article/<%= articles[i].id %>" class="btn btn-mini">редактировать</a>
+    <% } %>
     <% if (!articles[i].is_monthphrase) { %>
         <span class="badge badge-important pull-right"><i class="icon-calendar icon-white"></i> <%= articles[i].publish_date %></span>
     <% } %>
@@ -8,8 +11,8 @@
    
     <div class="media-body">
      <% if (articles[i].img) { %>
-        <a class="pull-left thumbnail" href="http://2.bseu-fm.appspot.com/img?id=<%= articles[i].img.id %>">
-            <img class="media-object" src="http://2.bseu-fm.appspot.com/img?thumb=true&id=<%= articles[i].img.id %>">
+        <a class="pull-left thumbnail" href="<%= service %>img?id=<%= articles[i].img.id %>">
+            <img class="media-object" src="<%= service %>img?thumb=true&id=<%= articles[i].img.id %>">
         </a>
     <% } %>
         <%= articles[i].body %>
