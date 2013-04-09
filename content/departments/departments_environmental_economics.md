@@ -3,6 +3,7 @@ slug: environmental_economics
 category: departments
 tags: [_nav]
 type: department
+moto: Мыслить – глобально, действовать – локально
 ---
 
 Заведующий кафедрой

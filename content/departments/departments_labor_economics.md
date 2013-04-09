@@ -3,6 +3,7 @@ slug: labor_economics
 category: departments
 tags: [_nav]
 type: department
+moto: Кто экономику труда знает – тот и управляет
 ---
 
 Заведующий кафедрой

@@ -3,6 +3,7 @@ slug: agricultural_economics
 category: departments
 tags: [_nav]
 type: department
+moto: Исследуй, генерируй, продуцируй
 ---
 
 Заведующий кафедрой

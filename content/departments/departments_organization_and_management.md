@@ -3,6 +3,7 @@ slug: organization_and_management
 category: departments
 tags: [_nav]
 type: department
+moto: Хотеть – мочь – знать – уметь
 ---
 
 Заведующий кафедрой

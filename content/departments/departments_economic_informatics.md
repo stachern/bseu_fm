@@ -3,6 +3,7 @@ slug: economic_informatics
 category: departments
 tags: [_nav]
 type: department
+moto: Экономическая информатика – путь к успеху 
 ---
 
 Заведующий кафедрой

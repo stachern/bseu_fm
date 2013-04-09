@@ -3,6 +3,7 @@ slug: industrial_economics
 category: departments
 tags: [_nav]
 type: department
+moto: Scientia vinces! Наукой побеждаешь!
 ---
 
 Заведующий кафедрой

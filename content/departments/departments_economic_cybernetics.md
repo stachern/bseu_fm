@@ -3,6 +3,7 @@ slug: economic_cybernetics
 category: departments
 tags: [_nav]
 type: department
+moto: Через математические модели к системным исследованиям экономики
 ---
 
 Заведующий кафедрой

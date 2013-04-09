@@ -3,6 +3,7 @@ slug: national_economy
 category: departments
 tags: [_nav]
 type: department
+moto: Традиции, новое мышление, новые возможности
 ---
 
 Заведующий кафедрой
