@@ -261,3 +261,9 @@ color: #13192E;
      font-size: 14px;
 }
 
+.leftimg {
+    height: 300px;
+    float:left; /* Выравнивание по левому краю */
+    margin: 10px 10px 10px 0; /* Отступы вокруг картинки */
+}
+
