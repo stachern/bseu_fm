@@ -4,3 +4,4 @@
 site/
 # ignored compiled
 .*pyc
+*.pyc
