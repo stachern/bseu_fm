@@ -5,4 +5,4 @@ tags: [department_science]
 sidebar_index: 1
 ---
 
-- [Научная деятельность БГЭУ]()
+- [Научная деятельность БГЭУ](http://nir.bseu.by/)

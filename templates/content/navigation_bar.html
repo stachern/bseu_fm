@@ -11,8 +11,9 @@
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a tabindex="-1" href="{{ menu_entry.url }}">{{ menu_entry.menu }}</a></li>
-
+                             {% if not "_ignore_nav" in menu_entry.tags %}
+                                <li><a tabindex="-1" href="{{ menu_entry.url }}">{{ menu_entry.menu }}</a></li>
+                             {% endif %}
                             {% for sub_spage in menu_entry.subpages %}
                                 {% if not "_eng" in sub_spage.tags %}
                                     <li><a tabindex="-1" href="{{ sub_spage.url }}">{{ sub_spage.title }}</a></li>
