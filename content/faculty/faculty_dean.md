@@ -74,14 +74,16 @@ tags: [_nav]
 Специалисты деканата по дневной форме обучения
 ----------------------------------------------
 
->Долбик Ольга Анатольевна    
-
-<img src="/img/content/deans_office/dolbik.jpg" class="deantimg" height alt="Долбик Ольга Анатольевна"/>   
-
-
->Кабишова Елена Игоревна    
- 
-<img src="/img/content/deans_office/kabishova.jpg" class="deantimg" height alt="Кабишова Елена Игоревна"/>   
+<table>
+<tr>
+<th>Долбик Ольга Анатольевна</th><th>Кабишова Елена Игоревна  </th>
+</tr>
+<tr>
+<td><img src="/img/content/deans_office/dolbik.jpg" class="deanimg" height alt="Долбик Ольга Анатольевна"/>  </td><td><img src="/img/content/deans_office/kabishova.jpg" class="deanimg" height alt="Кабишова Елена Игоревна"/>  </td>
+</tr>
+</table>
+  
+   
         Адрес: г. Минск, пр. Партизанский, 22-а, 4-й учебный корпус, ауд. 302
         Телефон: 209-88-47
         E-mail: fm@bseu.by
@@ -92,13 +94,14 @@ tags: [_nav]
 Специалисты деканата по заочной форме обучения
 ----------------------------------------------
 
-
-<img src="/img/content/deans_office/kozich.jpg" class="deantimg" height alt="Козич Татьяна Григорьевна"/>      
->Козич Татьяна Григорьевна
-
-<img src="/img/content/deans_office/lahno.jpg" class="deantimg" height alt="Лахно Наталья Владимировна"/>    
-
->Лахно Наталья Владимировна
+<table>
+<tr>
+<th>Козич Татьяна Григорьевна</th><th>Лахно Наталья Владимировна  </th>
+</tr>
+<tr>
+<td><img src="/img/content/deans_office/kozich.jpg" class="deanimg" height alt="Козич Татьяна Григорьевна"/>  </td><td><img src="/img/content/deans_office/lahno.jpg" class="deanimg" height alt="Лахно Наталья Владимировна"/>    </td>
+</tr>
+</table>
 
         Адрес: г. Минск, пр. Партизанский, 22-а, 4-й учебный корпус, ауд. 302
         Телефон: 229-12-58
@@ -107,12 +110,13 @@ tags: [_nav]
 Председатель профбюро сотрудников ФМ
 ------------------------------------
 
+>Кашанская Ирина Петровна     
 
-<img src="/img/content/deans_office/kashanskaya.jpg" class="deantimg" height alt="Кашанская Ирина Петровна"/>   
+<img src="/img/content/deans_office/kashanskaya.jpg" class="leftimg" height alt="Кашанская Ирина Петровна"/>   
 
->Кашанская Ирина Петровна
 
-        тел. 209-88-98 e-mail: irina-bseu@mail.ru
+
+        
 
 Профбюро сотрудников
 --------------------
@@ -145,3 +149,6 @@ tags: [_nav]
 
 **Вы – наша забота!**
 **Мы – Ваша надежда!**
+
+
+>тел. 209-88-98 e-mail: irina-bseu@mail.ru
