@@ -1,4 +1,4 @@
-/* Sticky footer styles
+﻿/* Sticky footer styles
 -------------------------------------------------- */
 
 html, body {
@@ -264,6 +264,6 @@ color: #13192E;
 .leftimg {
     height: 300px;
     float:left; /* Выравнивание по левому краю */
-    margin: 10px 10px 10px 0; /* Отступы вокруг картинки */
+    margin: 10px 10px 20px 0px; /* Отступы вокруг картинки */
 }
 

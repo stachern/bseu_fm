@@ -6,6 +6,8 @@ sidebar_index: 1
 ---
 
 
--   [Состав комитета](/files/commety_brsm.doc)
--   [Устав](/files/ustav_brsm.doc)
+
+-   [Устав OO "БРСМ"](/files/ustav_brsm.doc)
+-   [Состав комитета БРСМ ФМ](/files/commety_brsm.doc)
+-   [План работы БРСМ ФМ](/files/brsm_plan.doc)
 
