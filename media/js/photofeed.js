@@ -1,5 +1,4 @@
 function display_loaded_albums(feed){
-    console.log(feed);
     var rendered_albums = new EJS({'url': SUBDIR_PREFIX + '/js/templates/album.ejs'}).render({albums: feed.value.items});
     $('#photo-feed').append(rendered_albums);
 }
