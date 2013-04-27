@@ -17,6 +17,10 @@
     <% } %>
         <%= articles[i].body %>
     </div>
+    <% if (!articles[i].is_monthphrase) { %>
+        <div id="comments_<%= articles[i].id %>" class="comments"></div>
+        <a class="btn btn-link pull-right" onclick="VK.Widgets.Comments('comments_<%= articles[i].id %>', {limit: 10, width: '590', attach: '*'}, '<%= articles[i].id %>'); return false;">Комментарии</a>
+    <% } %>
 </div>
 <hr>
 <% } %>

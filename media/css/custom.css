@@ -5,8 +5,7 @@ html, body {
     height: 100%;
     text-align: justify;
     color: #1B264A;
-    font-size: 16px;    
-    #gradient > .horizontal(#1B264A,#fffff);
+    font-size: 16px;
 
     /* The html and body elements cannot have any padding or margin. */
 }
