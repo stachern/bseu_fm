@@ -4,9 +4,11 @@
         <a href="<%= service %>article/<%= articles[i].id %>" class="btn btn-mini">редактировать</a>
     <% } %>
     <% if (!articles[i].is_monthphrase) { %>
-        <span class="badge badge-important pull-right"><i class="icon-calendar icon-white"></i> <%= articles[i].publish_date %></span>
+        <span class="pull-right">
+            <a class="btn-link" onclick="show_comments('<%= articles[i].id %>'); return false;" title="Оставить комментарий к записи"><i class="icon-comment"></i></a>
+            <span class="badge badge-important"><i class="icon-calendar icon-white"></i> <%= articles[i].publish_date %></span>
+        </span>
     <% } %>
-    <br>
     <h3 class="media-heading"><%= articles[i].header %></h3>
    
     <div class="media-body">
@@ -17,10 +19,6 @@
     <% } %>
         <%= articles[i].body %>
     </div>
-    <% if (!articles[i].is_monthphrase) { %>
-        <div id="comments_<%= articles[i].id %>" class="comments"></div>
-        <a class="btn btn-link pull-right" onclick="VK.Widgets.Comments('comments_<%= articles[i].id %>', {limit: 10, width: '590', attach: '*'}, '<%= articles[i].id %>'); return false;">Комментарии</a>
-    <% } %>
 </div>
 <hr>
 <% } %>

@@ -32,6 +32,12 @@ function scroll_handler(e) {
     }, _throttleDelay);
 }
 
+function show_comments(artcle_id){
+    $('#vk-comments').html('');
+    VK.Widgets.Comments('vk-comments', {limit: 10, width: '540', attach: '*'}, artcle_id);
+    $('#commentModal').modal('show');
+}
+
 $(document).ready(function(){
     get_feed(FeedOffset);
     $(window).off('scroll', scroll_handler)
