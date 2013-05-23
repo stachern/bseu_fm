@@ -49,6 +49,16 @@ html, body {
     margin: 20px 0;
 }
 
+#feed-range {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+}
+
+#feed-range:hover {
+    background-color: #002a80;
+}
+
 #rssdata ul.rss-items {
     display: none;
     margin: 0;
