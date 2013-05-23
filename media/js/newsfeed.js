@@ -1,4 +1,3 @@
-
 FEED = {
    feedServiceUrl: 'http://bseu-fm.appspot.com/',
    feedOffset: 0,
@@ -42,6 +41,32 @@ $('#loader').hide()
         $(this).hide();
 });
 
+function display_loaded_articles(data){
+    var rendered_articles = new EJS({'url': SUBDIR_PREFIX + '/js/templates/article.ejs'}).render({articles: data,
+                                                                                                  service: FeedServiceUrl});
+    $('#feed').append(rendered_articles);
+}
+
+function get_feed(offset){
+    $.getJSON(FeedServiceUrl + 'feed?callback=?&offset=' + offset, display_loaded_articles);
+}
+
+function scroll_handler(e) {
+    clearTimeout(_throttleTimer);
+    _throttleTimer = setTimeout(function () {
+        if ($(window).scrollTop() + $(window).height() > $(document).height() - 50) {
+            FeedOffset += 10;
+            get_feed(FeedOffset);
+        }
+    }, _throttleDelay);
+}
+
+function show_comments(artcle_id){
+    $('#vk-comments').html('');
+    VK.Widgets.Comments('vk-comments', {limit: 10, width: '530', attach: '*'}, artcle_id);
+    $('#commentModal').modal('show');
+}
+
 $(document).ready(function(){
     FEED.get_feed();
 
@@ -82,8 +107,6 @@ $(document).ready(function(){
         FEED.get_feed();
     });
 });
-
-
 
 $('#rssdata').ready(function(){
     $.getJSON('http://pipes.yahoo.com/pipes/pipe.run?_id=3f5db5135e0d956c2ef490cd1ae22878&_render=json&_callback=?' ,function(data){
