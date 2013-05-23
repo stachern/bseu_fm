@@ -1,8 +1,40 @@
-var FeedServiceUrl = 'http://bseu-fm.appspot.com/';
-var FeedOffset = 0;
 
-var _throttleTimer = null;
-var _throttleDelay = 100;
+FEED = {
+   feedServiceUrl: 'http://bseu-fm.appspot.com/',
+   feedOffset: 0,
+   feedDateStart: null,
+   feedDateEnd: null,
+   _throttleDelay: 100,
+   _throttleTimer: null,
+
+   get_feed: function(){
+       $.getJSON(this.feedServiceUrl + 'feed?callback=?&' + $.param({
+           offset: this.feedOffset,
+           start: this.feedDateStart,
+           end: this.feedDateEnd
+       }), this.display_loaded_articles);
+   },
+
+   display_loaded_articles: function (data){
+        var rendered_articles = new EJS(
+            {'url': SUBDIR_PREFIX + '/js/templates/article.ejs'}
+        ).render({articles: data,
+                  service: this.feedServiceUrl});
+        $('#feed').append(rendered_articles);
+   },
+
+   scroll_handler: function(){
+       return function (e) {
+            clearTimeout(this._throttleTimer);
+                FEED._throttleTimer = setTimeout(function () {
+                if ($(window).scrollTop() + $(window).height() > $(document).height() - 50) {
+                    FEED.feedOffset += 10;
+                    FEED.get_feed();
+                }
+            }, FEED._throttleDelay);
+       }
+   }
+};
 
 $('#loader').hide()
     .ajaxStart(function(){
@@ -12,32 +44,48 @@ $('#loader').hide()
         $(this).hide();
 });
 
-function display_loaded_articles(data){
-    var rendered_articles = new EJS({'url': SUBDIR_PREFIX + '/js/templates/article.ejs'}).render({articles: data,
-                                                                                                  service: FeedServiceUrl});
-    $('#feed').append(rendered_articles);
-}
-
-function get_feed(offset){
-    $.getJSON(FeedServiceUrl + 'feed?callback=?&offset=' + offset, display_loaded_articles);
-}
-
-function scroll_handler(e) {
-    clearTimeout(_throttleTimer);
-    _throttleTimer = setTimeout(function () {
-        if ($(window).scrollTop() + $(window).height() > $(document).height() - 50) {
-            FeedOffset += 10;
-            get_feed(FeedOffset);
-        }
-    }, _throttleDelay);
-}
-
 $(document).ready(function(){
-    get_feed(FeedOffset);
-    $(window).off('scroll', scroll_handler)
-             .on('scroll', scroll_handler);
+    FEED.get_feed();
 
+    $(window).off('scroll', FEED.scroll_handler())
+             .on('scroll', FEED.scroll_handler());
+
+    $('#feed-range').daterangepicker({
+        ranges: {
+            'Сегодня': [new Date(), new Date()],
+            'Вчера': [moment().subtract('days', 1), moment().subtract('days', 1)],
+            'Последние 7 дней': [moment().subtract('days', 6), new Date()],
+            'Последние 30 дней': [moment().subtract('days', 29), new Date()],
+            'За этот месяц': [moment().startOf('month'), moment().endOf('month')],
+            'За прошлый месяц': [moment().subtract('month', 1).startOf('month'), moment().subtract('month', 1).endOf('month')]
+        },
+        opens: 'left',
+        format: 'DD/MM/YYYY',
+        separator: ' по ',
+        minDate: '01/01/2011',
+        maxDate: '31/12/2014',
+        locale: {
+            applyLabel: 'Применить',
+            clearLabel: 'Очистить',
+            fromLabel: 'С',
+            toLabel: 'По',
+            customRangeLabel: 'Произвольный промежуток',
+            daysOfWeek: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт','Сб'],
+            monthNames: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+            firstDay: 1
+        }
+    },
+    function(start, end) {
+        $('#feed-range span').html(start.format('M/D/YYYY') + ' - ' + end.format('M/D/YYYY'));
+        $('#feed').html('');
+        FEED.feedOffset = 0;
+        FEED.feedDateStart = start.format('M/D/YYYY');
+        FEED.feedDateEnd = end.format('M/D/YYYY');
+        FEED.get_feed();
+    });
 });
+
+
 
 $('#rssdata').ready(function(){
     $.getJSON('http://pipes.yahoo.com/pipes/pipe.run?_id=3f5db5135e0d956c2ef490cd1ae22878&_render=json&_callback=?' ,function(data){
