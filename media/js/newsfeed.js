@@ -19,21 +19,19 @@ FEED = {
         var rendered_articles = new EJS(
             {'url': SUBDIR_PREFIX + '/js/templates/article.ejs'}
         ).render({articles: data,
-                  service: this.feedServiceUrl});
+                  service: FEED.feedServiceUrl});
         $('#feed').append(rendered_articles);
-   },
-
-   scroll_handler: function(){
-       return function (e) {
-            clearTimeout(this._throttleTimer);
-                FEED._throttleTimer = setTimeout(function () {
-                if ($(window).scrollTop() + $(window).height() > $(document).height() - 50) {
-                    FEED.feedOffset += 10;
-                    FEED.get_feed();
-                }
-            }, FEED._throttleDelay);
-       }
    }
+};
+
+function scroll_handler(e) {
+    clearTimeout(FEED._throttleTimer);
+        FEED._throttleTimer = setTimeout(function () {
+        if ($(window).scrollTop() + $(window).height() > $(document).height() - 50) {
+            FEED.feedOffset += 10;
+            FEED.get_feed();
+        }
+    }, FEED._throttleDelay);
 };
 
 $('#loader').hide()
@@ -47,8 +45,8 @@ $('#loader').hide()
 $(document).ready(function(){
     FEED.get_feed();
 
-    $(window).off('scroll', FEED.scroll_handler())
-             .on('scroll', FEED.scroll_handler());
+    $(window).off('scroll', scroll_handler)
+             .on('scroll', scroll_handler);
 
     $('#feed-range').daterangepicker({
         ranges: {
@@ -76,11 +74,11 @@ $(document).ready(function(){
         }
     },
     function(start, end) {
-        $('#feed-range span').html(start.format('M/D/YYYY') + ' - ' + end.format('M/D/YYYY'));
+        $('#feed-range span').html(start.format('D/M/YYYY') + ' - ' + end.format('D/M/YYYY'));
         $('#feed').html('');
         FEED.feedOffset = 0;
-        FEED.feedDateStart = start.format('M/D/YYYY');
-        FEED.feedDateEnd = end.format('M/D/YYYY');
+        FEED.feedDateStart = start.format('DD/MM/YYYY');
+        FEED.feedDateEnd = end.format('DD/MM/YYYY');
         FEED.get_feed();
     });
 });
