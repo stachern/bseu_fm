@@ -51,16 +51,6 @@ function get_feed(offset){
     $.getJSON(FeedServiceUrl + 'feed?callback=?&offset=' + offset, display_loaded_articles);
 }
 
-function scroll_handler(e) {
-    clearTimeout(_throttleTimer);
-    _throttleTimer = setTimeout(function () {
-        if ($(window).scrollTop() + $(window).height() > $(document).height() - 50) {
-            FeedOffset += 10;
-            get_feed(FeedOffset);
-        }
-    }, _throttleDelay);
-}
-
 function show_comments(artcle_id){
     $('#vk-comments').html('');
     VK.Widgets.Comments('vk-comments', {limit: 10, width: '530', attach: '*'}, artcle_id);
