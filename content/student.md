@@ -51,244 +51,247 @@ _Летняя экзаменационная сессия:_
 Студенту-заочнику
 -----------------
 
-ГРАФИК учебного процесса для студентов заочной формы обучения факультета менеджмента на 2012-2013 учебный год
+ГРАФИК учебного процесса для студентов заочной формы обучения факультета менеджмента на 2013-2014 учебный год
+
+
+
 
 <table class="table table-bordered">
-        <tbody>
-            <tr>
-                <td valign="top" >
-                    <p align="center">
-                        Курс
-                    </p>
-                </td>
-                <td valign="top" >
-                    <p align="center">
-                        Установочная сессия
-                    </p>
-                </td>
-                <td valign="top" >
-                    <p align="center">
-                        1-я сессия*
-                    </p>
-                </td>
-                <td valign="top" >
-                    <p align="center">
-                        2-я сессия**
-                    </p>
-                </td>
-                <td valign="top" >
-                    <p align="center">
-                        Государственные
-                    </p>
-                    <p align="center">
-                        экзамены***
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td valign="top" >
-                    <p align="center">
-                        1
-                    </p>
-                </td>
-                <td valign="top" >
-                    <p align="center">
-                        05.09 – 14.09.12
-                    </p>
-                </td>
-                <td >
-                    <p align="center">
-                        21.01 – 04.02.13
-                    </p>
-                </td>
-                <td >
-                    <p align="center">
-                        20.05 – 03.06.13
-                    </p>
-                </td>
-                <td >
-                </td>
-            </tr>
-            <tr>
-                <td valign="top" >
-                    <p align="center">
-                        2
-                    </p>
-                </td>
-                <td valign="top" >
-                </td>
-                <td >
-                    <p align="center">
-                        08.11 – 22.11.12
-                    </p>
-                </td>
-                <td >
-                    <p align="center">
-                        11.03 – 25.03.13
-                    </p>
-                </td>
-                <td >
-                </td>
-            </tr>
-            <tr>
-                <td valign="top" >
-                    <p align="center">
-                        3
-                    </p>
-                </td>
-                <td valign="top" >
-                </td>
-                <td >
-                    <p align="center">
-                        03.12 – 22.12.12
-                    </p>
-                </td>
-                <td >
-                    <p align="center">
-                        27.03 – 15.04.13
-                    </p>
-                </td>
-                <td >
-                </td>
-            </tr>
-            <tr>
-                <td valign="top" >
-                    <p align="center">
-                        4
-                    </p>
-                </td>
-                <td valign="top" >
-                </td>
-                <td rowspan="2" >
-                    <p align="center">
-                        17.10 – 05.11.12
-                    </p>
-                </td>
-                <td >
-                    <p align="center">
-                        14.02 – 05.03.13
-                    </p>
-                </td>
-                <td >
-                </td>
-            </tr>
-            <tr>
-                <td valign="top" >
-                    <p align="center">
-                        4 (ССО)
-                    </p>
-                </td>
-                <td valign="top" >
-                </td>
-                <td >
-                    <p align="center">
-                        23.01 – 11.02.13
-                    </p>
-                </td>
-                <td >
-                    <p align="center">
-                        02.05 – 31.05.13
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td valign="top" >
-                    <p align="center">
-                        5
-                    </p>
-                </td>
-                <td valign="top" >
-                </td>
-                <td >
-                    <p align="center">
-                        26.09 – 15.10.12
-                    </p>
-                </td>
-                <td >
-                    <p align="center">
-                        09.01 – 28.01.13
-                    </p>
-                </td>
-                <td >
-                    <p align="center">
-                        18.04 – 17.05.13
-                    </p>
-                </td>
-            </tr>
-                        <tr>
-                <td valign="top" >
-                    <p align="center">
-                        5 (ЗКМ)
-                    </p>
-                </td>
-                <td valign="top" >
-                </td>
-                <td >
-                    <p align="center">
-                        26.09 – 15.10.12
-                    </p>
-                </td>
-                <td >
-                    <p align="center">
-                        13.02 – 04.03.13
-                    </p>
-                </td>
-                <td >
-
-                </td>
-            </tr>
-            <tr>
-                <td valign="top" >
-                    <p align="center">
-                        6
-                    </p>
-                </td>
-                <td valign="top" >
-                </td>
-                <td >
-                    <p align="center">
-                        10.09 – 29.09.12
-                    </p>
-                </td>
-                <td >
-                </td>
-                <td >
-                    <p align="center">
-                        17.01– 15.02.13
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td valign="top" >
-                    <p align="center">
-                        <b>Дни заочника</b>
-                    </p>
-                </td>
-                <td colspan="2" valign="top" >
-                    <p align="center">
-                        <b><u>2012 г.</u></b>
-                    </p>
-                    <p align="center">
-                        22.09; 20.10; 17.11; 15.12
-                    </p>
-                </td>
-                <td colspan="2" valign="top">
-                    <p align="center">
-                        <b><u>2013 г.</u></b>
-                    </p>
-                    <p>
-                        19.01; 16.02; 16.03; 20.04; 18.05; 01.06; 15.06
-                    </p>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <tbody>
+        <tr>
+            <td width="91">
+                <p align="center">
+                    <strong>Курс</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="120" valign="top">
+                <p align="center">
+                    <strong>Установочная </strong>
+                    <strong>сессия</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="120">
+                <p align="center">
+                    <strong>1-я сессия *</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="120">
+                <p align="center">
+                    <strong>2-я сессия **</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    <strong>Государственные экзамены</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="91" valign="top">
+                <p align="center">
+                    1
+                </p>
+            </td>
+            <td width="120" rowspan="2">
+                <p align="center">
+                    04.09 – 13.09.13
+                </p>
+            </td>
+            <td width="120" rowspan="2">
+                <p align="center">
+                    20.01 - 03.02.14
+                </p>
+            </td>
+            <td width="120" rowspan="2">
+                <p align="center">
+                    14.04 – 28.04.14
+                </p>
+            </td>
+            <td width="156" rowspan="7">
+            </td>
+        </tr>
+        <tr>
+            <td width="91" valign="top">
+                <p align="center">
+                    1 (ссо)
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="91">
+                <p align="center">
+                    2
+                </p>
+            </td>
+            <td width="120" rowspan="9" valign="top">
+            </td>
+            <td width="120" rowspan="2">
+                <p align="center">
+                    11.11 – 25.11.13
+                </p>
+            </td>
+            <td width="120" rowspan="2">
+                <p align="center">
+                    10.03 – 24.03.14
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="91">
+                <p align="center">
+                    2 (ссо)
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="91" valign="top">
+                <p align="center">
+                    3
+                </p>
+            </td>
+            <td width="120" rowspan="2">
+                <p align="center">
+                    02.12 – 21.12.13
+                </p>
+            </td>
+            <td width="120" rowspan="2">
+                <p align="center">
+                    26.03 – 14.04.14
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="91" valign="top">
+                <p align="center">
+                    3 (ссо)
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="91" valign="top">
+                <p align="center">
+                    4
+                </p>
+            </td>
+            <td width="120" rowspan="2">
+                <p align="center">
+                    16.10 – 04.11.13
+                </p>
+            </td>
+            <td width="120">
+                <p align="center">
+                    12.02 – 03.03.14
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="91">
+                <p align="center">
+                    4 (ссо)
+                </p>
+            </td>
+            <td width="120">
+                <p align="center">
+                    22.01 – 10.02.14
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    *** 12.05 – 11.06.14
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="91" valign="top">
+                <p align="center">
+                    5 (ЗКМ)
+                </p>
+            </td>
+            <td width="120" rowspan="2">
+                <p align="center">
+                    16.09 – 05.10.13
+                </p>
+            </td>
+            <td width="120">
+                <p align="center">
+                    12.02 – 03.03.14
+                </p>
+            </td>
+            <td width="156">
+            </td>
+        </tr>
+        <tr>
+            <td width="91" valign="top">
+                <p align="center">
+                    5
+                </p>
+            </td>
+            <td width="120">
+                <p align="center">
+                    08.01 – 27.01.14
+                </p>
+            </td>
+            <td width="156">
+                <p align="center">
+                    *** 02.05 – 31.05.14
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="91">
+                <p>
+                    6 (ЗКМ)
+                </p>
+            </td>
+            <td width="120">
+                <p align="center">
+                    07.10 – 26.10.13
+                </p>
+            </td>
+            <td width="120">
+            </td>
+            <td width="156">
+                <p align="center">
+                    *** 16.01 – 14.02.14
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="91">
+                <p align="center">
+                    Дни заочника
+                </p>
+            </td>
+            <td width="240" colspan="2" valign="top">
+                <p align="center">
+                    <strong>в 2013 г.</strong>
+                </p>
+                <p align="center">
+                    21.09; 19.10; 16.11; 21.12 <strong></strong>
+                </p>
+            </td>
+            <td width="276" colspan="2" valign="top">
+                <p align="center">
+                    <strong>в 2014 г.</strong>
+                </p>
+                <p align="center">
+                    18.01; 15.02; 15.03; 19.04; 17.05; 07.06; 21.06<strong></strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
     *срок ликвидации академической задолженности по итогам 1-й зачетно-экзаменационной сессии – до начала 2-й зачетно-экзаменационной сессии;
 
-    **срок ликвидации академической задолженности по итогам 2-й зачетно-экзаменационной сессии – по 30 июня 2013 года;
+    **срок ликвидации академической задолженности по итогам 2-й зачетно-экзаменационной сессии – по 30 июня 2014 года;
 
     ***срок ликвидации академической задолженности по итогам последней зачетно-экзаменационной сессии на выпускных курсах – за 1 месяц до начала обзорных лекций по специальности.
+
 
 Диплом с отличием
 -----------------
