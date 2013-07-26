@@ -107,11 +107,11 @@ $('#rssdata').ready(function(){
     });
 });
 
-$('#twitter').ready(function(){
+/*$('#twitter').ready(function(){
     $.getJSON('http://pipes.yahoo.com/pipes/pipe.run?_id=39cbc56ab57e3e72877c2996bce82259&_render=json&_callback=?', function(data){
         var rendered_html =  new EJS({'url': SUBDIR_PREFIX + '/js/templates/twit.ejs'}).render({twits: data.value.items});
         $('#twitter ul.twits').append(rendered_html);
         $('#twitter div.loading').fadeOut();
         $('#twitter ul.twits').slideDown();
     });
-});
+});*/
