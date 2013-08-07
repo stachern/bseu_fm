@@ -4,9 +4,10 @@
 html, body {
     height: 100%;
     text-align: justify;
-    color: #1B264A;
-    font-size: 16px;
-
+    color: #2c3e50;
+    font-size: 16px; 
+    text-shadow: none;
+    background: #ecf0f1;
     /* The html and body elements cannot have any padding or margin. */
 }
 
@@ -31,7 +32,7 @@ html, body {
 }
 
 #footer {
-    background-color: #f5f5f5;
+    background-color: #f5f5f5
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
@@ -75,14 +76,14 @@ html, body {
     display: block;
     font: 15px/16px  Verdana, Tahoma, Arial, sans-serif;
     padding: 5px;
-    background: #1A52C9;
+    background: #2980b9;
     color: #ffffff;
     text-decoration: none;
     border-bottom: 1px solid #eee;
 }
 
 #rssdata ul.rss-items a:hover {
-    background: #DE2346;
+    background: #c0392b;
     color: #fff;
     text-decoration: none;
 }
@@ -97,7 +98,7 @@ html, body {
 
 #rssbottom {
     padding: 2px 6px;
-    background: #1A52C9;
+    background: #2980b9;
     color: #fff;
     text-decoration: none;
     border-top: 2px solid #eee;
@@ -122,29 +123,30 @@ html, body {
     display: block;
     font: 15px/16px  Verdana, Tahoma, Arial, sans-serif;
     padding: 5px;
-    background: #1A52C9;
+    background: #2980b9;
     color: #ffffff;
     text-decoration: none;
     border-bottom: 1px solid #eee;
 }
 
 #twitter ul.twits a.tw:hover {
-    background: #DE2346;
-    color: #fff;
+    background: #c0392b;
+    color: #c0392b;
     text-decoration: none;
 }
 
-#twitter_title {
-    padding: 6px 6px;
-    color: #fff;
+
+
+#twitter_title {  
+    padding: 6px 6px; 
     font: 17px/18px bold Verdana, Tahoma, Arial, sans-serif;
     text-decoration: none;
-    border-bottom: 2px solid #eee;
+    border-bottom: 1px solid #eee;
 } 
 
 #twitter_bottom {
     padding: 2px 6px;
-    background: #1A52C9;
+    background: #2980b9;
     color: #fff;
     text-decoration: none;   
 } 
@@ -166,7 +168,7 @@ a:hover.white {
 }
 
 a:focus {
-    outline: thin dotted #DE2346;
+    outline: thin dotted #c0392b;
     outline-offset: -2px;
 }
 
@@ -179,7 +181,7 @@ a.thumbnail {
 }
 
 .well {
-    background-color: #1A52C9;
+    background-color: #2980b9;
 }
 
 #sidebar .well, #sidebar h2, #sidebar a  {
@@ -187,39 +189,39 @@ a.thumbnail {
 }
 
 #sidebar a:hover {
-    color: #DE2346;
+    color: #c0392b;
 }
 
 .navbar-inverse .brand:hover, .navbar-inverse .nav>.active>a, .navbar-inverse .nav>.active>a:hover, .navbar-inverse .nav>.active>a:focus {
-    background-color: #DE2346;
+    background-color: #c0392b;
 }
 
 .navbar-inner {  
-    background-color: #1A52C9;    
+    background-color: #2980b9;    
 }
 
 .navbar-inverse .navbar-inner {
-    background-color: #2760D9;
+    background-color: #2980b9;
 }
 
 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle, .navbar-inverse .nav li.dropdown.active>.dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle {    
-    background-color: #DE2346
+    background-color: #c0392b
 }
 
 .navbar-inverse .brand:hover, .navbar-inverse .nav>.active>a, .navbar-inverse .nav>.active>a:hover, .navbar-inverse .nav>.active>a:focus {   
-    background-color: #DE2346;   
+    background-color: #c0392b;   
 }
 
 a.thumbnail:hover {
-    background-color: #DE2346;   
+    background-color: #c0392b;   
 }
 
 a:focus {
-    outline: thin dotted #DE2346;    
+    outline: thin dotted #c0392b;    
 }
 
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
-    background: #de2346 none;
+    background: #c0392b none;
    
 }
 .dropdown-menu>li>a{
@@ -227,11 +229,11 @@ a:focus {
 }
 
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
-     background-image: -moz-linear-gradient(top, #DE2346, #DE2346);   
+     background-image: -moz-linear-gradient(top, #c0392b, #c0392b);   
 }
 
 .navbar-inverse .nav>li>a:focus, .navbar-inverse .nav>li>a:hover {  
-    background-color: #DE2346;
+    background-color: #c0392b;
 
 }
 
@@ -256,11 +258,11 @@ a:focus {
 }
 
 .btn-danger{
-    background-color: #DE2346;
+    background-color: #c0392b;
 }
 
 .badge-important{
-    background-color: #DE2346;
+    background-color: #c0392b;
 }
 
 h1, h2, h3{
@@ -285,4 +287,5 @@ img.deanimg{
 ul.nav li.dropdown:hover > ul.dropdown-menu{
     display: block;    
 }
+
 
