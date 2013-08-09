@@ -4,10 +4,10 @@
 html, body {
     height: 100%;
     text-align: justify;
-    color: #2c3e50;
+    color: #444;
     font-size: 16px; 
     text-shadow: none;
-    background: #ecf0f1;
+    background: #FAFEFF;
     /* The html and body elements cannot have any padding or margin. */
 }
 
@@ -167,6 +167,14 @@ a:hover.white {
     margin: 15px;
 }
 
+a {
+  color: #2980b9; 
+}
+
+a:hover {
+   color: #c0392b;
+}
+
 a:focus {
     outline: thin dotted #c0392b;
     outline-offset: -2px;
@@ -224,6 +232,7 @@ a:focus {
     background: #c0392b none;
    
 }
+
 .dropdown-menu>li>a{
     color: #13192E; 
 }
@@ -286,6 +295,10 @@ img.deanimg{
 
 ul.nav li.dropdown:hover > ul.dropdown-menu{
     display: block;    
+}
+
+.dropdown-menu{
+     background-color: #FAFEFF;  
 }
 
 
