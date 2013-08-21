@@ -1,0 +1,13 @@
+{% for category, pages in site.categories.items() %}
+    {% if category == page.category.0 %}
+        <div class="container-fluid well">
+            <ul>
+            {% for sibling_page in pages %}
+                <li>
+                    <a href="{{ sibling_page.url }}">{{ sibling_page.title }}</a>
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+{% endfor %}
