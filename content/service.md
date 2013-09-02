@@ -1,7 +1,6 @@
 title: Справки
 slug: service
-tags: [_nav, _menu]
-menu_index: 20
+tags: [_nav]
 category: student
 type: no_self_content
 ---
