@@ -30,7 +30,7 @@ Majors and specializations
 *   **«Economic Informatics»**
 *   **«Economic Cybernetics»** (specialization: Optimum Planning and Management in Economy).
 
-Annually more than 2,200 undergraduates including full- and part-time students are trained in the School. As its activities are aimed at both professional training of specialists and their scholarly achievement, the students are also involved in research activities, thus the integration of teaching, research and economic practice is achieved. To enhance student research work, student research laboratories (SRL) are created at each department of the School. Each department offers Master’s, Ph.D. and Dr. hab. degree courses.
+Annually more than 1800 undergraduates including full- and part-time students are trained in the School. As its activities are aimed at both professional training of specialists and their scholarly achievement, the students are also involved in research activities, thus the integration of teaching, research and economic practice is achieved. To enhance student research work, student research laboratories (SRL) are created at each department of the School. Each department offers Master’s, Ph.D. and Dr. hab. degree courses.
 
 The School is active in international cooperation with 12 educational establishments from Russia, Ukraine, Poland, Czechia, Germany and Sweden. Its faculty members and students participate in international scientific projects and academic mobility programs, scientific conferences and seminars, on-line ones among them, and so on. With each year a number of undergraduate and postgraduate students – citizens of foreign countries (Ukraine, Lithuania, Turkmenistan, Kazakhstan, China etc.) is increasing.
 
