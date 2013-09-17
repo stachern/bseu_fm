@@ -1,7 +1,7 @@
 title: Справка обучающегося
 slug: form_request_student
 tags: [_nav, _category_header]
-category: student/service
+category: service
 type: service
 ---
 

@@ -2,7 +2,7 @@ title: Выпускнику-2014
 slug: graduates
 category: other
 tags: [student]
-sidebar_index: 3
+sidebar_index: 4
 ---
 
 -   [План-график подготовки дипломных работ студентами ЗФО](/files/plan_diplom.doc)

@@ -1,7 +1,7 @@
 title: Справка-вызов студенту ЗФО
 slug: form_request_distant_student
 tags: [_nav, _category_header]
-category: student/service
+category: service
 type: service
 ---
 
