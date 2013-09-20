@@ -1,5 +1,5 @@
-title: Справка обучающегося
-slug: form_request_student
+title: Справка обучающегося ДФО
+slug: form_request_student_dfo
 tags: [_nav, _category_header]
 category: service
 type: service
