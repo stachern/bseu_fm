@@ -1,5 +1,5 @@
 title: Интересные факты об Интернете
-tags: [_nav, interesting]
+tags: [_nav, interesting, _category_header]
 category: other/articles
 ---
 

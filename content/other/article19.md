@@ -1,5 +1,5 @@
 title: Самые странные налоги разных стран
-tags: [_nav, interesting]
+tags: [_nav, interesting, _category_header]
 category: other/articles
 ---
 

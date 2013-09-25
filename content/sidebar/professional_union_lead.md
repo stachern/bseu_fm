@@ -8,3 +8,6 @@ sidebar_index: 2
 ![Кузнецов Александр](/img/content/professional_union/professional_union_lead.jpg)      
  
 *Кузнецов Александр*
+
+Телефон:  
++375291478032  
