@@ -1,7 +1,12 @@
 {% extends "base.html" %}
 {% block base_content %}
+
     <!-- Sidebar subpage list is in the middle -->
     <div class="container-fluid">
+    {% if '_category_header' in page.tags  %}
+    {% include "content/header_image.html" %}
+    </br>
+    {% endif %}
         <div class="row-fluid">
             <div class="span8 well white">
                  {% include "content/subpages.html" %}
