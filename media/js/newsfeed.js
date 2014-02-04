@@ -60,8 +60,10 @@ function show_comments(artcle_id){
 $(document).ready(function(){
     FEED.get_feed();
 
-    $(window).off('scroll', scroll_handler)
-             .on('scroll', scroll_handler);
+    $('#loader').on('click', function(e) {
+      e.preventDefault();
+      scroll_handler();
+    });
 
     $('#feed-range').daterangepicker({
         ranges: {
