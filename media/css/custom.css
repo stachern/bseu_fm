@@ -263,11 +263,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   background-color: #FAFEFF;
 }
 
-.navbar-inverse .nav > li > a:focus,
-.navbar-inverse .nav > li > a:hover {
-  background-color: #DE2346;
-}
-
 .navbar .brand {
   max-height: 50px;
   overflow: visible;
@@ -287,6 +282,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .btn-danger {
   background-color: #c0392b;
+}
+
+.btn-danger:hover {
+  background-color: #a83225;
 }
 
 h1, h2, h3 {

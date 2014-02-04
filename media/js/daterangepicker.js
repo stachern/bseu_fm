@@ -29,7 +29,7 @@
         this.separator = ' - ';
         this.showWeekNumbers = false;
         this.buttonClasses = ['btn'];
-        this.applyClass = 'btn btn-small btn-success';
+        this.applyClass = 'btn btn-small btn-danger';
         this.clearClass = 'btn btn-small';
         this.locale = {
             applyLabel: 'Apply',
