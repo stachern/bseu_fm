@@ -355,3 +355,7 @@ h1, h2, h3 {
 .nav li > a:hover {
   text-decoration: none;
 }
+
+.nav ul > li > a {
+  padding: 6px 10px;
+}
