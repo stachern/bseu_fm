@@ -349,6 +349,7 @@ h1, h2, h3 {
   display: block;
   padding: 15px 20px 16.5px;
   color: #ffffff;
+  white-space: nowrap;
 }
 
 .nav li > a:hover {
