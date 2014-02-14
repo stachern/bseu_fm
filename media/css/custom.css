@@ -246,6 +246,12 @@ h1, h2, h3 {
 #loader {
   background-color: #c0392b;
   margin-bottom: 20px;
+  padding-bottom: 3px;
+}
+
+#spinner {
+  display: inline;
+  margin-right: 3px;
 }
 
 *::selection { background: #de2346; color: #fff; }
