@@ -332,10 +332,12 @@ h1, h2, h3 {
   -ms-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
+  -webkit-box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+  box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
 }
 
 .nav ul > li {
-  background: #2571a3;
+  background: #ffffff;
   display: block;
 }
 
@@ -354,12 +356,13 @@ h1, h2, h3 {
 .nav li > a {
   display: block;
   padding: 15px 20px 16.5px;
-  color: #ffffff;
+  color: #555555;
   white-space: nowrap;
 }
 
 .nav li > a:hover {
   text-decoration: none;
+  color: #ffffff;
 }
 
 .nav ul > li > a {
