@@ -11,6 +11,7 @@
   <meta name="author" content="{{ site.author }}">
 
   <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link rel="shortcut icon" href="/fm/favicon.ico" type="image/x-icon">
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -49,7 +50,7 @@
       <p class="muted credit">
         {% include "misc/yandex_share.html" %}
         <a href="{{ site.main_feed_rss_url }}">
-          <i class="icon icon-bookmark"></i> RSS
+          <i class="fa fa-rss fa-lg"></i>
         </a>
         {% block site_info %}
           <small class="pull-right">Сайт обновлен {{ site.date.strftime('%d-%m-%Y') }} &copy; Факультет менеджмента | <a href="/contacts">Контакты</a></small>
