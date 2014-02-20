@@ -1,0 +1,315 @@
+<div id="commentModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="commentModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3 id="commentModalLabel">Комментарии</h3>
+  </div>
+  <div class="modal-body">
+    <div id="vk-comments"></div>
+  </div>
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Новости - Факультет Менеджмента БГЭУ</title>
+
+    <!-- Meta Tags -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="title" content="Факультет Менеджмента БГЭУ"/>
+    <meta name="keywords" content="БГЭУ, факультет, менеджмент, фм, Белорусский Государственный Экономический Университет, BSEU">
+    <meta name="description" content="Факультет менеджмента Белорусского Государственного Экономического университета: информация, новости, события, контакты">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Факультет Менеджмента <fm@bseu.by>">
+
+    <!-- styles -->
+    <link href="/fm/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/fm/favicon.ico" type="image/x-icon">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!-- custom styles -->
+    <link href="/fm/css/daterangepicker.css" rel="stylesheet">
+    <link href="/fm/css/custom.css" rel="stylesheet">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="/fm/js/custom.js"></script>
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="/fm/"><img src="/fm/img/logo.png" class="main-logo"/></a>
+                
+                    
+<div class="nav-collapse collapse">
+
+    
+        <ul class="nav">
+            
+                
+                    <li class="dropdown">
+                        <a href="/fm#" class="dropdown-toggle" data-toggle="dropdown">
+                            Факультет
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                             
+                                <li><a tabindex="-1" href="/fm/faculty/">Факультет</a></li>
+                             
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/faculty/deans_office/">Деканат</a></li>
+                                
+                            
+                                
+                            
+                        </ul>
+                    </li>
+                
+            
+                
+                    <li class="dropdown">
+                        <a href="/fm#" class="dropdown-toggle" data-toggle="dropdown">
+                            Кафедры
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                             
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/departments/agricultural_economics/">Кафедра экономики и управления предприятиями АПК</a></li>
+                                
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/departments/economic_cybernetics/">Кафедра прикладной математики и экономической кибернетики</a></li>
+                                
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/departments/economic_informatics/">Кафедра экономической информатики</a></li>
+                                
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/departments/environmental_economics/">Кафедра экономики природопользования</a></li>
+                                
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/departments/industrial_economics/">Кафедра экономики промышленных предприятий</a></li>
+                                
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/departments/labor_economics/">Кафедра экономики труда</a></li>
+                                
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/departments/national_economy/">Кафедра национальной экономики и государственного управления</a></li>
+                                
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/departments/organization_and_management/">Кафедра организации и управления</a></li>
+                                
+                            
+                        </ul>
+                    </li>
+                
+            
+                
+                    <li class="dropdown">
+                        <a href="/fm#" class="dropdown-toggle" data-toggle="dropdown">
+                            Наука
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                             
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/science/department_science/">НИР кафедр</a></li>
+                                
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/science/student_science/">Студенческое научное общество</a></li>
+                                
+                            
+                        </ul>
+                    </li>
+                
+            
+                
+                    <li class="dropdown">
+                        <a href="/fm#" class="dropdown-toggle" data-toggle="dropdown">
+                            Студенту
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                             
+                                <li><a tabindex="-1" href="/fm/student/">Студенту</a></li>
+                             
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/student/brsm/">БРСМ</a></li>
+                                
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/student/council/">Студсовет</a></li>
+                                
+                            
+                                
+                                    <li><a tabindex="-1" href="/fm/student/professional_union/">Профсоюз</a></li>
+                                
+                            
+                        </ul>
+                    </li>
+                
+            
+                
+                    <li class="dropdown">
+                        <a href="/fm#" class="dropdown-toggle" data-toggle="dropdown">
+                            Абитуриенту
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                             
+                                <li><a tabindex="-1" href="/fm/applicants/">Абитуриенту</a></li>
+                             
+                            
+                                
+                            
+                        </ul>
+                    </li>
+                
+            
+                
+                    <li >
+                        <a href="/fm/photo/" >Галерея</a>
+                    </li>
+                
+            
+            
+        </ul>
+    
+
+</div><!--/.nav-collapse -->
+                
+            </div>
+        </div>
+    </div>
+   <br/>
+    <div id="wrap">
+        <div class="container">
+            <div class="proper-content">
+                
+    <div class="container-fluid">
+        <div class="row-fluid">
+    <div id="headimage">
+        <img src="/fm/img/headers/main.jpg" alt="Новости"/>
+    </div>
+</div>
+        <div class="row-fluid">
+            <div class="span8">
+                <!--displaying main page content-->
+                 <br/>
+                 
+
+    <script type="text/javascript" src="/fm/js/ejs.js"></script>
+    <script type="text/javascript" src="/fm/js/moment.min.js"></script>
+    <script type="text/javascript" src="/fm/js/daterangepicker.js"></script>
+    <script type="text/javascript" src="/fm/js/newsfeed.js"></script>
+    <script type="text/javascript" src="http://vk.com/js/api/openapi.js"></script>
+    <script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      VK.init({apiId: 1970055, onlyWidgets: true});
+    </script>   
+    <div id="feed"></div>
+    <br/>
+    <div id="loader"  class="badge badge-important">
+        Загрузка ленты...
+    </div>
+
+            </div>
+            <div class="span4" id="sidebar">
+                <!--page sidebar-->
+                <br/>
+                
+    <div id="1september_banner">
+<img width="300" src="/fm/img/1september_banner.gif"/>
+</div>
+<br/>
+    <div class="container-fluid well">
+    <h2>Архив новостей ФМ</h2>
+    <div id="feed-range">
+        <i class="icon-white icon-calendar icon-large"></i>
+        <span>За все время</span>
+    </div>
+</div>
+    <div class="container-fluid well">
+	<div id="twitter">
+		<div id="twitter_title" style="height: 25px;">
+		<img src="/fm/img/logos/twitter/logo_min.png">
+		<b>Мы в твиттерe</b>
+		</div>
+	<br/>
+	<a class="twitter-timeline" width="300" height="500" lang="RU" data-tweet-limit="3" href="https://twitter.com/FmBseu"  data-widget-id="316136215382474754">Твиты пользователя @FmBseu</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="/fmp+""://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+	</script>      
+	</div>   
+</div>
+    <div class="container-fluid well">    	
+    <a href="http://vk.com/fm_the_best"><img src="/fm/img/logos/vk.png"></a>
+</div>	
+    <div class="container-fluid well">
+    
+        <p><h2>Факультет</h2>
+<p>Факультет менеджмента является преемником планово-экономического факультета, одного из старейших факультетов БГЭУ. Он готовит специалистов нового поколения в области экономики, инновационного менеджмента, IT-технологий и ...<br><a href="/fm/faculty/"><br/><b class="pull-right">Читать далее</b></a></p>
+    
+</div>
+    <div class="container-fluid well">
+    <h2>Это интересно</h2>
+    
+    <p><p><img alt="Самые странные налоги разных стран" src="/fm/img/content/articles/article20.jpg" /></p>
+<p>Золото – это не просто самый древний из известных человечеству драгоценных металлов. Золото уже много веков подряд плотно занимает свое место в ...<br><a href="/fm/other/articles/article20/"><br/><b class="pull-right">Читать далее</b></a></p>
+    <br>
+    <a href="/fm/other/articles/">Все материалы</a>
+</div>
+    <div class="container-fluid well">
+    <div id="rssdata">
+        <div id="rsstitle" style="height: 25px;">
+        	<i class="icon icon-white icon-signal"></i>
+            <b>Новости экономики</b></div>
+            <ul class="rss-items"></ul>
+        <div id="rssbottom" style="height: 20px;">
+        	<a href="http://www.belta.by/ru/all_news/economics">Все новости</a>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+
+            </div> <!--proper content -->
+
+        </div> <!-- /container -->
+
+        <div id="push"></div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <p class="muted credit">
+                <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+<span class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,gplus"></span>
+                <a href="http://pipes.yahoo.com/pipes/pipe.run?_id=bf2c6c7fb35105b7c519a24ba6bcc2e1&_render=rss">
+                    <i class="icon icon-bookmark"></i> RSS
+                </a>
+                
+                    <small class="pull-right">Сайт обновлен 2013-10-21  © Факультет менеджмента | <a href="/fm/contacts">Контакты</a></small>
+                
+            </p>
+        </div>
+    </div>
+
+
+<script src="/fm/js/bootstrap.min.js"></script>
+
+</body>
+</html>
