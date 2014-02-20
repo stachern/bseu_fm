@@ -14,3 +14,5 @@ sidebar_index: 1
 -   [Как правильно подготовить себя к сдаче экзамена](/files/examrules.doc)
 -   [Блог библиотеки БГЭУ](http://library.bseu.blog.tut.by/)
 -   [Расписание занятий](http://app.inside.by/)
+-   [Размеры стипендий](/files/stipendii.doc)
+-   [Стоимость платных услуг](/otrabotki.doc)
