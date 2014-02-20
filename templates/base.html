@@ -22,6 +22,7 @@
     <link href="/css/custom.css" rel="stylesheet">
   {% endblock %}
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="/js/custom_share.js"></script>
   <script src="/js/custom.js"></script>
 </head>
 
@@ -49,9 +50,11 @@
     <div class="container">
       <p class="muted credit">
         {% include "misc/yandex_share.html" %}
-        <a href="{{ site.main_feed_rss_url }}">
-          <i class="fa fa-rss fa-lg"></i>
-        </a>
+        <span id="rss">
+          <a href="{{ site.main_feed_rss_url }}">
+            <i class="fa fa-rss-square fa-2x"></i>
+          </a>
+        </span>
         {% block site_info %}
           <small class="pull-right">Сайт обновлен {{ site.date.strftime('%d-%m-%Y') }} &copy; Факультет менеджмента | <a href="/contacts">Контакты</a></small>
         {% endblock %}

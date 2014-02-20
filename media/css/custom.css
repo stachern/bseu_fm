@@ -258,6 +258,58 @@ h1, h2, h3 {
 *::-moz-selection { background: #de2346; color: #fff; }
 *::-webkit-selection { background: #de2346; color: #fff; }
 
+/* Social Buttons */
+
+.b-share a[data-service], #rss a {
+  -webkit-transition-property: color, text;
+  -webkit-transition-duration: .4s, .4s;
+  -webkit-transition-timing-function: linear, ease-in;
+  -moz-transition-property: color, text;
+  -moz-transition-duration: .4s;
+  -moz-transition-timing-function: linear, ease-in;
+
+  -o-transition-property: color, text;
+  -o-transition-duration: .4s;
+  -o-transition-timing-function: linear, ease-in;
+}
+
+.b-share a[data-service='vkontakte'],
+.b-share a[data-service='facebook'],
+.b-share a[data-service='twitter'],
+.b-share a[data-service='gplus'],
+#rss a {
+  color: #bbbbbb;
+}
+
+.b-share a[data-service='vkontakte']:hover {
+  color: #45668e;
+}
+
+.b-share a[data-service='facebook']:hover {
+  color: #3b5998;
+}
+
+.b-share a[data-service='twitter']:hover {
+  color: #4099ff;
+}
+
+.b-share a[data-service='gplus']:hover {
+  color: #bc3627;
+}
+
+.fa {
+  line-height: inherit;
+}
+
+#rss {
+  display: inline-block;
+  vertical-align: middle;
+  font: 86%/1.4545em Arial, sans-serif
+}
+
+#rss a:hover {
+  color: #fa9b39;
+}
 
 /* Navigation */
 
