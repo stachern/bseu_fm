@@ -1,58 +1,54 @@
-/* Sticky footer styles
--------------------------------------------------- */
-
 html, body {
-    height: 100%;
-    text-align: justify;
-    color: #444;
-    font-size: 16px; 
-    text-shadow: none;
-    background: #FAFEFF;
-    /* The html and body elements cannot have any padding or margin. */
+  height: 100%;
+  text-align: justify;
+  color: #444;
+  font-size: 16px;
+  text-shadow: none;
+  background: #FAFEFF;
 }
 
 /* Wrapper for page content to push down footer */
 #wrap {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    /* Negative indent footer by it's height */
-    margin: 0 auto -60px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
 }
 
 .proper-content {
-    padding-top: 66px;
-    /* 60px to make the container go all the way to the bottom of the topbar */
+  padding-top: 66px;
+  /* 60px to make the container go all the way to the bottom of the topbar */
 }
 
 /* Set the fixed height of the footer here */
 
 #push, #footer {
-    height: 66px;
+  height: 66px;
 }
 
 #footer {
-    background-color: #f5f5f5
+  background-color: #f5f5f5;
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
-    #footer {
-        margin-left: -20px;
-        margin-right: -20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+  #footer {
+    margin-left:  -20px;
+    margin-right: -20px;
+    padding-left:  20px;
+    padding-right: 20px;
+  }
 }
 
 .container .credit {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 #feed-range {
-    cursor: pointer;
-    padding: 5px 10px;
-    border: 1px solid #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #fff;
 }
 
 #feed-range:hover {
@@ -60,115 +56,112 @@ html, body {
 }
 
 #rssdata ul.rss-items {
-    display: none;
-    margin: 0;
-    padding: 0;
+  display: none;
+  margin:  0;
+  padding: 0;
 }
 
 #rssdata ul.rss-items li {
-    display: block;
-    margin: 0;
-    padding: 0;
+  display: block;
+  margin:  0;
+  padding: 0;
 }
 
 #rssdata ul.rss-items a {
-    margin: 0px;
-    display: block;
-    font: 15px/16px  Verdana, Tahoma, Arial, sans-serif;
-    padding: 5px;
-    background: #2980b9;
-    color: #ffffff;
-    text-decoration: none;
-    border-bottom: 1px solid #eee;
+  margin: 0;
+  display: block;
+  font: 15px/16px  Verdana, Tahoma, Arial, sans-serif;
+  padding: 5px;
+  background: #2980b9;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #eee;
 }
 
 #rssdata ul.rss-items a:hover {
-    background: #c0392b;
-    color: #fff;
-    text-decoration: none;
+  background: #c0392b;
+  color: #fff;
+  text-decoration: none;
 }
 
 #rsstitle {
-    padding: 6px 6px;
-    color: #fff;
-    font: 17px/18px bold Verdana, Tahoma, Arial, sans-serif;
-    text-decoration: none;
-    border-bottom: 2px solid #eee;
-} 
+  padding: 6px 6px;
+  color: #fff;
+  font: 17px/18px bold Verdana, Tahoma, Arial, sans-serif;
+  text-decoration: none;
+  border-bottom: 2px solid #eee;
+}
 
 #rssbottom {
-    padding: 2px 6px;
-    background: #2980b9;
-    color: #fff;
-    text-decoration: none;
-    border-top: 2px solid #eee;
-} 
-
-
+  padding: 2px 6px;
+  background: #2980b9;
+  color: #fff;
+  text-decoration: none;
+  border-top: 2px solid #eee;
+}
 
 #twitter ul.twits {
-    display: none;
-    margin: 0;
-    padding: 0;
+  display: none;
+  margin:  0;
+  padding: 0;
 }
 
 #twitter ul.twits li {
-    display: block;
-    margin: 0;
-    padding: 0;
+  display: block;
+  margin:  0;
+  padding: 0;
 }
 
 #twitter ul.twits a.tw {
-    margin: 0px;
-    display: block;
-    font: 15px/16px  Verdana, Tahoma, Arial, sans-serif;
-    padding: 5px;
-    background: #2980b9;
-    color: #ffffff;
-    text-decoration: none;
-    border-bottom: 1px solid #eee;
+  margin: 0;
+  display: block;
+  font: 15px/16px  Verdana, Tahoma, Arial, sans-serif;
+  padding: 5px;
+  background: #2980b9;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #eee;
 }
 
 #twitter ul.twits a.tw:hover {
-    background: #c0392b;
-    color: #c0392b;
-    text-decoration: none;
+  background: #c0392b;
+  color: #c0392b;
+  text-decoration: none;
 }
 
-
-
-#twitter_title {  
-    padding: 6px 6px; 
-    font: 17px/18px bold Verdana, Tahoma, Arial, sans-serif;
-    text-decoration: none;
-    border-bottom: 1px solid #eee;
-} 
+#twitter_title {
+  padding: 6px;
+  color: #fff;
+  font: 17px/18px bold Verdana, Tahoma, Arial, sans-serif;
+  text-decoration: none;
+  border-bottom: 2px solid #eee;
+}
 
 #twitter_bottom {
-    padding: 2px 6px;
-    background: #2980b9;
-    color: #fff;
-    text-decoration: none;   
-} 
+  padding: 2px 6px;
+  background: #2980b9;
+  color: #fff;
+  text-decoration: none;
+}
 
 .white {
-    color: #FFFFFF;  
+  color: #FFFFFF;
 }
 
 a.white {
-    color: #FFFFFF;  
+  color: #FFFFFF;
 }
 
-a:hover.white {
-    color: #FFFFFF;  
+a.white:hover {
+  color: #FFFFFF;
 }
 
 .article .thumbnail {
-    margin: 15px;
+  margin: 15px;
 }
 
 a {
-  color: #2980b9; 
+  color: #2980b9;
 }
 
 a:hover {
@@ -176,129 +169,254 @@ a:hover {
 }
 
 a:focus {
-    outline: thin dotted #c0392b;
-    outline-offset: -2px;
+  outline: thin dotted #c0392b;
+  outline-offset: -2px;
 }
 
 .well li a {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 a.thumbnail {
-    background-color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .well {
-    background-color: #2980b9;
+  background-color: #2980b9;
 }
 
 #sidebar .well, #sidebar h2, #sidebar a  {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 #sidebar a:hover {
-    color: #c0392b;
-}
-
-.navbar-inverse .brand:hover, .navbar-inverse .nav>.active>a, .navbar-inverse .nav>.active>a:hover, .navbar-inverse .nav>.active>a:focus {
-    background-color: #c0392b;
-}
-
-.navbar-inner {  
-    background-color: #2980b9;    
-}
-
-.navbar-inverse .navbar-inner {
-    background-color: #2980b9;
-}
-
-.navbar-inverse .nav li.dropdown.open>.dropdown-toggle, .navbar-inverse .nav li.dropdown.active>.dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle {    
-    background-color: #c0392b
-}
-
-.navbar-inverse .brand:hover, .navbar-inverse .nav>.active>a, .navbar-inverse .nav>.active>a:hover, .navbar-inverse .nav>.active>a:focus {   
-    background-color: #c0392b;   
+  color: #c0392b;
 }
 
 a.thumbnail:hover {
-    background-color: #c0392b;   
+  background-color: #c0392b;
 }
 
 a:focus {
-    outline: thin dotted #c0392b;    
+  outline: thin dotted #c0392b;
 }
 
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
-    background: #c0392b none;
-   
+#photo-feed.thumbnails > .span3 {
+  height: 350px;
+  margin: 5px;
 }
 
-.dropdown-menu>li>a{
-    color: #13192E; 
+.twitter-follow-button {
+  margin-top: 3px;
 }
 
-.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
-     background-image: -moz-linear-gradient(top, #c0392b, #c0392b);   
+.btn-danger {
+  background-color: #c0392b;
 }
 
-.navbar-inverse .nav>li>a:focus, .navbar-inverse .nav>li>a:hover {  
-    background-color: #c0392b;
-
+.btn-danger:hover {
+  background-color: #a83225;
 }
 
-.navbar .brand {
-    max-height: 50px;
-    overflow: visible;  
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-right: 3px;
-    margin-left: 3px;
-    padding-left: 3px; 
-    padding-right: 3px; 
-}
-
-#photo-feed.thumbnails>li.span3 {
-    height: 350px;
-    margin: 5px 5px 5px 5px;
-}
-
-.twitter-follow-button{
-    margin-top: 3px;
-}
-
-.btn-danger{
-    background-color: #c0392b;
-}
-
-.badge-important{
-    background-color: #c0392b;
-}
-
-h1, h2, h3{
-color: #13192E;
-}
-
-.nav{
-     font-size: 14px;
+h1, h2, h3 {
+  color: #13192E;
 }
 
 .leftimg {
-    height: 300px;
-    float:left; /* Выравнивание по левому краю */
-    margin: 10px 10px 20px 0px; /* Отступы вокруг картинки */
+  height: 300px;
+  float:  left;
+  margin: 10px 10px 20px 0;
 }
 
-img.deanimg{
-  height: 300px; 
-   margin: 20px 100px 20px 0px; 
+.deanimg {
+  height: 300px;
+  margin: 20px 100px 20px 0;
 }
 
-ul.nav li.dropdown:hover > ul.dropdown-menu{
-    display: block;    
+.badge {
+  padding-left: 6px;
+  padding-bottom: 3px;
+  font-size: 11px;
 }
 
-.dropdown-menu{
-     background-color: #FAFEFF;  
+.badge-important {
+  background-color: #c0392b;
 }
 
+#loader {
+  background-color: #c0392b;
+  margin-bottom: 20px;
+  padding-bottom: 3px;
+}
 
+#spinner {
+  display: inline;
+  margin-right: 3px;
+}
+
+*::selection { background: #de2346; color: #fff; }
+*::-moz-selection { background: #de2346; color: #fff; }
+*::-webkit-selection { background: #de2346; color: #fff; }
+
+/* Social Buttons */
+
+.b-share a[data-service], #rss a {
+  -webkit-transition-property: color, text;
+  -webkit-transition-duration: .4s, .4s;
+  -webkit-transition-timing-function: linear, ease-in;
+  -moz-transition-property: color, text;
+  -moz-transition-duration: .4s;
+  -moz-transition-timing-function: linear, ease-in;
+
+  -o-transition-property: color, text;
+  -o-transition-duration: .4s;
+  -o-transition-timing-function: linear, ease-in;
+}
+
+.b-share a[data-service='vkontakte'],
+.b-share a[data-service='facebook'],
+.b-share a[data-service='twitter'],
+.b-share a[data-service='gplus'],
+#rss a {
+  color: #bbbbbb;
+}
+
+.b-share a[data-service='vkontakte']:hover {
+  color: #45668e;
+}
+
+.b-share a[data-service='facebook']:hover {
+  color: #3b5998;
+}
+
+.b-share a[data-service='twitter']:hover {
+  color: #4099ff;
+}
+
+.b-share a[data-service='gplus']:hover {
+  color: #bc3627;
+}
+
+.fa {
+  line-height: inherit;
+}
+
+#rss {
+  display: inline-block;
+  vertical-align: middle;
+  font: 86%/1.4545em Arial, sans-serif
+}
+
+#rss a:hover {
+  color: #fa9b39;
+}
+
+/* Navigation */
+
+.navbar-inverse .brand:hover,
+.navbar-inverse .nav > .active > a,
+.navbar-inverse .nav > .active > a:hover,
+.navbar-inverse .nav > .active > a:focus {
+  background-color: #c0392b;
+}
+
+.navbar-inner {
+  background-color: #2980b9;
+}
+
+.navbar-inverse .navbar-inner {
+  background-color: #2980b9;
+}
+
+.navbar .brand {
+  max-height: 50px;
+  overflow: visible;
+  padding: 0 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.nav {
+  font-size: 14px;
+}
+
+.nav, .nav ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  background: #2980b9;
+  color: #ffffff;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.nav li:hover {
+  background: #c0392b;
+  color: #ffffff;
+}
+
+.nav li a {
+  color: #ffffff;
+}
+
+.nav > li > ul {
+  padding: 0;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  min-width: 150px;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+  -webkit-box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+  box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+}
+
+.nav ul > li {
+  background: #ffffff;
+  display: block;
+}
+
+.nav > li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav b.caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+  margin-top: 8px;
+}
+
+.nav li > a {
+  display: block;
+  padding: 15px 20px 16.5px;
+  color: #555555;
+  white-space: nowrap;
+}
+
+.nav li > a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav ul > li > a {
+  padding: 6px 10px;
+}

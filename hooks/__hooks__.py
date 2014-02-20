@@ -24,4 +24,4 @@ hooks = {
     'page.template.pre': make_hook('page.template.pre'),
     'page.template.post': make_hook('page.template.post') + subdir.add_subdir_hook(),
     'site.stop': make_hook('site.stop'),
-    }
+}

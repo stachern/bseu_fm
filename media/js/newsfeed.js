@@ -1,67 +1,62 @@
 FEED = {
-   feedServiceUrl: 'http://bseu-fm.appspot.com/',
-   feedOffset: 0,
-   feedDateStart: null,
-   feedDateEnd: null,
-   _throttleDelay: 100,
-   _throttleTimer: null,
+  feedServiceUrl: 'http://bseu-fm.appspot.com/',
+  feedOffset: 0,
+  feedDateStart: null,
+  feedDateEnd: null,
+  _throttleDelay: 100,
+  _throttleTimer: null,
 
-   get_feed: function(){
-       $.getJSON(this.feedServiceUrl + 'feed?callback=?&' + $.param({
-           offset: this.feedOffset,
-           start: this.feedDateStart,
-           end: this.feedDateEnd
-       }), this.display_loaded_articles);
-   },
+  get_feed: function() {
+    $.ajax({
+      url: this.feedServiceUrl + 'feed?callback=?&' + $.param({
+        offset: this.feedOffset,
+        start: this.feedDateStart,
+        end: this.feedDateEnd
+      }),
+      dataType: 'json',
+      beforeSend: function() {
+        $('#loader').attr('disabled', 'disabled');
+        $('#spinner').show();
+      },
+      complete: function() {
+        $('#loader').removeAttr('disabled');
+        $('#spinner').hide();
+      },
+      success: this.display_loaded_articles
+    });
+  },
 
-   display_loaded_articles: function (data){
-        var rendered_articles = new EJS(
-            {'url': SUBDIR_PREFIX + '/js/templates/article.ejs'}
-        ).render({articles: data,
-                  service: FEED.feedServiceUrl});
-        $('#feed').append(rendered_articles);
-   }
+  display_loaded_articles: function (data) {
+    var rendered_articles =
+        new EJS({ 'url': SUBDIR_PREFIX + '/js/templates/article.ejs' })
+              .render({ articles: data, service: FEED.feedServiceUrl });
+    $('#feed').append(rendered_articles);
+  }
 };
 
 function scroll_handler(e) {
-    clearTimeout(FEED._throttleTimer);
-        FEED._throttleTimer = setTimeout(function () {
-        if ($(window).scrollTop() + $(window).height() > $(document).height() - 50) {
-            FEED.feedOffset += 10;
-            FEED.get_feed();
-        }
-    }, FEED._throttleDelay);
-};
-
-$('#loader').hide()
-    .ajaxStart(function(){
-        $(this).show();
-    })
-    .ajaxStop(function() {
-        $(this).hide();
-});
-
-function display_loaded_articles(data){
-    var rendered_articles = new EJS({'url': SUBDIR_PREFIX + '/js/templates/article.ejs'}).render({articles: data,
-                                                                                                  service: FeedServiceUrl});
-    $('#feed').append(rendered_articles);
+  clearTimeout(FEED._throttleTimer);
+    FEED._throttleTimer = setTimeout(function () {
+    if ($(window).scrollTop() + $(window).height() > $(document).height() - 50) {
+      FEED.feedOffset += 10;
+      FEED.get_feed();
+    }
+  }, FEED._throttleDelay);
 }
 
-function get_feed(offset){
-    $.getJSON(FeedServiceUrl + 'feed?callback=?&offset=' + offset, display_loaded_articles);
-}
-
-function show_comments(artcle_id){
-    $('#vk-comments').html('');
-    VK.Widgets.Comments('vk-comments', {limit: 10, width: '530', attach: '*'}, artcle_id);
-    $('#commentModal').modal('show');
+function show_comments(article_id) {
+  $('#vk-comments').html('');
+  VK.Widgets.Comments('vk-comments', { limit: 10, width: '530', attach: '*' }, article_id);
+  $('#commentModal').modal('show');
 }
 
 $(document).ready(function(){
     FEED.get_feed();
 
-    $(window).off('scroll', scroll_handler)
-             .on('scroll', scroll_handler);
+    $('#loader').on('click', function(e) {
+      e.preventDefault();
+      scroll_handler();
+    });
 
     $('#feed-range').daterangepicker({
         ranges: {
@@ -106,12 +101,3 @@ $('#rssdata').ready(function(){
         $('#rssdata ul.rss-items').slideDown();
     });
 });
-
-/*$('#twitter').ready(function(){
-    $.getJSON('http://pipes.yahoo.com/pipes/pipe.run?_id=39cbc56ab57e3e72877c2996bce82259&_render=json&_callback=?', function(data){
-        var rendered_html =  new EJS({'url': SUBDIR_PREFIX + '/js/templates/twit.ejs'}).render({twits: data.value.items});
-        $('#twitter ul.twits').append(rendered_html);
-        $('#twitter div.loading').fadeOut();
-        $('#twitter ul.twits').slideDown();
-    });
-});*/
