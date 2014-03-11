@@ -1,4 +1,4 @@
-title: The Department of Organization and Management
+title: Department of Organization and Management
 slug: en
 category: departments/organization_and_management
 tags: [_nav, _eng]

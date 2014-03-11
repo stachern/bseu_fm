@@ -1,0 +1,24 @@
+<ul>
+  {% set i18n = { 'Факультет': 'Faculty', 'Кафедры': 'Departments', 'Абитуриенту': 'Applicants' } %}
+
+  {% for _page in site.tags.get('_menu') | sort(attribute='menu_index') %}
+    {# TODO: Remove hardcoded list for filtering #}
+    {% if _page.slug not in ['science', 'student'] and _page.subpages %}
+      <li>
+        <span>{{ i18n[_page.title] }}</span>
+        <ul>
+          {% for subpage in _page.subpages recursive %}
+            {% if '_eng' in subpage.tags %}
+              <li>
+                <a href="{{ subpage.url }}">{{ subpage.title }}</a>
+              </li>
+            {% endif %}
+            {% if subpage.subpages %}
+              <ul>{{ loop(subpage.subpages) }}</ul>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

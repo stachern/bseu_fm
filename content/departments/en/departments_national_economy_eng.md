@@ -1,4 +1,4 @@
-title: The Department of National Economy and State Governance
+title: Department of National Economy and State Governance
 slug: en
 category: departments/national_economy
 tags: [_nav, _eng]

@@ -1,0 +1,9 @@
+{% extends "no_sidebar.html" %}
+{% block main_content %}
+  <h2>{{ page.title }}</h2>
+  {% if "_eng" in page.tags %}
+    {% include "content/tree_eng.html" %}
+  {% else %}
+    {% include "content/tree.html" %}
+  {% endif %}
+{% endblock %}
