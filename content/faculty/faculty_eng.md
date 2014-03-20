@@ -37,13 +37,14 @@ The Faculty is active in international cooperation with 12 educational establish
 The Faculty is known for its active students’ self-governance bodies (the Student Council, the Panel of Monitors, the Belarusian Youth Union (BRSM) committee, and the Students’ Trade Union Committee) that are initiators of original actions and events. The BRSM and Students’ Trade Union committees have been winners in the University contest for a number of years running. The students of the Faculty are the first at the University to design their flag and emblem.
 
 The students, lecturers and teachers of the Faculty are among the most active sportsmen of the University. They are regular prizewinners at the BSEU sports competitions in different kinds of sport (chess, volleyball, basketball, arm-wrestling, judo, etc.).
+
 Principles to guide the FM students
 
-1.Analyze your knowledge: find out what you are worth; take part in competitions, Olympiads, and conferences.
-2.Make yourself known: activity favors professional development.
-3.Believe in your dream: seek to find work in the best company.
-4.Don’t give up in any situation.
-5.Remember: only the Faculty of Management can be better than the Faculty of Management!
+1. Analyze your knowledge: find out what you are worth; take part in competitions, Olympiads, and conferences.
+2. Make yourself known: activity favors professional development.
+3. Believe in your dream: seek to find work in the best company.
+4. Don’t give up in any situation.
+5. Remember: only the Faculty of Management can be better than the Faculty of Management!
 
 Our Address:
 ------------

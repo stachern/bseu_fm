@@ -300,19 +300,22 @@ ul.nav li.dropdown:hover > ul.dropdown-menu{
 .dropdown-menu{
      background-color: #FAFEFF;  
 }
-		#panel {    
-			display: none;
-			padding: 5px;
-			width: 225px;
-			height: 120px;
-			background: #2980b9;
-			color: #FFF;
-			}
-		.btn-slide {
-			
-			
-			}
-		.active {
-			
-			}
 
+#panel1,
+#panel2,
+#panel3 {
+  display: none;
+  padding: 5px;
+  width: 225px;
+  height: 40px;
+  background: #2980b9;
+  color: #fff;
+}
+
+.btn-slide1,
+.btn-slide2,
+.btn-slide3 {
+}
+
+.active {
+}
