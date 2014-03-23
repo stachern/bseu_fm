@@ -5,11 +5,11 @@ tags: [student_science]
 sidebar_index: 5
 ---
 
--   [Экономической информатики](/departments/economic_informatics/)
--   [Экономики труда](/departments/labor_economics/)
--   [Экономики природопользования](/departments/environmental_economics/)
--   [Национальной экономики и государственного управления](/departments/national_economy/)
--   [Прикладной математики и экономической кибернетики](/departments/economic_cybernetics/)
--   [Экономики промышленных предприятий](/departments/industrial_economics/)
--   [Экономики и управления предприятиями АПК](/departments/agricultural_economics/)
--   [Организации и управления](/departments/organization_and_management/)
+-   [Экономической информатики](/files/snil/dki_snil.doc)
+-   [Экономики труда](/files/snil/dkt_snil.doc)
+-   [Экономики природопользования](/files/snil/dke_snil.doc)
+-   [Национальной экономики и государственного управления](/files/snil/dkm_snil.doc)
+-   [Прикладной математики и экономической кибернетики](/files/snil/dkk_snil.doc)
+-   [Экономики промышленных предприятий](/files/snil/dkp_snil.doc)
+-   [Экономики и управления предприятиями АПК](/files/snil/dka_snil.doc)
+-   [Организации и управления](/files/snil/dku_snil.doc)

@@ -4,10 +4,10 @@ category: faculty
 tags: [_nav, _eng]
 ---
 
-The School of Management
+The Faculty of Management
 ------------------------
 
-The School of Management is the successor of the University’s oldest School of Economics and Planning. The School trains a new generation of specialists majoring in Economics, Innovative Management, Information Technologies and Modeling of Economic Systems Development. Its graduates obtain qualifications of economic and managerial profile that enable them to work at the Republic’s leading enterprises, in bodies of state and local governments, scientific and project establishments etc.
+The Faculty of Management is the successor of the University’s oldest Faculty of Economics and Planning. It trains a new generation of specialists majoring in Economics, Innovative Management, Information Technologies and Modeling of Economic Systems Development. Its graduates obtain qualifications of economic and managerial profile that enable them to work at the Republic’s leading enterprises, in bodies of state and local governments, scientific and project establishments etc.
 
 Departments
 -----------
@@ -29,21 +29,21 @@ Majors and specializations
 *   **«Economic Informatics»**
 *   **«Economic Cybernetics»** (specialization: Optimum Planning and Management in Economy).
 
-Annually more than 1800 undergraduates including full- and part-time students are trained in the School. As its activities are aimed at both professional training of specialists and their scholarly achievement, the students are also involved in research activities, thus the integration of teaching, research and economic practice is achieved. To enhance student research work, student research laboratories (SRL) are created at each department of the School. Each department offers Master’s, Ph.D. and Dr. hab. degree courses.
+Annually more than 1800 undergraduates including full- and part-time students are trained at the  faculty. As its activities are aimed at both professional training of specialists and their scholarly achievement, the students are also involved in research activities, thus the integration of teaching, research and economic practice is achieved. To enhance student research work, student research laboratories (SRL) are created at each department of the faculty. Each department offers Master’s, Ph.D. and Dr. hab. degree courses.
 
-The School is active in international cooperation with 12 educational establishments from Russia, Ukraine, Poland, Czechia, Germany and Sweden. Its faculty members and students participate in international scientific projects and academic mobility programs, scientific conferences and seminars, on-line ones among them, and so on. With each year a number of undergraduate and postgraduate students – citizens of foreign countries (Ukraine, Lithuania, Turkmenistan, Kazakhstan, China etc.) is increasing.
+The Faculty is active in international cooperation with 12 educational establishments from Russia, Ukraine, Poland, Czechia, Germany and Sweden. Its faculty members and students participate in international scientific projects and academic mobility programs, scientific conferences and seminars, on-line ones among them, and so on. Each year a number of undergraduate and postgraduate students – citizens of foreign countries (Ukraine, Lithuania, Turkmenistan, Kazakhstan, China etc.) is increasing.
 
-The School is known for its active students’ self-governance bodies (the Student Council, the Panel of Monitors, the Belarusian Youth Union (BRSM) committee, and the Students’ Trade Union Committee) that are initiators of original actions and events. The BRSM and Students’ Trade Union committees have been winners in the University contest for a number of years running. The students of the School are the first at the University to design their flag and emblem.
+The Faculty is known for its active students’ self-governance bodies (the Student Council, the Panel of Monitors, the Belarusian Youth Union (BRSM) committee, and the Students’ Trade Union Committee) that are initiators of original actions and events. The BRSM and Students’ Trade Union committees have been winners in the University contest for a number of years running. The students of the Faculty are the first at the University to design their flag and emblem.
 
-The students and faculty members of the School are among the most active sportsmen of the University. They are regular prizewinners at the BSEU sports competitions in different kinds of sport (chess, volleyball, basketball, arm-wrestling, judo, etc.).
+The students, lecturers and teachers of the Faculty are among the most active sportsmen of the University. They are regular prizewinners at the BSEU sports competitions in different kinds of sport (chess, volleyball, basketball, arm-wrestling, judo, etc.).
 
-Principles to guide the SM students
+Principles to guide the FM students
 
-1.  Analyze your knowledge: find out what you are worth; take part in competitions, Olympiads, and conferences.
-2.  Make yourself known: activity favors professional development.
-3.  Believe in your dream: seek to find work in the best company.
-4.  Don’t give up in any situation.
-5.  Remember: only the School of Management can be better than the School of Management!
+1. Analyze your knowledge: find out what you are worth; take part in competitions, Olympiads, and conferences.
+2. Make yourself known: activity favors professional development.
+3. Believe in your dream: seek to find work in the best company.
+4. Don’t give up in any situation.
+5. Remember: only the Faculty of Management can be better than the Faculty of Management!
 
 Our Address:
 ------------
