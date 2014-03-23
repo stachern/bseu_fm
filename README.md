@@ -10,5 +10,5 @@ Wok-based site for the Faculty of Management of Belarus State Economic Universit
 4. Create your feature branch (`git checkout -b my-new-feature`)
 5. Commit your changes (`git commit -am 'Add some feature'`)
 6. Push to the branch (`git push origin my-new-feature`)
-7. Rebase branch before creating Pull Request in case new commits were added
+7. Rebase branch in case new commits were added (`git rebase upstream/master`)
 8. Create new Pull Request
