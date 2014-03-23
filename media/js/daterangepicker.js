@@ -29,8 +29,8 @@
         this.separator = ' - ';
         this.showWeekNumbers = false;
         this.buttonClasses = ['btn'];
-        this.applyClass = 'btn btn-small btn-success';
-        this.clearClass = 'btn btn-small';
+        this.applyClass = 'btn btn-small btn-primary';
+        this.clearClass = 'btn btn-small btn-danger';
         this.locale = {
             applyLabel: 'Apply',
             clearLabel: "Clear",

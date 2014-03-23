@@ -20,7 +20,6 @@ Departments
 *   [Department of Economic Informatics](/departments/economic_informatics/en)
 *   [Department of Applied Mathematics and Economic Cybernetics](/departments/economic_cybernetics/en)
 
-
 Majors and specializations
 --------------------------
 

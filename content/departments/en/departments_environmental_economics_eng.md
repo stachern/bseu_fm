@@ -27,7 +27,7 @@ To improve the educational system and promote professional training, cooperation
 
 The department maintains scientific and research contacts with Uppsala University (Sweden), Moscow State University, St. Petersburg State University (Russian Federation), Sumy State University (Ukraine). It cooperates with the Ministry of Natural Resources and Environmental Protection of the Republic of Belarus, the State Committee for Standardization and the State Committee for Property, has close contacts with leading industrial enterprises etc.
 
-The department’s main directions of scholarly research: 
+The department’s main directions of scholarly research:
 ------------------------------------------------------
 
 -	mechanisms of sustainable economic development in the Republic of Belarus;
@@ -44,6 +44,6 @@ The department contact information:
 
 Address: Partizansky Prospect, 22-a, block 4, room 207, Minsk, 220070, Republic of Belarus
 
-Telephone: +375 17 209-88-42 
+Telephone: +375 17 209-88-42
 
 E-mail: <kprir@bseu.by>
