@@ -6,3 +6,4 @@ sidebar_index: 3
 ---
 
 -   [Заказать справку](/fm/service)
+-   [Удобно проверить расписание](http://app.inside.by/)
