@@ -333,6 +333,7 @@ h1, h2, h3 {
 
 .navbar-inner {
   background-color: #2980b9;
+  border-width: 0 !important;
 }
 
 .navbar-inverse .navbar-inner {
@@ -386,7 +387,6 @@ h1, h2, h3 {
   top: 50px;
   left: 0;
   min-width: 150px;
-  box-shadow: none;
   display: none;
   opacity: 0;
   visibility: hidden;
@@ -395,8 +395,9 @@ h1, h2, h3 {
   -ms-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
-  -webkit-box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
-  box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+  -webkit-box-shadow: 2px 5px 6px #777;
+  -moz-box-shadow: 2px 5px 6px #777;
+  box-shadow: 2px 5px 6px #777;
 }
 
 .nav ul > li {
