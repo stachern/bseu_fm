@@ -395,9 +395,8 @@ h1, h2, h3 {
   -ms-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
-  -webkit-box-shadow: 2px 5px 6px #777;
-  -moz-box-shadow: 2px 5px 6px #777;
-  box-shadow: 2px 5px 6px #777;
+  -webkit-box-shadow: 1px 6px 8px rgba(0,0,0,.175);
+  box-shadow: 1px 6px 8px rgba(0,0,0,.175)
 }
 
 .nav ul > li {
