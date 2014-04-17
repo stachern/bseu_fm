@@ -15,7 +15,7 @@ sidebar_index: 4
     <li><a href="#" class="btn-slide2">Информация о допуске студентов к госэкзамену</a></li>
     <div id="panel2">
       <li><a href = "/files/inf_dopusk_dfo.doc">ДФО</a></li>
-      <li><a href = "/files/inf_dopusk_dfo.doc">ЗФО</a></li>
+      <li><a href = "/files/inf_dopusk_zfo.doc">ЗФО</a></li>
     </div>
     <li><a href="#" class="btn-slide3">Состав ГЭК</a></li>
     <div id="panel3">
