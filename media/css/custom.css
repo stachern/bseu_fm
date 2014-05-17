@@ -244,6 +244,16 @@ h1, h2, h3 {
   margin: 20px 100px 20px 0;
 }
 
+.depimg {
+  height: 300px;
+  margin: 3px 10px 20px 0;
+  max-width: 300px;
+}
+
+.deputy {
+  vertical-align: top;
+}
+
 .badge {
   padding-left: 6px;
   padding-bottom: 3px;
