@@ -14,5 +14,9 @@ sidebar_index: 1
 -   [Как правильно подготовить себя к сдаче экзамена](/files/examrules.doc)
 -   [Блог библиотеки БГЭУ](http://library.bseu.blog.tut.by/)
 -   [Размеры стипендий](/files/stipendii.doc)
+<<<<<<< HEAD
 -   [Стоимость платных услуг](/files/otrabotki.doc)
 -   [Оплата через ЕРИП](/files/erip.doc)
+=======
+-   [Стоимость платных услуг](/otrabotki.doc)
+>>>>>>> 29cad2bc00b78f4212c70dd94460de548c2fbb92

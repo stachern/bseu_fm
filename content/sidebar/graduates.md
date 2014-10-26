@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 title: Выпускнику-2015
+=======
+title: Выпускнику-2014
+>>>>>>> 29cad2bc00b78f4212c70dd94460de548c2fbb92
 slug: graduates
 category: other
 tags: [student]
