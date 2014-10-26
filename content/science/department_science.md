@@ -115,7 +115,6 @@ type: tag_by_slug_sidebar
 
 [Выполняемые НИР](/files/economic_cybernetics_nir.doc)
 
-
 Кафедра экономической информатики
 ---------------------------------
 

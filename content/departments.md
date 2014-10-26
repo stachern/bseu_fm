@@ -6,4 +6,4 @@ tags: [_nav, _menu, _ignore_nav]
 type: no_self_content
 ---
 
-departemtns page
+departments page
