@@ -231,7 +231,6 @@ a:focus {
 
 h1, h2, h3 {
   color: #13192E;
-<<<<<<< HEAD
 }
 
 .leftimg {
@@ -439,215 +438,6 @@ h1, h2, h3 {
   color: #ffffff;
 }
 
-=======
-}
-
-.leftimg {
-  height: 300px;
-  float:  left;
-  margin: 10px 10px 20px 0;
-}
-
-.deanimg {
-  height: 300px;
-  margin: 20px 100px 20px 0;
-}
-
-.depimg {
-  height: 300px;
-  margin: 3px 10px 20px 0;
-  max-width: 300px;
-}
-
-.deputy {
-  vertical-align: top;
-}
-
-.badge {
-  padding-left: 6px;
-  padding-bottom: 3px;
-  font-size: 11px;
-}
-
-.badge-important {
-  background-color: #c0392b;
-}
-
-#loader {
-  background-color: #c0392b;
-  margin-bottom: 20px;
-  padding-bottom: 3px;
-}
-
-#spinner {
-  display: inline;
-  margin-right: 3px;
-}
-
-*::selection { background: #de2346; color: #fff; }
-*::-moz-selection { background: #de2346; color: #fff; }
-*::-webkit-selection { background: #de2346; color: #fff; }
-
-/* Social Buttons */
-
-.b-share a[data-service], #rss a {
-  -webkit-transition-property: color, text;
-  -webkit-transition-duration: .4s, .4s;
-  -webkit-transition-timing-function: linear, ease-in;
-  -moz-transition-property: color, text;
-  -moz-transition-duration: .4s;
-  -moz-transition-timing-function: linear, ease-in;
-
-  -o-transition-property: color, text;
-  -o-transition-duration: .4s;
-  -o-transition-timing-function: linear, ease-in;
-}
-
-.b-share a[data-service='vkontakte'],
-.b-share a[data-service='facebook'],
-.b-share a[data-service='twitter'],
-.b-share a[data-service='gplus'],
-#rss a {
-  color: #bbbbbb;
-}
-
-.b-share a[data-service='vkontakte']:hover {
-  color: #45668e;
-}
-
-.b-share a[data-service='facebook']:hover {
-  color: #3b5998;
-}
-
-.b-share a[data-service='twitter']:hover {
-  color: #4099ff;
-}
-
-.b-share a[data-service='gplus']:hover {
-  color: #bc3627;
-}
-
-.fa {
-  line-height: inherit;
-}
-
-#rss {
-  display: inline-block;
-  vertical-align: middle;
-  font: 86%/1.4545em Arial, sans-serif
-}
-
-#rss a:hover {
-  color: #fa9b39;
-}
-
-/* Navigation */
-
-.navbar-inverse .brand:hover,
-.navbar-inverse .nav > .active > a,
-.navbar-inverse .nav > .active > a:hover,
-.navbar-inverse .nav > .active > a:focus {
-  background-color: #c0392b;
-}
-
-.navbar-inner {
-  background-color: #2980b9;
-  border-width: 0 !important;
-}
-
-.navbar-inverse .navbar-inner {
-  background-color: #2980b9;
-}
-
-.navbar .brand {
-  max-height: 50px;
-  overflow: visible;
-  padding: 0 3px;
-  margin-right: 3px;
-  margin-left: 3px;
-}
-
-.nav {
-  font-size: 14px;
-}
-
-.nav, .nav ul {
-  text-align: left;
-  display: inline;
-  margin: 0;
-  list-style: none;
-}
-
-.nav li {
-  display: inline-block;
-  margin-right: -4px;
-  position: relative;
-  background: #2980b9;
-  color: #ffffff;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.nav li:hover {
-  background: #c0392b;
-  color: #ffffff;
-}
-
-.nav li a {
-  color: #ffffff;
-}
-
-.nav > li > ul {
-  padding: 0;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  min-width: 150px;
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
-  -webkit-box-shadow: 1px 6px 8px rgba(0,0,0,.175);
-  box-shadow: 1px 6px 8px rgba(0,0,0,.175)
-}
-
-.nav ul > li {
-  background: #ffffff;
-  display: block;
-}
-
-.nav > li:hover ul {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-}
-
-.nav b.caret {
-  border-top-color: #ffffff;
-  border-bottom-color: #ffffff;
-  margin-top: 8px;
-}
-
-.nav li > a {
-  display: block;
-  padding: 15px 20px 16.5px;
-  color: #555555;
-  white-space: nowrap;
-}
-
-.nav li > a:hover {
-  text-decoration: none;
-  color: #ffffff;
-}
-
->>>>>>> 29cad2bc00b78f4212c70dd94460de548c2fbb92
 .nav ul > li > a {
   padding: 6px 10px;
 }
@@ -658,7 +448,6 @@ h1, h2, h3 {
   padding: 15px;
   cursor: pointer;
 }
-<<<<<<< HEAD
 .depart_magistr {
 text-align:left;
 }
@@ -754,5 +543,3 @@ td.today:hover {
 .width950{
 
 }
-=======
->>>>>>> 29cad2bc00b78f4212c70dd94460de548c2fbb92
