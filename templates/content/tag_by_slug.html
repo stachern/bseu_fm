@@ -1,10 +1,10 @@
 {% for tag, pages in site.tags.items() %}
   {% if tag == page.slug %}
-      {% for tag_page in pages|sort(attribute='sidebar_index') %}
+    {% for tag_page in pages|sort(attribute='sidebar_index') %}
 	  <div class="container-fluid well">
-        <h2>{{ tag_page.title }}</h2>
-        <p>{{ tag_page.content }}</p> 
-		</div>
-      {% endfor %}
+	    <h2>{{ tag_page.title }}</h2>
+		  <p>{{ tag_page.content }}</p> 
+	  </div>
+    {% endfor %}
   {% endif %}
 {% endfor %}

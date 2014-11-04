@@ -52,6 +52,7 @@ Cпециальности и специализации
 
 ФМ - это мы
 -----------
+
 <iframe width="560" height="315" src="//www.youtube.com/embed/ytqQabTNRRs" frameborder="0" allowfullscreen></iframe>
 
 Гимн факультета
