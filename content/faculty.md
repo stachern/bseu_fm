@@ -50,6 +50,11 @@ Cпециальности и специализации
 4. Не унывай в любой ситуации.
 5. Запомни: лучше ФМ может быть только ФМ!
 
+ФМ - это мы
+-----------
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/ytqQabTNRRs" frameborder="0" allowfullscreen></iframe>
+
 Гимн факультета
 ---------------
 

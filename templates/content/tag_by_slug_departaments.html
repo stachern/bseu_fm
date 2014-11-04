@@ -1,0 +1,12 @@
+{% for tag, pages in site.tags.items() %}
+  {% if tag == page.slug %}
+    <div class="container-fluid well">
+      {% for tag_page in pages | sort(attribute='sidebar_index') %}
+        <h3 class="depart_magistr">
+		  <a href="/files/{{tag}}.doc">Приглашаем в магистратуру</a>
+		</h3>
+        <p>{{ tag_page.content }}</p>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
