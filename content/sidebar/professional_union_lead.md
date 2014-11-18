@@ -5,9 +5,9 @@ tags: [professional_union]
 sidebar_index: 2
 ---
 
-![Кузнецов Александр](/img/content/professional_union/professional_union_lead.jpg)
+![Макаров Антон](/img/content/professional_union/professional_union_lead.jpg)
 
-*Кузнецов Александр*
+*Макаров Антон*
 
 Телефон:
-+375291478032
++375447474284
