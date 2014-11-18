@@ -5,9 +5,12 @@ tags: [council]
 sidebar_index: 2
 ---
 
-![Гергес Владислав](/img/content/council/council_lead.jpg)
+![Сычевская Анастасия](/img/content/council/council_lead.jpg)
 
-*Гергес Владислав*
+*Сычевская Анастасия*
 
 Телефон:
-+375293505253
++375293961698
+
+E-mail:
+anastasiaisychevskaya@gmail.com
