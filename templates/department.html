@@ -18,7 +18,9 @@
         </div>
         {% if not '_eng' in page.tags %}
           <div><blockquote>{{ page.moto }}</blockquote></div>
-          {% include "content/tag_by_category.html" %}
+		  <div id="empty_box"></div>
+		  {% include "content/tag_by_slug_departaments.html" %}
+		  {% include "content/tag_by_category.html" %}
         {% endif %}
       </div>
     </div>

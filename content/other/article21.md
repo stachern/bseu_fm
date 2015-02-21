@@ -2,6 +2,7 @@ title: Интересные факты о бизнесе
 tags: [_nav, interesting, _category_header]
 category: other/articles
 ---
+
 ![Интересные факты о бизнесе](/img/content/articles/article21.jpg)
 
 Бизнес – вещь не простая. Нужно проявить упорство, терпение и недюжий ум, чтобы выжить в неспокойном море рыночной экономики. <br>

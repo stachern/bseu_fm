@@ -5,9 +5,12 @@ tags: [brsm]
 sidebar_index: 2
 ---
 
-![Качан Мария](/img/content/brsm/brsm_lead.jpg)
+![Лукашевич Ольга](/img/content/brsm/brsm_lead.jpg)
 
-*Качан Мария*
+*Лукашевич Ольга*
 
 Телефон:
-+375295765071
++375297233869
+
+E-mail:
+l.o.v.5@mail.ru

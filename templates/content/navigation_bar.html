@@ -5,10 +5,10 @@
         {% for menu_entry in site.tags.get('_menu')|sort(attribute='menu_index') %}
           {% if menu_entry.subpages %}
             <li>
-              <a href="#">
+              <span>
                 {{ menu_entry.menu }}
                 <b class="caret"></b>
-              </a>
+              </span>
               <ul>
                 {% if not "_ignore_nav" in menu_entry.tags %}
                   <li><a href="{{ menu_entry.url }}">{{ menu_entry.menu }}</a></li>

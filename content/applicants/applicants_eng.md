@@ -1,13 +1,12 @@
-title: Applicants
+title: Majors
 slug: en
-category: applicants
+category: applicants/applicants
 tags: [_nav, _eng]
 ---
 
 <font color="#2860d9">
-**Dear applicants,**
+**trained at the Faculty of Management**
 
-*the Faculty of Management is waiting for you!*
 </font>
 
 Who does the faculty of management train? First of all, it trains economists-managers for work in various spheres of the National economy at enterprises of all types of ownership. For this reason the major “Economics and Management of Enterprise” is the most numerous one at the faculty. The major is structured into a number of specializations due to the profile of the knowledge obtained and branch the graduate can work in.
@@ -25,6 +24,10 @@ If you want to manage economy using information technologies, the major **“Eco
 If you want to manage economy, using knowledge in computing techniques, automated control systems, economic process modeling, you are the best candidate for the major **“Economic Cybernetics”** (specialization “Optimal Planning and Management in Economy”). Possessing a systems analysis methodology, powerful mathematical tools, cyberneticists-economists will help enterprises of various branches of economy to raise their analytical, administrative and business activities to an appropriate level.
 
 If you will manage economy at the state level, the major **“State Governance”** is the right choice for you. Its graduates can work in various ministries, institutions and state governance bodies of all levels – from district to republican ones. Their sphere includes planning, forecast and regulation of national economy, its branches and regions.
+
+If you wish to obtain the skills to analyze and forecast the development of various sectors of national economy, diagnose the state of the country, region or city’s economy, the major **“National Economy”** is your choice. After training in the area you can work at analytical structures of ministries and institutions, other bodies of state governance, as well as for investment banks, companies, rating and information agencies, forex-companies and analytical portals. 
+Training: 4 years full-time; qualification: economist-analyst.
+
 
 If you want to obtain modern economic, organizational and administrative, socio-psychological methods to manage economic entities, your major is **“Management”** (direction “Innovative Management”). You will learn Innovative and Crisis Management, Business-leadership, Technology of Decision-making and much more.
 

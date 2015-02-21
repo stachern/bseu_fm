@@ -13,6 +13,6 @@ sidebar_index: 1
 -   [Порядок заселения в общежития](http://www.bseu.by/russian/student/polog_zasel.htm)
 -   [Как правильно подготовить себя к сдаче экзамена](/files/examrules.doc)
 -   [Блог библиотеки БГЭУ](http://library.bseu.blog.tut.by/)
--   [Расписание занятий](http://app.inside.by/)
 -   [Размеры стипендий](/files/stipendii.doc)
--   [Стоимость платных услуг](/otrabotki.doc)
+-   [Стоимость платных услуг](/files/otrabotki.doc)
+-   [Оплата через ЕРИП](/files/erip.doc)
