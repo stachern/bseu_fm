@@ -1,7 +1,7 @@
 title: Справочная информация
 slug: links_applicant
 category: other
-tags: [applicants]
+tags: [majors]
 sidebar_index: 1
 ---
 

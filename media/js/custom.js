@@ -77,3 +77,14 @@ $(function () {
 		});
 	});
 });
+
+// student council
+$(function() {
+  collapse();
+});
+
+var collapse = function() {
+  $('.i2Style').click(function() {
+    $(this).parent().find('img').toggleClass('hide');
+  });
+};

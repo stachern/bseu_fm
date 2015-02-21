@@ -26,6 +26,7 @@ Majors and specializations
 *   **«Management»** (area: Innovative Management)
 *   **«Economics and Management of Enterprise»** (specializations: Economics and Management of Industrial Enterprise, Economics and Management of Agro-industrial complex, Environmental Economics, Labor Economics)
 *   **«State Governance»**
+*   **«National Economy»**
 *   **«Economic Informatics»**
 *   **«Economic Cybernetics»** (specialization: Optimum Planning and Management in Economy).
 

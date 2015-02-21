@@ -518,7 +518,7 @@ td.today:hover {
 	color: white;
 	border: 1px solid white;
 	font-size: 15px;
-	width: 200px;
+	width: 600px; /* 200px, wow banner */
 	-moz-border-radius: 3px;
 	-khtml-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -541,5 +541,52 @@ td.today:hover {
 	color: #222;
 }
 .width950{
+}
 
+/* applicants help */
+
+.table_help_inf,
+.table_help_inf th {
+  border: 1px solid;
+}
+
+.table_help_inf td {
+  border: 1px solid #ddd;
+  padding-left: 3px;
+}
+
+.table_help{
+  text-align: center;
+}
+
+/* student council */
+
+.i2Style {
+  font: bold 24px Tahoma, Geneva, sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  background: #18184c;
+  border: 0 solid #ffffff;
+  text-shadow: 0 -1px 1px #222222;
+  box-shadow: 1px -12px 0px #484eb5;
+  -moz-box-shadow: 1px -12px 0 #484eb5;
+  -webkit-box-shadow: 1px -12px 0 #484eb5;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  width: 575px;
+  padding: 10px 10px;
+  cursor: pointer;
+  margin: 0 auto;
+  -webkit-transform: rotate(0deg);
+}
+
+.i2Style:active {
+  cursor: pointer;
+  position: relative;
+  top: 2px;
+}
+
+.i2Style ~ img {
+  margin-bottom: 35px;
 }
