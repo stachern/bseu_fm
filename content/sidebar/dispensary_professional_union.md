@@ -2,7 +2,7 @@ title: Профилакторий БГЭУ
 slug: dispensary_professional_union
 category: other
 tags: [professional_union]
-sidebar_index: 1
+sidebar_index: 2
 ---
 
 * [Видеопрезентация профилактория](http://youtu.be/QZX8ORFLBhQ)

@@ -1,4 +1,4 @@
-title: Конференции
+title: Конференции ФМ
 slug: conf_student_science
 category: other
 tags: [student_science]
