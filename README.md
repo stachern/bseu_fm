@@ -12,7 +12,7 @@ prepend it with `sudo` then.
 ## Contributing
 
 1. Fork it
-2. Update remote (`git remote set-url origin https://github.com/<your_username>/bseu_fm.git`)
+2. Clone forked repo
 3. Add `upstream` remote (`git remote add upstream https://github.com/stachern/bseu_fm.git`)
 4. Create your feature branch (`git checkout -b my-new-feature`)
 5. Commit your changes (`git commit -am 'Add some feature'`)
