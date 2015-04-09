@@ -615,11 +615,12 @@ td.today:hover {
   width: 100%;
   position: relative;
   text-decoration: none;
+  font-size: 22px;
 }
 
 .widget-item a > div {
   position: absolute;
-  padding: 16px;
+  padding: 16px 16px 20px 16px;
   bottom: 0;
   left: 0;
   right: 0;
