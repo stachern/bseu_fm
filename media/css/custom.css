@@ -590,3 +590,47 @@ td.today:hover {
 .i2Style ~ img {
   margin-bottom: 35px;
 }
+
+.widget-item {
+  height: 180px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  position: relative;
+  opacity: .75;
+  transition: opacity ease .5s;
+  -o-transition: opacity ease .5s;
+  -ms-transition: opacity ease .5s;
+  -moz-transition: opacity ease .5s;
+  -webkit-transition: opacity ease .5s;
+}
+
+.widget-item:hover {
+  opacity: 1;
+}
+
+.widget-item a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  text-decoration: none;
+}
+
+.widget-item a > div {
+  position: absolute;
+  padding: 16px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.widget-item.blue a > div {
+  background-color: #069;
+  color: #fff;
+}
+
+.widget-item.schedule {
+  background: url(../img/schedule.jpg) center center;
+  background-size: cover;
+}
