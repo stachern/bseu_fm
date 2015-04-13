@@ -59,37 +59,37 @@ $(document).ready(function(){
     });
 
     $('#feed-range').daterangepicker({
-        ranges: {
-            'Сегодня': [new Date(), new Date()],
-            'Вчера': [moment().subtract('days', 1), moment().subtract('days', 1)],
-            'Последние 7 дней': [moment().subtract('days', 6), new Date()],
-            'Последние 30 дней': [moment().subtract('days', 29), new Date()],
-            'За этот месяц': [moment().startOf('month'), moment().endOf('month')],
-            'За прошлый месяц': [moment().subtract('month', 1).startOf('month'), moment().subtract('month', 1).endOf('month')]
-        },
-        opens: 'left',
-        format: 'DD/MM/YYYY',
-        separator: ' по ',
-        minDate: '01/01/2011',
-        maxDate: '31/12/2014',
-        locale: {
-            applyLabel: 'Применить',
-            clearLabel: 'Очистить',
-            fromLabel: 'С',
-            toLabel: 'По',
-            customRangeLabel: 'Произвольный промежуток',
-            daysOfWeek: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт','Сб'],
-            monthNames: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
-            firstDay: 1
-        }
+      ranges: {
+        'Сегодня': [new Date(), new Date()],
+        'Вчера': [moment().subtract('days', 1), moment().subtract('days', 1)],
+        'Последние 7 дней': [moment().subtract('days', 6), new Date()],
+        'Последние 30 дней': [moment().subtract('days', 29), new Date()],
+        'За этот месяц': [moment().startOf('month'), moment().endOf('month')],
+        'За прошлый месяц': [moment().subtract('month', 1).startOf('month'), moment().subtract('month', 1).endOf('month')]
+      },
+      opens: 'left',
+      format: 'DD/MM/YYYY',
+      separator: ' по ',
+      minDate: '01/01/2011',
+      maxDate: moment().endOf('year'),
+      locale: {
+        applyLabel: 'Применить',
+        clearLabel: 'Очистить',
+        fromLabel: 'С',
+        toLabel: 'По',
+        customRangeLabel: 'Произвольный промежуток',
+        daysOfWeek: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт','Сб'],
+        monthNames: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+        firstDay: 1
+      }
     },
     function(start, end) {
-        $('#feed-range span').html(start.format('D/M/YYYY') + ' - ' + end.format('D/M/YYYY'));
-        $('#feed').html('');
-        FEED.feedOffset = 0;
-        FEED.feedDateStart = start.format('DD/MM/YYYY');
-        FEED.feedDateEnd = end.format('DD/MM/YYYY');
-        FEED.get_feed();
+      $('#feed-range span').html(start.format('D/M/YYYY') + ' - ' + end.format('D/M/YYYY'));
+      $('#feed').html('');
+      FEED.feedOffset = 0;
+      FEED.feedDateStart = start.format('DD/MM/YYYY');
+      FEED.feedDateEnd = end.format('DD/MM/YYYY');
+      FEED.get_feed();
     });
 });
 
