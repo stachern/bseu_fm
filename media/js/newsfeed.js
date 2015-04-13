@@ -71,7 +71,7 @@ $(document).ready(function(){
       format: 'DD/MM/YYYY',
       separator: ' по ',
       minDate: '01/01/2011',
-      maxDate: moment().endOf('year'),
+      maxDate: moment().endOf('month'),
       locale: {
         applyLabel: 'Применить',
         clearLabel: 'Очистить',
