@@ -620,7 +620,7 @@ td.today:hover {
 
 .widget-item a > div {
   position: absolute;
-  padding: 16px 16px 20px 16px;
+  padding: 16px 16px 20px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -633,5 +633,10 @@ td.today:hover {
 
 .widget-item.schedule {
   background: url(../img/schedule.jpg) center center;
+  background-size: cover;
+}
+
+.widget-item.announcement {
+  background: url(../img/announcement.jpg) center center;
   background-size: cover;
 }
