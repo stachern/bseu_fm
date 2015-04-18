@@ -5,11 +5,10 @@ tags: [_nav]
 type: tag_by_slug_sidebar
 ---
 
-#### Схема студенческого городка
+<iframe src="https://mapsengine.google.com/map/embed?mid=zYZPGNWWUhS0.kkIUmigsj6Cc"
+        frameborder="0" style="border:0" width="572" height="374"></iframe>
 
-![Схема студгородка](/img/content/deans_office/maps.png)
-
-<table style="font-size: 13px; decoration: none; width: 572px; border-collapse: collapse" class="table_help_inf">
+<table class="table_help_inf">
   <thead>
     <tr>
       <th style="color: blue">Номер корпуса</th>
