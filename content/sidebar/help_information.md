@@ -1,4 +1,4 @@
-title: О специальностях
+title: О специальностях ФМ
 slug: links_student
 category: other
 tags: [help]
