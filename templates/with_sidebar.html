@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block base_content %}
+  <div class="container-fluid">
+    {% include "content/header_image.html" %}
+    <div class="row-fluid">
+      <div class="span8">
+        <!--displaying main page content-->
+        <br>
+        {% block main_content %}{% endblock %}
+      </div>
+      <div class="span4" id="sidebar">
+        <!--page sidebar-->
+        <br>
+        {% block sidebar_content %}{% endblock %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

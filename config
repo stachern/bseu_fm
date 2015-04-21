@@ -1,0 +1,10 @@
+site_title: Факультет Менеджмента БГЭУ
+keywords: БГЭУ, факультет, менеджмент, фм, Белорусский Государственный Экономический Университет, BSEU
+description: "Факультет менеджмента Белорусского Государственного Экономического университета: информация, новости, события, контакты"
+url_include_index: no
+url_pattern: "/{category}/{slug}/{page}/index.html"
+url_subdir: fm
+relative_urls: false
+output_dir: site
+main_feed_rss_url: http://pipes.yahoo.com/pipes/pipe.run?_id=bf2c6c7fb35105b7c519a24ba6bcc2e1&_render=rss
+author: Факультет Менеджмента <fm@bseu.by>

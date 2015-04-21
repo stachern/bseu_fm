@@ -1,0 +1,12 @@
+{% for tag, pages in site.tags.items() %}
+  {% if tag == page.category.0 %}
+    <div class="container-fluid well">
+      {% for tag_page in pages | sort(attribute='sidebar_index') %}
+        <h3 class="depart_magistr">
+		  <a href="/files/{{page.slug}}.doc">Приглашаем в магистратуру</a>
+		</h3>
+        <p><a href="http://imp-bseu.by/">Институт магистерской подготовки БГЭУ</a></p>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}

@@ -1,0 +1,7 @@
+# ignore IDE
+.idea/
+# ignore generated content
+site/
+# ignored compiled
+.*pyc
+*.pyc

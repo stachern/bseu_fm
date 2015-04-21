@@ -1,0 +1,26 @@
+<% for (var i in articles) { %>
+  <div class="media article">
+    <% if (window.location.href.indexOf("#admin") > -1) { %>
+      <a href="<%= service %>article/<%= articles[i].id %>" class="btn btn-mini">редактировать</a>
+    <% } %>
+    <% if (!articles[i].is_monthphrase) { %>
+      <span class="pull-right">
+        <a class="btn-link" onclick="show_comments('<%= articles[i].id %>'); return false;" title="Оставить комментарий к записи">
+          <i class="icon-comment"></i>
+        </a>
+        <span class="badge badge-important"><i class="icon-calendar icon-white"></i> <%= articles[i].publish_date %></span>
+      </span>
+    <% } %>
+    <h3 class="media-heading"><%= articles[i].header %></h3>
+
+    <div class="media-body">
+      <% if (articles[i].img) { %>
+        <a class="pull-left thumbnail" href="<%= service %>img?id=<%= articles[i].img.id %>">
+          <img class="media-object" src="<%= service %>img?thumb=true&id=<%= articles[i].img.id %>">
+        </a>
+      <% } %>
+      <%= articles[i].body %>
+    </div>
+  </div>
+  <hr>
+<% } %>

@@ -1,0 +1,7 @@
+{% extends "with_sidebar.html" %}
+{% block main_content %}
+  {{ page.content }}
+{% endblock %}
+{% block sidebar_content %}
+  {% include "content/siblings.html" %}
+{% endblock %}
