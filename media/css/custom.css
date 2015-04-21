@@ -214,7 +214,21 @@ a:focus {
 
 #photo-feed.thumbnails > .span3 {
   height: 350px;
-  margin: 5px;
+  margin: 5px 5px 25px;
+}
+
+#photo-feed .thumbnail {
+  height: inherit;
+}
+
+#photo-feed .thumbnail > img {
+  width: 210px;
+  height: 200px;
+}
+
+#photo-feed .thumbnail div.caption h4 {
+  height: 3em;
+  overflow: hidden;
 }
 
 .twitter-follow-button {
