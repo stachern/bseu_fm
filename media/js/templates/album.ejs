@@ -1,7 +1,7 @@
 <% for (var i in albums) { %>
   <li class="span3">
     <div class="thumbnail">
-      <img src="<%= $(albums[i].description).find('img').attr('src') %>" alt="<%= albums[i].title %>" style="width: 210px; height: 200px;">
+      <img src="<%= $(albums[i].description).find('img').attr('src') %>" alt="<%= albums[i].title %>">
       <div class="caption">
         <h4><%= albums[i].title %></h4>
         <p>Размещен: <%= albums[i].pubDate %></p>
