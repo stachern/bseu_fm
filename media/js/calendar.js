@@ -12,6 +12,11 @@ var calendar = {
     center: 'title',
     right:  'month,agendaWeek,agendaDay'
   },
+  views: {
+    month: {
+      timeFormat: 'H:mm'
+    }
+  },
   googleCalendarApiKey: GOOGLE_CALENDAR_API_KEY,
   events: {
     googleCalendarId: GOOGLE_CALENDAR_ID
