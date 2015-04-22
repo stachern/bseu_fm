@@ -476,26 +476,20 @@ font-size:25px;
 }
 
 table {
-	border-collapse: separate;
-	border: 1px solid #9DABCE;
-	border-width: 0px 0px 1px 1px;
-	margin-top:30px;
-	font-size: 20px;
+  border-collapse: separate;
+  border: 1px solid #9DABCE;
+  border-width: 0px 0px 1px 1px;
+  font-size: 20px;
 }
 .width950 td, th {
-	width: 81px;
-	height: 81px;
-	text-align: center;
-	vertical-align: middle;
-	background: url(../img/cells.png);
-	color: #444;
-	position: relative;
-
+  text-align: center;
+  vertical-align: middle;
+  color: #444;
+  position: relative;
 }
 th {
-	height: 30px;
-	font-weight: bold;
-	font-size: 14px;
+  font-weight: bold;
+  font-size: 14px;
 }
 td:hover, th:hover {
 	background-position: 0px -81px;
@@ -563,6 +557,7 @@ td.today:hover {
   font-size: 13px;
   width: 572px;
   border-collapse: collapse;
+  margin-top: 30px;
 }
 
 .table_help_inf,
@@ -659,4 +654,9 @@ td.today:hover {
 .widget-item.announcement {
   background: url(../img/announcement.jpg) center center;
   background-size: cover;
+}
+
+#calendar {
+  max-width: 900px;
+  margin: 0 auto;
 }
