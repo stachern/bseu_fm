@@ -10,7 +10,6 @@
         {{ page.content }}
       </div>
       <div class="span4" id="sidebar">
-        <!--page sidebar-->
         <br>
         <div class="container-fluid">
           <img class="media-object" src="/img/logos/depts/{% if "_eng" in page.tags %}{{ page.category.1 }}{% else %}{{ page.slug }}{% endif %}.png">
@@ -18,9 +17,10 @@
         </div>
         {% if not '_eng' in page.tags %}
           <div><blockquote>{{ page.moto }}</blockquote></div>
-		  <div id="empty_box"></div>
-		  {% include "content/tag_by_slug_departaments.html" %}
-		  {% include "content/tag_by_category.html" %}
+          <div id="empty_box"></div>
+          {% include "content/tag_by_slug.html" %}
+          {% include "content/tag_by_slug_departaments.html" %}
+          {% include "content/tag_by_category.html" %}
         {% endif %}
       </div>
     </div>
