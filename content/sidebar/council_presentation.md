@@ -5,4 +5,4 @@ tags: [council]
 sidebar_index: 4
 ---
 
-- [Студсовет - это разнообразные виды деятельности](/files/stud-prezent.ppt)
+- [Студсовет - это разнообразные виды деятельности](/files/stud-prezent.pptx)
