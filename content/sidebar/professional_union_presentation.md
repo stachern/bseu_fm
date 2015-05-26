@@ -1,4 +1,4 @@
-title: Презентация профсоюза
+title: Презентация профбюро ФМ
 slug: professional_union_presentation
 category: other
 tags: [professional_union]
