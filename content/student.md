@@ -9,259 +9,235 @@ type: student
 График учебного процесса
 ------------------------
 
-**студентов ДФО на 2014-15 учебный год**
+__студентов ДФО на 2015-16 учебный год__
 
 _1-й семестр:_
 
-* 1-4 курсы: 01.09.2014 - 31.12.2014
-* 5 курс (кроме ДКМ): 01.09.2014 - 10.12.2014
-* 5 курс ДКМ: 01.09.2014 - 14.09.2014
+- 1-4 курсы: 01.09.2015 - 31.12.2015
+- 5 курс (кроме ДКМ): 01.09.2015 - 13.12.2015
+- 5 курс ДКМ: 01.09.2015 - 14.09.2015
 
 _Зимняя экзаменационная сессия:_
 
-* 1-4 курсы: 01.01.2015 - 25.01.2015
-* 5 курс: 11.12.2014 - 31.12.2014
+- 1-4 курсы: 01.01.2016 - 24.01.2016
+- 5 курс: 14.12.2015 - 31.12.2015
 
 _Зимние каникулы:_
 
-* 1-4 курсы: 26.01.2014 - 08.02.2015
-* 5 курс: 01.01.2015 - 14.01.2015
+- 1-4 курсы: 25.01.2016 - 07.02.2016
+- 5 курс: 01.01.2016 - 17.01.2016
 
 _2-й семестр:_
 
-* 1-4 курсы (кроме выпускного): 09.02.2015 - 05.06.2015
+- 1-4 курсы (кроме выпускного): 08.02.2016 - 05.06.2016
 
 _Летняя экзаменационная сессия:_
 
-* 1-4 курсы (кроме выпускного): 06.06.2015 - 26.06.2015
+- 1-4 курсы (кроме выпускного): 06.06.2016 - 26.06.2016
 
-**[Скачать подробный план](/files/schedule_dfo.doc)**
+__[Скачать подробный план](/files/schedule_dfo.doc)__
 
 Студенту-заочнику
 -----------------
 
-
-ГРАФИК учебного процесса для студентов заочной формы обучения факультета менеджмента на 2014-2015 учебный год
+ГРАФИК учебного процесса для студентов заочной формы обучения факультета менеджмента на 2015-2016 учебный год
 
 <table class="table table-bordered">
   <tbody>
     <tr>
-    <td width="91">
-      <p align="center">
-        <strong>Курс</strong>
-      </p>
-    </td>
-    <td width="120" valign="top">
-      <p align="center">
-        <strong>Установочная </strong>
-        <strong>сессия</strong>
-      </p>
-    </td>
-    <td width="120">
-      <p align="center">
-        <strong>1-я сессия </strong>
-      </p>
-    </td>
-    <td width="120">
-      <p align="center">
-        <strong>2-я сессия </strong>
-      </p>
-    </td>
-    <td width="156">
-      <p align="center">
-        <strong>Государственные экзамены</strong>
-      </p>
-    </td>
+      <td width="91">
+        <p align="center">
+          <strong>Курс</strong>
+        </p>
+      </td>
+      <td width="120" valign="top">
+        <p align="center">
+          <strong>Установочная сессия</strong>
+        </p>
+      </td>
+      <td width="120">
+        <p align="center">
+          <strong>1-я сессия</strong>
+        </p>
+      </td>
+      <td width="120">
+        <p align="center">
+          <strong>2-я сессия</strong>
+        </p>
+      </td>
+      <td width="156">
+        <p align="center">
+          <strong>Государственные экзамены</strong>
+        </p>
+      </td>
     </tr>
     <tr>
-    <td width="91" valign="top">
-      <p align="center">
-        1
-      </p>
-    </td>
-    <td width="120" rowspan="2">
-      <p align="center">
-        03.09 – 12.09.14
-      </p>
-    </td>
-    <td width="120" rowspan="2">
-      <p align="center">
-        19.01 – 02.02.15
-      </p>
-    </td>
-    <td width="120" rowspan="2">
-      <p align="center">
-        15.04 – 29.04.15
-      </p>
-    </td>
-    <td width="156" rowspan="7">
-    </td>
+      <td width="91" valign="top">
+        <p align="center">
+          1
+        </p>
+      </td>
+      <td width="120" rowspan="2">
+        <p align="center">
+          03.09 – 12.09.15
+        </p>
+      </td>
+      <td width="120" rowspan="2">
+        <p align="center">
+          25.01 – 08.02.16
+        </p>
+      </td>
+      <td width="120" rowspan="2">
+        <p align="center">
+          14.04 – 28.04.16
+        </p>
+      </td>
+      <td width="156" rowspan="7"></td>
     </tr>
     <tr>
-    <td width="91" valign="top">
-      <p align="center">
-        1 (ссо)
-      </p>
-    </td>
+      <td width="91" valign="top">
+        <p align="center">
+          1 (ссо)
+        </p>
+      </td>
     </tr>
     <tr>
-    <td width="91">
-      <p align="center">
-        2
-      </p>
-    </td>
-    <td width="120" rowspan="8" valign="top">
-    </td>
-    <td width="120" rowspan="2">
-      <p align="center">
-        10.11 – 24.11.14
-      </p>
-    </td>
-    <td width="120" rowspan="2">
-      <p align="center">
-        09.03 – 23.03.15
-      </p>
-    </td>
+      <td width="91">
+        <p align="center">
+          2
+        </p>
+      </td>
+      <td width="120" rowspan="7" valign="top"></td>
+      <td width="120" rowspan="2">
+        <p align="center">
+          11.11 – 25.11.15
+        </p>
+      </td>
+      <td width="120" rowspan="2">
+        <p align="center">
+          09.03 – 23.03.16
+        </p>
+      </td>
     </tr>
     <tr>
-    <td width="91">
-      <p align="center">
-        2 (ссо)
-      </p>
-    </td>
+      <td width="91">
+        <p align="center">
+          2 (ссо)
+        </p>
+      </td>
     </tr>
     <tr>
-    <td width="91" valign="top">
-      <p align="center">
-        3
-      </p>
-    </td>
-    <td width="120" rowspan="2">
-      <p align="center">
-        01.12 – 20.12.14
-      </p>
-    </td>
-    <td width="120" rowspan="2">
-      <p align="center">
-        25.03 – 13.04.15
-      </p>
-    </td>
+      <td width="91" valign="top">
+        <p align="center">
+          3
+        </p>
+      </td>
+      <td width="120" rowspan="2">
+        <p align="center">
+          03.12 – 22.12.15
+        </p>
+      </td>
+      <td width="120" rowspan="2">
+        <p align="center">
+          28.03 – 16.04.16
+        </p>
+      </td>
     </tr>
     <tr>
-    <td width="91" valign="top">
-      <p align="center">
-        3 (ссо)
-      </p>
-    </td>
+      <td width="91" valign="top">
+        <p align="center">
+          3 (ссо)
+        </p>
+      </td>
     </tr>
     <tr>
-    <td width="91" valign="top">
-      <p align="center">
-        4
-      </p>
-    </td>
-    <td width="120" rowspan="2">
-      <p align="center">
-        15.10 – 03.11.14
-      </p>
-    </td>
-    <td width="120">
-      <p align="center">
-        11.02 – 02.03.15
-      </p>
-    </td>
+      <td width="91" valign="top">
+        <p align="center">
+          4
+        </p>
+      </td>
+      <td width="120" rowspan="2">
+        <p align="center">
+          14.10 – 02.11.15
+        </p>
+      </td>
+      <td width="120">
+        <p align="center">
+          15.02 – 05.03.16
+        </p>
+      </td>
     </tr>
     <tr>
-    <td width="91">
-      <p align="center">
-        4 (ссо)
-      </p>
-    </td>
-    <td width="120">
-      <p align="center">
-       22.01 – 10.02.15
-      </p>
-    </td>
-    <td width="156">
-      <p align="center">
-         12.05 – 10.06.15
-      </p>
-    </td>
-    </tr>
-    
-    <td width="91" valign="top">
-      <p align="center">
-        5
-      </p>
-    </td>
-	 <td width="120">
-      <p align="center">
-        15.09 – 04.10.14
-      </p>
-    </td>
-    <td width="120">
-      <p align="center">
-        08.01 – 27.01.15
-      </p>
-    </td>
-    <td width="156">
-      <p align="center">
-        28.04 – 27.05.15
-      </p>
-    </td>
+      <td width="91">
+        <p align="center">
+          4 (ссо)
+        </p>
+      </td>
+      <td width="120">
+        <p align="center">
+          28.01 – 16.02.16
+        </p>
+      </td>
+      <td width="156">
+        <p align="center">
+          17.05 – 15.06.16
+        </p>
+      </td>
     </tr>
     <tr>
-    <td width="91">
-      <p align="center">
-        6 (ЗКМ)
-      </p>
-    </td>
-    <td width="120">
-      <p align="center">
-        24.09 – 13.10.14
-      </p>
-    </td>
-    <td width="120">
-    </td>
-    <td width="156">
-      <p align="center">
-        15.01 – 13.02.15
-      </p>
-    </td>
+      <td width="91" valign="top">
+        <p align="center">
+          5
+        </p>
+      </td>
+      <td width="120">
+        <p align="center">
+          16.09 – 05.10.15
+        </p>
+      </td>
+      <td width="120">
+        <p align="center">
+          08.01 – 27.01.16
+        </p>
+      </td>
+      <td width="156">
+        <p align="center">
+          27.04 – 26.05.16
+        </p>
+      </td>
     </tr>
     <tr>
-    <td width="91">
-      <p align="center">
-        Дни заочника
-      </p>
-    </td>
-    <td width="240" colspan="2" valign="top">
-      <p align="center">
-        <strong>в 2014 г.</strong>
-      </p>
-      <p align="center">
-        20.09; 18.10; 22.11; 13.12 
-      </p>
-    </td>
-    <td width="276" colspan="2" valign="top">
-      <p align="center">
-        <strong>в 2015 г.</strong>
-      </p>
-      <p align="center">
-        24.01; 21.02; 21.03; 18.04; 16.05; 13.06; 20.06; 27.06
-      </p>
-    </td>
+      <td width="91">
+        <p align="center">
+          Дни заочника
+        </p>
+      </td>
+      <td width="240" colspan="2" valign="top">
+        <p align="center">
+          <strong>в 2015 г.</strong>
+        </p>
+        <p align="center">
+          19.09; 17.10; 21.11; 12.12
+        </p>
+      </td>
+      <td width="276" colspan="2" valign="top">
+        <p align="center">
+          <strong>в 2016 г.</strong>
+        </p>
+        <p align="center">
+          23.01; 20.02; 19.03; 16.04; 14.05; 11.06; 18.06; 25.06
+        </p>
+      </td>
     </tr>
   </tbody>
 </table>
 
-  срок ликвидации академической задолженности по итогам 1-й
-  зачетно-экзаменационной сессии – до начала 2-й зачетно-экзаменационной сессии;
-  <strong>срок ликвидации академической задолженности по итогам 2-й зачетно-экзаменационной сессии – по 30 июня 2015 года;</strong>
-  срок ликвидации академической задолженности по итогам
-  последней зачетно-экзаменационной сессии на выпускных курсах – за 1 месяц до
-  начала обзорных лекций по специальности.
-
+срок ликвидации академической задолженности по итогам 1-й
+зачетно-экзаменационной сессии – до начала 2-й зачетно-экзаменационной сессии;
+__срок ликвидации академической задолженности по итогам 2-й зачетно-экзаменационной сессии – по 30 июня 2016 года;__
+срок ликвидации академической задолженности по итогам
+последней зачетно-экзаменационной сессии на выпускных курсах – за 1 месяц до
+начала обзорных лекций по специальности.
 
 Диплом с отличием
 -----------------
