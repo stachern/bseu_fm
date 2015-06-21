@@ -2,7 +2,7 @@
   {% block navigation %}
     {% if '_nav' in page.tags %}
       <ul class="nav">
-        {% for menu_entry in site.tags.get('_menu')|sort(attribute='menu_index') %}
+        {% for menu_entry in site.tags.get('_menu') | sort(attribute='menu_index') %}
           {% if menu_entry.subpages %}
             <li>
               <span>
@@ -13,9 +13,9 @@
                 {% if not "_ignore_nav" in menu_entry.tags %}
                   <li><a href="{{ menu_entry.url }}">{{ menu_entry.menu }}</a></li>
                 {% endif %}
-                {% for sub_spage in menu_entry.subpages %}
-                  {% if not "_eng" in sub_spage.tags %}
-                    <li><a href="{{ sub_spage.url }}">{{ sub_spage.title }}</a></li>
+                {% for subpage in menu_entry.subpages %}
+                  {% if not "_eng" in subpage.tags and not "_ignore_nav" in subpage.tags %}
+                    <li><a href="{{ subpage.url }}">{{ subpage.title }}</a></li>
                   {% endif %}
                 {% endfor %}
               </ul>
