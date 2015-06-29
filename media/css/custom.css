@@ -193,6 +193,17 @@ a.thumbnail {
   color: #c0392b;
 }
 
+#panel1,
+#panel2,
+#panel3 {
+  display: none;
+  padding: 5px;
+  width: 225px;
+  height: 40px;
+  background: #2980b9;
+  color: #fff;
+}
+
 a.thumbnail:hover {
   background-color: #c0392b;
 }
