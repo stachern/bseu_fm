@@ -17,7 +17,6 @@ tags: [_nav, _menu, faculty]
 *   [Экономики промышленных предприятий](/departments/industrial_economics)
 *   [Экономики и управления предприятиями АПК](/departments/agricultural_economics)
 *   [Экономики природопользования](/departments/environmental_economics)
-*   [Экономики труда](/departments/labor_economics)
 *   [Национальной экономики и государственного управления](/departments/national_economy)
 *   [Экономической информатики](/departments/economic_informatics)
 *   [Прикладной математики и экономической кибернетики](/departments/economic_cybernetics)
