@@ -94,7 +94,7 @@ $(document).ready(function(){
 });
 
 $('#rssdata').ready(function(){
-    $.getJSON('http://pipes.yahoo.com/pipes/pipe.run?_id=3f5db5135e0d956c2ef490cd1ae22878&_render=json&_callback=?' ,function(data){
+    $.getJSON('http://pipes.yahoo.com/pipes/pipe.run?_id=d954a8cd095c81353092e93db8b1ad80&_render=json&_callback=?' ,function(data){
         var rendered_html =  new EJS({'url': SUBDIR_PREFIX + '/js/templates/news.ejs'}).render({news: data.value.items});
         $('#rssdata ul.rss-items').append(rendered_html);
         $('#rssdata div.loading').fadeOut();
