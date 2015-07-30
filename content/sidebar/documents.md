@@ -2,7 +2,7 @@ title: Рекомендуемые формы документов
 slug: documents
 category: other
 tags: [student]
-sidebar_index: 2
+sidebar_index: 3
 ---
 
 -   [О выдаче академической справки](/files/ak_spravka.doc)

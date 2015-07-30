@@ -2,7 +2,7 @@ title: Графики дежурств преподавателей кафедр
 slug: schedules
 category: other
 tags: [student, departments]
-sidebar_index: 5
+sidebar_index: 6
 ---
 
 -   [Экономической информатики](/files/inf_dist.doc)
