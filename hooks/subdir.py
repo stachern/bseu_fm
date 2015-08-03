@@ -3,10 +3,10 @@ import re
 import urlparse
 
 find_href = re.compile(r'\bhref\s*=\s*(?!.*mailto:)(?!.*&#109;&#97;&#105;&#108;&#116;&#111;&#58;)("[^"]*"|\'[^\']*\'|[^"\'<>=\s]+)')
-find_src = re.compile(r'\bsrc\s*=\s*("[^"]*"|\'[^\']*\'|[^"\'<>=\s]+)')
+# FYI: added a workaround to not to break inline akavita counter script
+find_src  = re.compile(r'\bsrc\s*=\s*("[^"\']*"|\'[^"\']*\'|[^"\'<>=\s;]{2,})')
 
 PATTERNS = [find_href, find_src]
-
 
 def fix_urls(document, base_url, pattern):
     ret = []
@@ -23,7 +23,7 @@ def fix_urls(document, base_url, pattern):
                 url = '/%s%s' % (base_url, url)
                 logging.info("Processed url: %s" % url)
                 ret.append(document[last_end:match.start(1)])
-                ret.append('"%s"' % (url,))
+                ret.append('"%s"' % (url))
                 last_end = match.end(1)
     ret.append(document[last_end:])
     return ''.join(ret)
