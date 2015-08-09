@@ -128,7 +128,7 @@ moto: Через математические модели к системным
 
 Презентация специальности
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/AoFcMwGfN8w" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/nT5mNDrfIe0" frameborder="0" allowfullscreen></iframe>
 <iframe width="420" height="315" src="//www.youtube.com/embed/p9yWWNXyPWQ" frameborder="0" allowfullscreen></iframe>
 
 Контактная информация
