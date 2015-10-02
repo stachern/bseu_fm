@@ -61,11 +61,6 @@
         {% include "misc/ramblertop100_counter.html" %}
         {% include "misc/akavita_counter.html" %}
         {% include "misc/yandex_share.html" %}
-        <span id="rss">
-          <a href="{{ site.main_feed_rss_url }}">
-            <i class="fa fa-rss-square fa-2x"></i>
-          </a>
-        </span>
         {% block site_info %}
           <small class="pull-right">Сайт обновлен {{ site.date.strftime('%d-%m-%Y') }} &copy; Факультет менеджмента | <a href="/contacts">Контакты</a></small>
         {% endblock %}

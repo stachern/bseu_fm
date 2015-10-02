@@ -295,7 +295,7 @@ h1, h2, h3 {
 
 /* Social Buttons */
 
-.b-share a[data-service], #rss a {
+.b-share a[data-service] {
   -webkit-transition-property: color, text;
   -webkit-transition-duration: .4s, .4s;
   -webkit-transition-timing-function: linear, ease-in;
@@ -311,8 +311,7 @@ h1, h2, h3 {
 .b-share a[data-service='vkontakte'],
 .b-share a[data-service='facebook'],
 .b-share a[data-service='twitter'],
-.b-share a[data-service='gplus'],
-#rss a {
+.b-share a[data-service='gplus'] {
   color: #bbbbbb;
 }
 
@@ -334,16 +333,6 @@ h1, h2, h3 {
 
 .fa {
   line-height: inherit;
-}
-
-#rss {
-  display: inline-block;
-  vertical-align: middle;
-  font: 86%/1.4545em Arial, sans-serif
-}
-
-#rss a:hover {
-  color: #fa9b39;
 }
 
 /* Navigation */
