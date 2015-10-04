@@ -1,8 +1,8 @@
 title: О специальностях ФМ
-slug: links_student
+slug: majors_link
 category: other
 tags: [help]
-sidebar_index: 3
+sidebar_index: 1
 ---
 
 - [Информация о специальностях](/fm/applicants/majors/)
