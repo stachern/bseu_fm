@@ -1,8 +1,8 @@
 title: Это полезно знать
-slug: links_applicant
+slug: applicant_links_information
 category: other
 tags: [help]
-sidebar_index: 4
+sidebar_index: 2
 ---
 
 - [правила приема в БГЭУ](http://bseu.by/russian/abiturient/meeting.htm)
