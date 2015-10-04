@@ -1,5 +1,5 @@
 title: Презентация БГЭУ
-slug: links_applicant
+slug: bseu_presentation
 category: other
 tags: [help]
 sidebar_index: 5
