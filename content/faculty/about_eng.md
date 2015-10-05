@@ -15,7 +15,6 @@ Departments
 *   [Department of Economics of Industrial Enterprises](/departments/industrial_economics/en)
 *   [Department of Economics and Management of Agro-Industrial Complex](/departments/agricultural_economics/en)
 *   [Department of Environmental Economics](/departments/environmental_economics/en)
-*   [Department of Labor Economics](/departments/labor_economics/en)
 *   [Department of National Economy and State Governance](/departments/national_economy/en)
 *   [Department of Economic Informatics](/departments/economic_informatics/en)
 *   [Department of Applied Mathematics and Economic Cybernetics](/departments/economic_cybernetics/en)
