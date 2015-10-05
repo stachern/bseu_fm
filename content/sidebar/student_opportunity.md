@@ -1,7 +1,7 @@
 title: Воспользуйтесь возможностью
 slug: opportunity_student
 category: other
-tags: [student]
+tags: [good_to_know]
 sidebar_index: 4
 ---
 

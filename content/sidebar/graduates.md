@@ -1,7 +1,7 @@
 title: Выпускнику-2016
 slug: graduates
 category: other
-tags: [student]
+tags: [good_to_know]
 sidebar_index: 5
 ---
 

@@ -1,7 +1,7 @@
 title: Полезные ссылки
 slug: links_student
 category: other
-tags: [student]
+tags: [good_to_know]
 sidebar_index: 1
 ---
 

@@ -1,7 +1,7 @@
 title: Рекомендуемые формы документов
 slug: documents
 category: other
-tags: [student]
+tags: [good_to_know]
 sidebar_index: 3
 ---
 

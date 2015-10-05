@@ -1,7 +1,7 @@
 title: Библиотеки для вас
 slug: libraries
 category: other
-tags: [student]
+tags: [good_to_know]
 sidebar_index: 2
 ---
 
