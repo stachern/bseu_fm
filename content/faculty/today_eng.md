@@ -4,9 +4,6 @@ category: faculty/today
 tags: [_nav, _eng]
 ---
 
-The Faculty of Management
-------------------------
-
 The Faculty of Management is the successor of the University’s oldest Faculty of Economics and Planning. It trains a new generation of specialists majoring in Economics, Innovative Management, Information Technologies and Modeling of Economic Systems Development. Its graduates obtain qualifications of economic and managerial profile that enable them to work at the Republic’s leading enterprises, in bodies of state and local governments, scientific and project establishments etc.
 
 Departments
