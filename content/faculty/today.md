@@ -1,7 +1,7 @@
-title: О факультете
-slug: about
+title: Мы сегодня
+slug: today
 category: faculty
-tags: [_nav, faculty]
+tags: [_nav, _category_header, faculty]
 ---
 
 Факультет

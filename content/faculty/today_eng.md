@@ -1,6 +1,6 @@
-title: About the faculty
+title: We today
 slug: en
-category: faculty/about
+category: faculty/today
 tags: [_nav, _eng]
 ---
 
