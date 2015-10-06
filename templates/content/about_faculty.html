@@ -1,4 +1,5 @@
 <div class="container-fluid well">
+  <h2>Факультет</h2>
   {% for page in site.tags.get('faculty') %}
     <p>{{ page.content | truncate(250) }}<br>
       <a href="{{ page.url }}"><br>
