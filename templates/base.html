@@ -55,18 +55,20 @@
     </div>
     <div id="push"></div>
   </div>
-  <div id="footer">
+  <footer>
     <div class="container">
       <p class="muted credit">
         {% include "misc/ramblertop100_counter.html" %}
         {% include "misc/akavita_counter.html" %}
         {% include "misc/yandex_share.html" %}
         {% block site_info %}
-          <small class="pull-right">Сайт обновлен {{ site.date.strftime('%d-%m-%Y') }} &copy; Факультет менеджмента | <a href="/contacts">Контакты</a></small>
+          <small class="pull-right">
+            Сайт обновлен <time datetime="{{ site.date.isoformat() }}">{{ site.date.strftime('%d-%m-%Y') }}</time> © Факультет менеджмента | <a href="/contacts">Контакты</a>
+          </small>
         {% endblock %}
       </p>
     </div>
-  </div>
+  </footer>
 {% endblock %}
 
 <div id="outdated"></div>
