@@ -2,6 +2,7 @@ title: Кафедра организации и управления
 slug: organization_and_management
 category: departments
 tags: [_nav]
+submenu_index: 7
 type: department
 moto: Хотеть – мочь – знать – уметь
 ---

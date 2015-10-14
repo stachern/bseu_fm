@@ -2,6 +2,7 @@ title: Кафедра экономической информатики
 slug: economic_informatics
 category: departments
 tags: [_nav]
+submenu_index: 3
 type: department
 moto: Экономическая информатика – путь к успеху
 ---

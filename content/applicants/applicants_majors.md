@@ -2,6 +2,7 @@ title: О специальностях
 slug: majors
 category: applicants
 tags: [_nav]
+submenu_index: 1
 type: tag_by_slug_sidebar
 ---
 

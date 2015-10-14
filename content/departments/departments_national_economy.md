@@ -2,6 +2,7 @@ title: Кафедра национальной экономики и госуд�
 slug: national_economy
 category: departments
 tags: [_nav]
+submenu_index: 6
 type: department
 moto: Традиции, новое мышление, новые возможности
 ---

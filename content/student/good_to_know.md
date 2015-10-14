@@ -2,6 +2,7 @@ title: Полезно знать
 slug: good_to_know
 category: student
 tags: [_nav, _category_header]
+submenu_index: 1
 type: tag_by_slug_sidebar
 ---
 

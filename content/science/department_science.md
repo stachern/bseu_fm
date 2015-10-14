@@ -2,6 +2,7 @@ title: НИР кафедр
 slug: department_science
 category: science
 tags: [_nav]
+submenu_index: 1
 type: tag_by_slug_sidebar
 ---
 

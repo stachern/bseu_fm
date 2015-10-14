@@ -2,6 +2,7 @@ title: Кафедра экономики природопользования
 slug: environmental_economics
 category: departments
 tags: [_nav]
+submenu_index: 4
 type: department
 moto: Мыслить – глобально, действовать – локально
 ---

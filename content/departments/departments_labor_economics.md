@@ -2,6 +2,7 @@ title: Кафедра экономики труда
 slug: labor_economics
 category: departments
 tags: [_nav, _ignore_nav]
+submenu_index: None
 type: department
 moto: Кто экономику труда знает – тот и управляет
 ---

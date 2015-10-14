@@ -2,6 +2,7 @@ title: Кафедра экономики промышленных предпри
 slug: industrial_economics
 category: departments
 tags: [_nav]
+submenu_index: 5
 type: department
 moto: Scientia vinces! Наукой побеждаешь!
 ---

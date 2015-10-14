@@ -2,6 +2,7 @@ title: Наши партнеры
 slug: partners
 category: faculty
 tags: [_nav]
+submenu_index: 3
 ---
 
 ### "ОМА"

@@ -2,6 +2,7 @@ title: Кафедра экономики и управления предпри�
 slug: agricultural_economics
 category: departments
 tags: [_nav]
+submenu_index: 1
 type: department
 moto: Исследуй, генерируй, продуцируй
 ---
