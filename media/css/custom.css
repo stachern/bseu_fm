@@ -649,3 +649,19 @@ td.today:hover {
   max-width: 900px;
   margin: 0 auto;
 }
+
+.link_box_graduate{
+  display:inline-block;
+  background: rgba(12, 213, 147, 0.63);
+  padding: 15px 0;
+  text-align: center; /* выровнять текст и картинки по горизонтали */
+  width: 100%;
+  margin-bottom: 25px;
+  font-size: 150%;
+  border-radius: 6px;
+  line-height:24px;
+}
+
+.link_box_graduate:hover{
+  background: rgba(202, 130, 202, 0.65);
+}
