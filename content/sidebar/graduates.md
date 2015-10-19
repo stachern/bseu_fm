@@ -1,8 +1,8 @@
 title: Выпускнику-2016
 slug: graduates
 category: other
-tags: [good_to_know]
-sidebar_index: 5
+tags: [graduate]
+sidebar_index: 3
 ---
 
 - [План-график подготовки дипломных работ студентами ЗФО](/files/plan_diplom.doc)
