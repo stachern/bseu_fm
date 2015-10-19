@@ -91,13 +91,11 @@ $(document).ready(function(){
       FEED.feedDateEnd = end.format('DD/MM/YYYY');
       FEED.get_feed();
     });
-});
 
-$('#rssdata').ready(function(){
-    $.getJSON('http://pipes.yahoo.com/pipes/pipe.run?_id=d954a8cd095c81353092e93db8b1ad80&_render=json&_callback=?', function(data) {
-        var rendered_html =  new EJS({'url': SUBDIR_PREFIX + '/js/templates/news.ejs'}).render({news: data.value.items});
+    $.getJSON("http://query.yahooapis.com/v1/public/yql/bseu_fm/news?format=json", function(data) {
+        var template_path = SUBDIR_PREFIX + "/js/templates/news.ejs",
+            rendered_html = new EJS({ url: template_path }).render({ news: data.query.results.item });
         $('#rssdata ul.rss-items').append(rendered_html);
-        $('#rssdata div.loading').fadeOut();
         $('#rssdata ul.rss-items').slideDown();
     });
 });
