@@ -2,7 +2,7 @@ title: Студсовет
 slug: council
 category: student
 tags: [_nav]
-submenu_index: 4
+submenu_index: 5
 type: tag_by_slug_sidebar
 ---
 

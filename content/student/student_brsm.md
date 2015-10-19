@@ -2,7 +2,7 @@ title: БРСМ
 slug: brsm
 category: student
 tags: [_nav]
-submenu_index: 3
+submenu_index: 4
 type: tag_by_slug_sidebar
 ---
 

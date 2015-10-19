@@ -655,3 +655,20 @@ td.today:hover {
   max-width: 900px;
   margin: 0 auto;
 }
+
+.link_box_graduate a{
+  color: white;
+  display:inline-block;
+  background: #2980b9;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 25px;
+  font-size: 150%;
+  border-radius: 6px;
+  line-height:24px;
+}
+
+.link_box_graduate a:hover{
+  background: rgba(53, 135, 189, 0.67);
+}

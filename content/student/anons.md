@@ -2,7 +2,7 @@ title: Анонс мероприятий
 slug: anons
 category: student
 tags: [_nav]
-submenu_index: 2
+submenu_index: 3
 type: announcement
 ---
 
