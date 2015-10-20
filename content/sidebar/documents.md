@@ -5,7 +5,6 @@ tags: [good_to_know]
 sidebar_index: 3
 ---
 
--   [О выдаче академической справки](/files/ak_spravka.doc)
--   [О распределении студента-платника](/files/raspred_plat.doc)
--   [О выдаче дубликата магнитной карточки](/files/duplicate_card.doc)
--   [О смене фамилии](/files/lastname.doc)
+- [О выдаче академической справки](/files/ak_spravka.doc)
+- [О выдаче дубликата магнитной карточки](/files/duplicate_card.doc)
+- [О смене фамилии](/files/lastname.doc)
