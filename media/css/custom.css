@@ -253,25 +253,22 @@ h1, h2, h3 {
   color: #13192E;
 }
 
-.leftimg {
+.leftimg,
+.deanimg {
   height: 300px;
-  float:  left;
+}
+
+.leftimg {
+  float: left;
   margin: 10px 10px 20px 0;
 }
 
 .deanimg {
-  height: 300px;
   margin: 20px 100px 20px 0;
 }
 
-.depimg {
-  height: 300px;
-  margin: 3px 10px 20px 0;
-  max-width: 300px;
-}
-
-.deputy {
-  vertical-align: top;
+.codehilite {
+  clear: left;
 }
 
 .badge {
