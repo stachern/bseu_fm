@@ -669,3 +669,15 @@ td.today:hover {
 .link_box_graduate a:hover{
   background: rgba(53, 135, 189, 0.67);
 }
+
+details {
+  margin: 15px 0;
+}
+
+summary {
+  background: linear-gradient(to top,#56A1D2,#2980b9);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
