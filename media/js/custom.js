@@ -88,3 +88,23 @@ var collapse = function() {
     $(this).parent().find('img').toggleClass('hide');
   });
 };
+
+
+//FAQ
+$(document).ready(function(){
+$('#accordion-js').find('h3').click(function(){
+$(this).next().stop().slideToggle();
+if ($(this).attr("class")=='text_question qstyle1'){
+$(this).removeClass('qstyle1');
+$(this).addClass('qstyle2');
+$(this).addClass('qselstyle');
+
+}else{
+$(this).removeClass('qselstyle');
+$(this).removeClass('qstyle2');
+$(this).addClass('qstyle1');
+}
+
+
+}).next().stop().hide();
+});
