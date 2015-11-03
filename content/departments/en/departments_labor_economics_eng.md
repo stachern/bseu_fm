@@ -3,6 +3,7 @@ slug: en
 category: departments/labor_economics
 tags: [_nav, _eng]
 type: department
+published: False
 ---
 
 The chair of the department

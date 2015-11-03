@@ -1,4 +1,4 @@
-title: The Department of Economics at Industrial Enterprise
+title: Department of Economics at Industrial Enterprise
 slug: en
 category: departments/industrial_economics
 tags: [_nav, _eng]

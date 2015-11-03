@@ -1,0 +1,53 @@
+<ul>
+  {% for _page in site.tags.get('_menu') | sort(attribute='menu_index') %}
+    {% if _page.subpages %}
+      <li>
+        <span>{{ _page.title }}</span>
+        <ul>
+          {% for subpage in _page.subpages recursive %}
+            {% if not '_eng' in subpage.tags %}
+              <li>
+                <a href="{{ subpage.url }}">{{ subpage.title }}</a>
+              </li>
+            {% endif %}
+            {% if subpage.subpages %}
+              <ul>{{ loop(subpage.subpages) }}</ul>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+    {% else %}
+      <li>
+        <a href="{{ _page.url }}">{{ _page.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+
+  {% for _page in site.tags.get('_nav') if _page not in site.tags.get('_menu') %}
+    {% if not _page.category and _page.subpages and _page.slug != page.slug %}
+      <li>
+        <span>{{ _page.title }}</span>
+        <ul>
+          {% for subpage in _page.subpages if not subpage.sidebar_index recursive %}
+            {% if not '_eng' in subpage.tags %}
+              <li>
+                <a href="{{ subpage.url }}">{{ subpage.title }}</a>
+              </li>
+            {% endif %}
+            {% if subpage.subpages %}
+              <ul>{{ loop(subpage.subpages) }}</ul>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
+  {% endfor %}
+
+  {% for _page in site.tags.get('_nav') if _page not in site.tags.get('_menu') %}
+    {% if not _page.category and not _page.subpages and _page.slug != page.slug %}
+      <li>
+        <a href="{{ _page.url }}">{{ _page.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -14,7 +14,7 @@
                   <li><a href="{{ menu_entry.url }}">{{ menu_entry.menu }}</a></li>
                 {% endif %}
                 {% for subpage in menu_entry.subpages | sort(attribute='submenu_index')  %}
-                  {% if not "_eng" in subpage.tags and not "_ignore_nav" in subpage.tags %}
+                  {% if not '_eng' in subpage.tags %}
                     <li><a href="{{ subpage.url }}">{{ subpage.title }}</a></li>
                   {% endif %}
                 {% endfor %}

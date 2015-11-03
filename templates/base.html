@@ -63,7 +63,9 @@
         {% include "misc/yandex_share.html" %}
         {% block site_info %}
           <small class="pull-right">
-            Сайт обновлен <time datetime="{{ site.date.isoformat() }}">{{ site.date.strftime('%d-%m-%Y') }}</time> © Факультет менеджмента | <a href="/contacts">Контакты</a>
+            Сайт обновлен <time datetime="{{ site.date.isoformat() }}">{{ site.date.strftime('%d-%m-%Y') }}</time> © Факультет менеджмента |
+            <a href="/contacts">Контакты</a> |
+            <a href="/sitemap">Карта сайта</a>
           </small>
         {% endblock %}
       </p>
