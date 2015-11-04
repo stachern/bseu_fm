@@ -4,4 +4,4 @@ tags: [brsm, council, professional_union]
 sidebar_index: 8
 ---
 
-- [Фотоотчеты мероприятий ФМ](/photo/)
+- [Фотоотчеты с мероприятий ФМ](/photo/)
