@@ -2,7 +2,7 @@ title: Профсоюз
 slug: professional_union
 category: student
 tags: [_nav]
-submenu_index: 6
+submenu_index: 7
 type: tag_by_slug_sidebar
 ---
 

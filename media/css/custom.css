@@ -669,3 +669,47 @@ td.today:hover {
 .link_box_graduate a:hover{
   background: rgba(53, 135, 189, 0.67);
 }
+
+/* FAQ */
+.text_question {
+    font-weight: normal;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 10px;
+    display: block;
+    min-height: 30px;
+    text-decoration: none;
+    line-height: 30px;
+    padding: 5px 40px 5px 15px;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    background: #85c1e9;
+    background: linear-gradient(to top,#56A1D2,#2980b9);
+    border-radius: 10px;
+    margin: 10px 0 0;
+}
+.qstyle1:after {
+    content: '';
+    background: url('../img/arrows.png') 0 0 no-repeat;
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+.qstyle2:after {
+    content: '';
+    background: url('../img/arrows.png') -22px 0 no-repeat;
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+.qselstyle {
+    background: linear-gradient(to top,#1A6BA0,#037DCE);
+}
+
