@@ -895,3 +895,33 @@ summary {
 .struct-elem:hover {
   background: #0044cc;
 }
+
+.honours-table {
+  border-left: 1px solid #ddd;
+  border-bottom: none;
+  padding: 20px 0 0 10px;
+}
+
+.honours-table tr {
+  margin-top: 10px;
+}
+
+.honours-table td {
+  font-size: 15px;
+  text-align: center;
+  vertical-align: top;
+  width: 220px;
+}
+
+.honours-table img {
+  height: 300px;
+  width: 200px;
+}
+
+#honours-board-tab {
+  margin-bottom: 0;
+}
+
+#honours-board-tab li.active a {
+  color: #555;
+}
