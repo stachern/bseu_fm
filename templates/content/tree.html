@@ -4,7 +4,7 @@
       <li>
         <span>{{ _page.title }}</span>
         <ul>
-          {% for subpage in _page.subpages recursive %}
+          {% for subpage in _page.subpages | sort(attribute='submenu_index') recursive %}
             {% if not '_eng' in subpage.tags %}
               <li>
                 <a href="{{ subpage.url }}">{{ subpage.title }}</a>
