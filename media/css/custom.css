@@ -681,3 +681,213 @@ summary {
   padding: 5px;
   cursor: pointer;
 }
+
+/*Structure of the faculty*/
+
+.bg-structure {
+  position: relative;
+  width: 890px;
+  margin: 0 auto;
+  height: 1010px;
+  padding: 5px;
+  background-image: url("../img/line.png");
+  background-position: top -15px center;
+  background-repeat: no-repeat;
+}
+
+.struct-elem {
+  display: inline-block;
+  position: absolute;
+  background: #88ADAB;
+  border: 1px solid black;
+  text-align: center;
+  padding: 9px;
+  font-size: 13px;
+}
+
+.struct-elem a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;;
+}
+
+.faculty-council {
+  margin-top: 5px;
+  margin-left: 39%;
+}
+
+.dean-item1 {
+  margin-left: 45.8%;
+  margin-top: 45px;
+}
+
+.prof-union {
+  font-size: 13px;
+  margin-left: 603px;
+  margin-top: -21px;
+}
+
+.dean-item2 {
+  margin-left: 175px;
+  margin-top: 40px;
+}
+
+.dean-item3 {
+  margin-left: 490px;
+  margin-top: 40px;
+}
+
+.sno {
+  margin-left: 178px;
+  margin-top: 180px;
+}
+
+.starostat {
+  margin-left: 178px;
+  margin-top: 235px;
+}
+
+.profsouz {
+  margin-left: 625px;
+  margin-top: 235px;
+}
+
+.stydsovet {
+  margin-left: 625px;
+  margin-top: 178px;
+}
+
+.brsm {
+  margin-left: 625px;
+  margin-top: 320px;
+}
+
+.brsm a {
+  font-size: 1.2em;
+}
+
+.dean-block {
+  margin-top: 60px;
+  width: 100px;
+}
+
+.second-block .struct-elem {
+  width: 240px;
+}
+
+.resize-stud-union .struct-elem {
+  width: 106px;
+}
+
+.third-block {
+  display: inline-block;
+  position: absolute;
+  background: #2980b9;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  margin-top: 60px;
+  width: 143px;
+}
+
+.third-block {
+  display: inline-block;
+  position: absolute;
+  background: #88ADAB;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  margin-top: 60px;
+  width: 143px;
+}
+
+.third-block a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.department-head-item-1 {
+  margin-left: 380px;
+  margin-top: 655px;
+}
+
+.department-head-item-2 {
+  margin-left: 515px;
+  margin-top: 395px;
+}
+
+.department-head-item-3 {
+  margin-left: 636px;
+  margin-top: 655px;
+}
+
+.department-head-item-4 {
+  margin-left: 750px;
+  margin-top: 395px;
+}
+
+.department-head-item-5 {
+  margin-left: 245px;
+  margin-top: 395px;
+}
+
+.department-head-item-6 {
+  margin-left: 120px;
+  margin-top: 655px;
+}
+
+.department-head-item-7 {
+  margin-left: 10px;
+  margin-top: 395px;
+}
+
+.department-item-1 {
+  margin-left: 380px;
+  margin-top: 735px;
+  height: 140px;
+}
+
+.department-item-2 {
+  margin-left: 515px;
+  margin-top: 475px;
+  height: 140px;
+}
+
+.department-item-3 {
+  margin-left: 636px;
+  margin-top: 735px;
+  height: 140px;
+}
+
+.department-item-4 {
+  margin-left: 750px;
+  margin-top: 475px;
+  height: 140px;
+}
+
+.department-item-5 {
+  margin-left: 248px;
+  margin-top: 475px;
+  height: 140px;
+}
+
+.department-item-6 {
+  margin-left: 120px;
+  margin-top: 735px;
+  height: 140px;
+}
+
+.department-item-7 {
+  margin-left: 10px;
+  margin-top: 475px;
+  height: 140px;
+}
+
+.third-block:hover {
+  background: #0044cc;
+}
+
+.struct-elem:hover {
+  background: #0044cc;
+}
