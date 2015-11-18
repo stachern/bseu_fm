@@ -73,11 +73,3 @@ category: other/articles
     </ul>
   </div>
 </div>
-
-<object type="application/x-shockwave-flash" data="/fm/img/70victory/371064087.swf" width="600" height="540" id="flashcontent">
-  <param name="allowFullScreen" value="true">
-  <param name="allowScriptAccess" value="always">
-  <param name="play" value="true">
-  <param name="loop" value="true">
-  <param name="wmode" value="direct">
-</object>
