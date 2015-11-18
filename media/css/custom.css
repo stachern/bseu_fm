@@ -681,3 +681,18 @@ summary {
   padding: 5px;
   cursor: pointer;
 }
+
+.honor-table {
+  border: none;
+  padding: 5px;
+}
+
+.honor-table tr {
+  margin-top:10px;
+}
+
+.honor-table td {
+  width: 220px;
+  text-align: center;
+  font-size: 15px;
+}
