@@ -1,2 +1,5 @@
 scss:
   config_file: .scss-style.yml
+  exclude:
+    - "media/css/bootstrap.min.css"
+    - "media/css/daterangepicker.css"
