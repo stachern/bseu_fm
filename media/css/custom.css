@@ -648,6 +648,11 @@ td.today:hover {
   background-size: cover;
 }
 
+.widget-item.relax {
+  background: url(../img/relax_page.jpg) center center;
+  background-size: cover;
+}
+
 #calendar {
   max-width: 900px;
   margin: 0 auto;
@@ -893,4 +898,35 @@ summary {
 
 .struct-elem:hover {
   background: #0044cc;
+}
+
+.relax-item {
+  width: 200px;
+  height: 200px;
+  background: lavenderblush;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.relax-img {
+  width: 100%;
+  height: 150px;
+  background: silver;
+}
+
+.relax-content {
+  width: 890px;
+}
+
+.relax-description {
+  height: 50px;
+  width: 100%;
+}
+
+.relax-description a {
+  display: block;
+  margin-top: 8px;
+  margin-left: 10px;
+  text-align: left;
 }
