@@ -1,0 +1,212 @@
+.bg-structure {
+  background-image: url("../img/line.png");
+  background-position: top -15px center;
+  background-repeat: no-repeat;
+  height: 1010px;
+  margin: 0 auto;
+  padding: 5px;
+  position: relative;
+  width: 890px;
+}
+
+.struct-elem {
+  background: $grayish-cyan;
+  border: 1px solid $light-black;
+  display: inline-block;
+  font-size: 13px;
+  padding: 9px;
+  position: absolute;
+  text-align: center;
+
+  a {
+    color: $white;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background: $strong-blue;
+  }
+}
+
+.faculty-council {
+  font-size: 16px;
+  margin-left: 39%;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.dean-item1 {
+  margin-left: 46.7%;
+  margin-top: 45px;
+}
+
+.prof-union {
+  font-size: 13px;
+  margin-left: 603px;
+  margin-top: -21px;
+}
+
+.dean-item2 {
+  margin-left: 100px;
+  margin-top: 40px;
+  width: 300px;
+}
+
+.dean-item3 {
+  margin-left: 490px;
+  margin-top: 40px;
+}
+
+.sno {
+  margin-left: 178px;
+  margin-top: 180px;
+}
+
+.starostat {
+  margin-left: 178px;
+  margin-top: 235px;
+}
+
+.profsouz {
+  margin-left: 625px;
+  margin-top: 235px;
+}
+
+.stydsovet {
+  margin-left: 625px;
+  margin-top: 178px;
+}
+
+.brsm {
+  margin-left: 625px;
+  margin-top: 320px;
+
+  a {
+    font-size: 1.2em;
+  }
+}
+
+.dean-block {
+  margin-top: 60px;
+  width: 100px;
+}
+
+.second-block {
+  .struct-elem {
+    width: 240px;
+  }
+}
+
+.resize-stud-union {
+  .struct-elem {
+    width: 106px;
+  }
+}
+
+.third-block {
+  background: $grayish-cyan;
+  border: 1px solid $light-black;
+  display: inline-block;
+  margin-top: 60px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 143px;
+
+  a {
+    color: $white;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background: $strong-blue;
+  }
+}
+
+.department-head-item-1,
+.department-head-item-3,
+.department-head-item-6 {
+  margin-top: 655px;
+}
+
+.department-head-item-2,
+.department-head-item-4,
+.department-head-item-5,
+.department-head-item-7 {
+  margin-top: 395px;
+}
+
+.department-head-item-1 {
+  margin-left: 380px;
+}
+
+.department-head-item-2 {
+  margin-left: 515px;
+}
+
+.department-head-item-3 {
+  margin-left: 636px;
+}
+
+.department-head-item-4 {
+  margin-left: 750px;
+}
+
+.department-head-item-5 {
+  margin-left: 245px;
+}
+
+.department-head-item-6 {
+  margin-left: 120px;
+}
+
+.department-head-item-7 {
+  margin-left: 10px;
+}
+
+.department-item-1,
+.department-item-2,
+.department-item-3,
+.department-item-4,
+.department-item-5,
+.department-item-6,
+.department-item-7 {
+  height: 140px;
+}
+
+.department-item-1 {
+  margin-left: 380px;
+  margin-top: 735px;
+}
+
+.department-item-2 {
+  margin-left: 515px;
+  margin-top: 475px;
+}
+
+.department-item-3 {
+  margin-left: 636px;
+  margin-top: 735px;
+}
+
+.department-item-4 {
+  margin-left: 750px;
+  margin-top: 475px;
+}
+
+.department-item-5 {
+  margin-left: 248px;
+  margin-top: 475px;
+}
+
+.department-item-6 {
+  margin-left: 120px;
+  margin-top: 735px;
+}
+
+.department-item-7 {
+  margin-left: 10px;
+  margin-top: 475px;
+}

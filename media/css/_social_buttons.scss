@@ -1,0 +1,36 @@
+.b-share {
+  [data-service] {
+    @include transition-duration(0.4s);
+    @include transition-property(color, text);
+    @include transition-timing-function(linear, ease-in);
+    color: $social-icon;
+  }
+
+  [data-service='vkontakte'] {
+    &:hover {
+      color: $vkontakte;
+    }
+  }
+
+  [data-service='facebook'] {
+    &:hover {
+      color: $facebook;
+    }
+  }
+
+  [data-service='twitter'] {
+    &:hover {
+      color: $twitter;
+    }
+  }
+
+  [data-service='gplus'] {
+    &:hover {
+      color: $gplus;
+    }
+  }
+}
+
+.fa {
+  line-height: inherit;
+}

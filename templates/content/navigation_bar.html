@@ -9,7 +9,7 @@
                 {{ menu_entry.menu }}
                 <b class="caret"></b>
               </span>
-              <ul>
+              <ul class="subnav">
                 {% if not "_ignore_nav" in menu_entry.tags %}
                   <li><a href="{{ menu_entry.url }}">{{ menu_entry.menu }}</a></li>
                 {% endif %}
