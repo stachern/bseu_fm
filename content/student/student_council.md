@@ -15,61 +15,61 @@ type: tag_by_slug_sidebar
 <br>
 
 <div>
-  <div class="i2Style" style="background:#7c040d">Председатель студсовета</div><br>
+  <div class="i2style" style="background:#7c040d">Председатель студсовета</div><br>
   <img class="hide" src="/img/collages/predsedatel_stud.jpg">
 </div>
 
 <div>
-  <div class="i2Style" style="background:#960105";>Заместитель председателя</div><br>
+  <div class="i2style" style="background:#960105";>Заместитель председателя</div><br>
   <img class="hide" src="/img/collages/zamest_stud.jpg">
 </div>
 
 <div>
-  <div class="i2Style" style="background:#a70105">Культурно-массовый сектор</div><br>
+  <div class="i2style" style="background:#a70105">Культурно-массовый сектор</div><br>
   <img class="hide" src="/img/collages/kulturn_mass.jpg">
 </div>
 
 <div>
-  <div class="i2Style" style="background:#d2062b">Спортивный сектор</div><br>
+  <div class="i2style" style="background:#d2062b">Спортивный сектор</div><br>
   <img class="hide" src="/img/collages/sport_sector.jpg">
 </div>
 
 <div>
-  <div class="i2Style" style="background:#fc1b43">Редколлегия</div><br>
+  <div class="i2style" style="background:#fc1b43">Редколлегия</div><br>
   <img class="hide" src="/img/collages/redkollegiya.jpg">
 </div>
 
 <div>
-  <div class="i2Style" style="background:#ffb1b7">Секретарь ПО БРСМ ФМ</div><br>
+  <div class="i2style" style="background:#ffb1b7">Секретарь ПО БРСМ ФМ</div><br>
   <img class="hide" src="/img/collages/secretar_po.jpg">
 </div>
 
 <div>
-  <div class="i2Style" style="background:#bcb1fd">Председатель ППО</div><br>
+  <div class="i2style" style="background:#bcb1fd">Председатель ППО</div><br>
   <img class="hide" src="/img/collages/predsedatel_po.jpg">
 </div>
 
 <div>
-  <div class="i2Style" style="background:#5a46fd">Председатель старостата</div><br>
+  <div class="i2style" style="background:#5a46fd">Председатель старостата</div><br>
   <img class="hide" src="/img/collages/predsedatel_star.jpg">
 </div>
 
 <div>
-  <div class="i2Style" style="background:#1f06d3">Секретарь</div><br>
+  <div class="i2style" style="background:#1f06d3">Секретарь</div><br>
   <img class="hide" src="/img/collages/secretar.jpg">
 </div>
 
 <div>
-  <div class="i2Style" style="background:#110398">Информационно-пропагандистский сектор</div><br>
+  <div class="i2style" style="background:#110398">Информационно-пропагандистский сектор</div><br>
   <img class="hide" src="/img/collages/informaction_sect.jpg">
 </div>
 
 <div>
-  <div class="i2Style" style="background:#0d027c">Научный сектор</div><br>
+  <div class="i2style" style="background:#0d027c">Научный сектор</div><br>
   <img class="hide" src="/img/collages/nauchn.jpg">
 </div>
 
 <div>
-  <div class="i2Style" style="background:#080151">Организационный сектор</div><br>
+  <div class="i2style" style="background:#080151">Организационный сектор</div><br>
   <img class="hide" src="/img/collages/organization_sect.jpg">
 </div>

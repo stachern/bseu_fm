@@ -84,7 +84,7 @@ $(function() {
 });
 
 var collapse = function() {
-  $('.i2Style').click(function() {
+  $('.i2style').click(function() {
     $(this).parent().find('img').toggleClass('hide');
   });
 };

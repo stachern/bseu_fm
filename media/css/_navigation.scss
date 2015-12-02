@@ -1,0 +1,115 @@
+.navbar-inner {
+  background: $sidebar-background;
+  border: 0;
+}
+
+.navbar-inverse {
+  .navbar-inner {
+    background: $sidebar-background;
+  }
+}
+
+.navbar {
+  .brand {
+    margin-left: 3px;
+    margin-right: 3px;
+    max-height: 50px;
+    overflow: visible;
+    padding: 0 3px;
+
+    &:hover {
+      background: $sidebar-link-highlight;
+    }
+  }
+
+  .nav {
+    display: inline;
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    text-align: left;
+
+    li {
+      &:hover {
+        background: $sidebar-link-highlight;
+        color: $white;
+      }
+    }
+
+    span {
+      cursor: pointer;
+      display: inline-block;
+      height: 20px;
+      padding: 15px;
+    }
+
+    .active {
+      background: $sidebar-link-highlight;
+    }
+  }
+
+  .subnav {
+    @include transition(opacity, 0.2s);
+    @include box-shadow(1px 6px 8px $almost-black);
+    display: none;
+    left: 0;
+    min-width: 150px;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    top: 50px;
+    visibility: hidden;
+
+    li {
+      background: $white;
+      display: block;
+    }
+
+    a {
+      padding: 6px 10px;
+    }
+  }
+
+  .caret {
+    border-bottom-color: $white;
+    border-top-color: $white;
+    margin-top: 8px;
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+    @include transition(all, 0.2s);
+    background: $sidebar-background;
+    color: $white;
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+
+    &:hover {
+      ul {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    a {
+      color: $white;
+    }
+
+    > a {
+      color: $gray;
+      display: block;
+      padding: 15px 20px 16.5px;
+      white-space: nowrap;
+
+      &:hover {
+        color: $white;
+        text-decoration: none;
+      }
+    }
+  }
+}
