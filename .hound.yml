@@ -1,0 +1,15 @@
+ruby:
+  enabled: false
+
+haml:
+  enabled: false
+
+go:
+  enabled: false
+
+scss:
+  exclude:
+    - "media/css/bootstrap.min.css"
+    - "media/css/daterangepicker.css"
+
+fail_on_violations: true
