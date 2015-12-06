@@ -364,18 +364,19 @@ h1, h2, h3 {
   margin-left: 3px;
 }
 
-.nav {
+.navbar .nav {
   font-size: 14px;
 }
 
-.nav, .nav ul {
+.navbar .nav,
+.navbar .nav ul {
   text-align: left;
   display: inline;
   margin: 0;
   list-style: none;
 }
 
-.nav li {
+.navbar li {
   display: inline-block;
   margin-right: -4px;
   position: relative;
@@ -388,16 +389,16 @@ h1, h2, h3 {
   transition: all 0.2s;
 }
 
-.nav li:hover {
+.navbar .nav li:hover {
   background: #c0392b;
   color: #ffffff;
 }
 
-.nav li a {
+.navbar li a {
   color: #ffffff;
 }
 
-.nav > li > ul {
+.navbar .nav > li > ul {
   padding: 0;
   position: absolute;
   top: 50px;
@@ -415,40 +416,40 @@ h1, h2, h3 {
   box-shadow: 1px 6px 8px rgba(0,0,0,.175)
 }
 
-.nav ul > li {
+.navbar .nav ul > li {
   background: #ffffff;
   display: block;
 }
 
-.nav > li:hover ul {
+.navbar .nav > li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible;
 }
 
-.nav b.caret {
+.navbar .nav b.caret {
   border-top-color: #ffffff;
   border-bottom-color: #ffffff;
   margin-top: 8px;
 }
 
-.nav li > a {
+.navbar li > a {
   display: block;
   padding: 15px 20px 16.5px;
   color: #555555;
   white-space: nowrap;
 }
 
-.nav li > a:hover {
+.navbar li > a:hover {
   text-decoration: none;
   color: #ffffff;
 }
 
-.nav ul > li > a {
+.navbar .nav ul > li > a {
   padding: 6px 10px;
 }
 
-.nav > li > span {
+.navbar .nav > li > span {
   display: inline-block;
   height: 20px;
   padding: 15px;
