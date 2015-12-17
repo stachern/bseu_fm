@@ -1,7 +1,7 @@
 title: Справочная информация
 slug: help
 category: applicants
-tags: [_nav]
+tags: [_nav, _category_header]
 submenu_index: 2
 type: tag_by_slug_sidebar
 ---
