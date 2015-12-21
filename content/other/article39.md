@@ -1,4 +1,4 @@
-title: Интересные факты об Интернете
+title: Продолжаем знакомиться с интересными фактами об Интернете
 tags: [_nav, interesting, _category_header]
 category: other/articles
 ---
