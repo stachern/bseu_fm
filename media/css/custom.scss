@@ -431,6 +431,11 @@ th:hover {
     background: url("../img/announcement.jpg") center center;
     background-size: cover;
   }
+
+  &.relax {
+    background: url("../img/relax_page.jpg") center center;
+    background-size: cover;
+  }
 }
 
 #calendar {
@@ -471,3 +476,34 @@ summary {
 
 @import "faculty_structure";
 @import "honours_board";
+
+.relax-item {
+  width: 200px;
+  height: 200px;
+  background: lavenderblush;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.relax-img {
+  width: 100%;
+  height: 150px;
+  background: silver;
+}
+
+.relax-content {
+  width: 890px;
+}
+
+.relax-description {
+  height: 50px;
+  width: 100%;
+}
+
+.relax-description a {
+  display: block;
+  margin-top: 8px;
+  margin-left: 10px;
+  text-align: left;
+}
