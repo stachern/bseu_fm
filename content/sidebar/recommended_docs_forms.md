@@ -2,7 +2,7 @@ title: Рекомендуемые формы документов
 slug: recommended_docs_forms
 category: other
 tags: [graduate]
-sidebar_index: 2
+sidebar_index: 4
 ---
 
 - [Форма заявки на распределение](/files/raspred_zayav.doc)
