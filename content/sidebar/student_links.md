@@ -12,6 +12,10 @@ sidebar_index: 1
 -   [Положение о переводе на бюджет ](http://www.bseu.by/russian/student/perevod.htm)
 -   [Положение о скидках](http://www.bseu.by/russian/student/skidki.htm)
 -   [Порядок заселения в общежития](http://www.bseu.by/russian/student/polog_zasel.htm)
+<<<<<<< HEAD
 -   [Размеры стипендий](/files/stipendii.doc)
 -   [Стоимость платных услуг](/files/otrabotki.doc)
 -   [Оплата через ЕРИП](/files/erip.doc)
+=======
+-   [Как правильно подготовить себя к сдаче экзамена](/files/examrules.doc)
+>>>>>>> Add finance page

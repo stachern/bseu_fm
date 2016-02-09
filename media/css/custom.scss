@@ -498,3 +498,23 @@ summary {
   height: 40px;
   padding: 8px;
 }
+
+.finance-container {
+  a {
+    float: left;
+    height: 168px;
+    margin: 16px;
+    text-align: center;
+    width: 228px;
+
+    &:hover {
+    text-decoration: none;
+    }
+
+}
+
+  h2 {
+    color: $white;
+    font-size: 22px;
+    }
+}
