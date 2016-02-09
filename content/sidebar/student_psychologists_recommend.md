@@ -2,7 +2,7 @@ title: Психологи рекомендуют
 slug: psychologists-recommend
 category: other
 tags: [good_to_know]
-sidebar_index: 2
+sidebar_index: 3
 ---
 
 - [Как правильно подготовить себя к сдаче экзамена](/psychologists-recommend/preparing-for-exams/)
