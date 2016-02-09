@@ -427,6 +427,11 @@ th:hover {
     background-size: cover;
   }
 
+  &.reference {
+    background: url("../img/reference.jpg") center center;
+    background-size: cover;
+  }
+
   &.announcement {
     background: url("../img/announcement.jpg") center center;
     background-size: cover;
