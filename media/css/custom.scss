@@ -482,7 +482,8 @@ summary {
 @import "faculty_structure";
 @import "honours_board";
 
-.relax-container {
+.relax-container,
+.finance-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -502,4 +503,21 @@ summary {
   background: $lavenderblush;
   height: 40px;
   padding: 8px;
+}
+
+.finance-item {
+  background: $sidebar-background;
+  height: 150px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  text-align: center;
+  width: 250px;
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  h3 {
+    color: $white;
+  }
 }
