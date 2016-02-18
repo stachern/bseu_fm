@@ -496,13 +496,21 @@ summary {
 }
 
 .relax-img {
-  height: 150px;
+  img {
+    width: 200px;
+  }
 }
 
 .relax-description {
   background: $lavenderblush;
   height: 40px;
   padding: 8px;
+}
+
+#photo-feed {
+  .relax-description {
+    height: inherit;
+  }
 }
 
 .finance-item {
