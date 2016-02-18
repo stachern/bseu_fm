@@ -32,7 +32,7 @@ category: other/articles
 
 ### Научные труды
 
-– «Теория экономического развития» (Theorie der wirtschaftlichen Entwicklung, 1912);
-– «Бизнес-циклы: теоретический, исторический и статистический анализ капиталистического процесса», в 2-х тт. (Business Cycles: a Theoretical, Historical, and Statistical Analysis of the Capitalist Process, 1939);
-– «Капитализм, социализм и демократия» (Capitalism, Socialism and Democracy, 1942);
-– «Десять великих экономистов» (Ten Great Economists, 1951).
+- «Теория экономического развития» (Theorie der wirtschaftlichen Entwicklung, 1912);
+- «Бизнес-циклы: теоретический, исторический и статистический анализ капиталистического процесса», в 2-х тт. (Business Cycles: a Theoretical, Historical, and Statistical Analysis of the Capitalist Process, 1939);
+- «Капитализм, социализм и демократия» (Capitalism, Socialism and Democracy, 1942);
+- «Десять великих экономистов» (Ten Great Economists, 1951).
