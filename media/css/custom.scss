@@ -441,6 +441,11 @@ th:hover {
     background: url("../img/relax.jpg") center center;
     background-size: cover;
   }
+
+  &.dictionary {
+    background: url("../img/dictionary.jpg") center center;
+    background-size: cover;
+  }
 }
 
 #calendar {
@@ -523,3 +528,34 @@ summary {
 }
 
 @import "partners";
+
+.dictionary-container {
+  a {
+    color: $white;
+    float: left;
+    font-size: 50px;
+    line-height: 80px;
+    list-style: none;
+    margin-left: 37px;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    width: 80px;
+  }
+
+  a:nth-child(8n+1) {
+    margin-left: 0;
+  }
+}
+
+.dictionary-active {
+  background: $sidebar-background;
+
+  &:hover {
+    background: $sidebar-link-highlight;
+  }
+}
+
+.dictionary-inactive {
+  background: $dictionary-inactive;
+}
