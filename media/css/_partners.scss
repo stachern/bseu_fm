@@ -1,0 +1,34 @@
+#partners {
+  float: left;
+  min-height: 1px;
+  padding-left: 15px;
+  position: relative;
+  width: 100%;
+
+  .viewport {
+    height: 125px;
+    overflow: hidden;
+    padding-top: 12px;
+    position: relative;
+  }
+
+  .overview {
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+
+    li {
+      background: url("../img/content/partners/separator.png") no-repeat left;
+      float: left;
+      padding: 26px 0;
+      text-align: center;
+      width: 184px;
+    }
+
+    img {
+      width: 120px;
+    }
+  }
+}
