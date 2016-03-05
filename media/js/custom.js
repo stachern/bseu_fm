@@ -88,3 +88,13 @@ var collapse = function() {
     $(this).parent().find('img').toggleClass('hide');
   });
 };
+
+$(function() {
+    $('#partners').tinycarousel({
+        animation: true,
+        animationTime: 500,
+        interval: true,
+        intervalTime: 2000,
+        infinite: true
+    });
+});

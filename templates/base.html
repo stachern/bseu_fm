@@ -29,7 +29,6 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script src="/js/panels.js"></script>
   <script src="/js/custom_share.js"></script>
-  <script src="/js/custom.js"></script>
 </head>
 
 <body>
@@ -52,6 +51,7 @@
       <div class="proper-content">
         {% block base_content %}{% endblock %}
       </div>
+      {% block partners %}{% endblock %}
     </div>
     <div id="push"></div>
   </div>
@@ -77,6 +77,8 @@
 
 <script src="//maxcdn.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
 <script src="/js/polyfills/details.js"></script>
+<script src="/js/jquery.tinycarousel.min.js"></script>
+<script src="/js/custom.js"></script>
 
 </body>
 </html>

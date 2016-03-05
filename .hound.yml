@@ -13,4 +13,7 @@ scss:
     - "media/css/bootstrap.min.css"
     - "media/css/daterangepicker.css"
 
+javascript:
+  ignore_file: .javascript_ignore
+
 fail_on_violations: true
