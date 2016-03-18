@@ -441,6 +441,11 @@ th:hover {
     background: url("../img/relax.jpg") center center;
     background-size: cover;
   }
+
+  &.safe-internet {
+    background: url("../img/safe_internet.jpg") center center;
+    background-size: cover;
+  }
 }
 
 #calendar {
