@@ -36,7 +36,7 @@ type: tag_by_slug_sidebar
 <table style="border: 0;">
   <tr>
     <td>
-      <img src="/img/prof_union/fadeeva.jpg" width="178px" height="237px" style="margin-right: 22px">
+      <img src="/img/prof_union/efimovich.jpg" width="178px" height="237px" style="margin-right: 22px">
     </td>
     <td>
       <img src="/img/prof_union/cherepkovskaya.jpg" width="197px" height="237px">
@@ -47,7 +47,7 @@ type: tag_by_slug_sidebar
   </tr>
   <tr>
     <td style="font-size: 12px">
-      Фадеева Вероника 13ДКТ<br>
+      Ефимович Маргарита 14ДКП-2<br>
       (секретарь)
     </td>
     <td style="font-size: 12px">
@@ -60,7 +60,7 @@ type: tag_by_slug_sidebar
     </td>
   </tr>
   <tr>
-    <td style="font-size: 12px; padding-bottom: 35px">+375295573536</td>
+    <td style="font-size: 12px; padding-bottom: 35px">+375257219524</td>
     <td style="font-size: 12px; padding-bottom: 35px">+375298173926</td>
     <td style="font-size: 12px; padding-bottom: 35px">+375293799686</td>
   </tr>
