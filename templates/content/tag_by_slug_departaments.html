@@ -1,17 +1,15 @@
 {% for tag, pages in site.tags.items() %}
   {% if tag == page.category.0 %}
     <div class="container-fluid well">
-      {% for tag_page in pages | sort(attribute='sidebar_index') %}
-        <h2>Приглашаем в магистратуру</h2>
-        <ul>
-          <li>
-            <a href="/files/{{page.slug}}.doc">Информация о магистерских программах кафедры</a>
-          </li>
-          <li>
-            <a href="http://imp-bseu.by/">Институт магистерской подготовки БГЭУ</a>
-          </li>
-        </ul>
-      {% endfor %}
+      <h2>Приглашаем в магистратуру</h2>
+      <ul>
+        <li>
+          <a href="/files/{{page.slug}}.doc">Информация о магистерских программах кафедры</a>
+        </li>
+        <li>
+          <a href="http://imp-bseu.by/">Институт магистерской подготовки БГЭУ</a>
+        </li>
+      </ul>
     </div>
   {% endif %}
 {% endfor %}

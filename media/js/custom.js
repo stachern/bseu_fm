@@ -98,3 +98,11 @@ $(function() {
         infinite: true
     });
 });
+
+$(function() {
+    $('.academics-alphabet').find('ul').find('li').click(function() {
+        $('.academics-container').find('div').hide();
+        var thisItem = $(this).attr('class');
+        $('.academics-' + thisItem).show();
+    });
+});

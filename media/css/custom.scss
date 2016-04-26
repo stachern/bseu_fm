@@ -564,3 +564,20 @@ summary {
 .dictionary-inactive {
   background: $dictionary-inactive;
 }
+
+.academics-container {
+  a {
+    display: block;
+  }
+
+  div {
+    background-color: $academics-container;
+    display: none;
+    position: absolute;
+  }
+}
+
+.academics-alphabet ul li {
+  cursor: pointer;
+  display: inline;
+}
