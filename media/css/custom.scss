@@ -564,3 +564,18 @@ summary {
 .dictionary-inactive {
   background: $dictionary-inactive;
 }
+
+.teachers-container a {
+  display: block;
+}
+
+.teachers-alphabet ul li {
+  cursor: pointer;
+  display: inline;
+}
+
+.teachers-container div {
+  background-color: $teachers-container;
+  display: none;
+  position: absolute;
+}
