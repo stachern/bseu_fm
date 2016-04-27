@@ -98,3 +98,9 @@ $(function() {
         infinite: true
     });
 });
+
+$('.teachers-alphabet ul li').click(function () {
+	$('.teachers-container div').css('display','none');
+	var thisItem = $(this).attr('class');
+	$('.teachers-'+thisItem).css('display','block');
+});
