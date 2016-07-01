@@ -545,23 +545,16 @@ summary {
     text-align: center;
     text-decoration: none;
     width: 80px;
+    background: $sidebar-background;
+  }
+
+  a:hover {
+    background: $sidebar-link-highlight;
   }
 
   a:nth-child(8n+1) {
     margin-left: 0;
   }
-}
-
-.dictionary-active {
-  background: $sidebar-background;
-
-  &:hover {
-    background: $sidebar-link-highlight;
-  }
-}
-
-.dictionary-inactive {
-  background: $dictionary-inactive;
 }
 
 .academics-container {
