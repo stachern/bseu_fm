@@ -5,9 +5,6 @@
     <% } %>
     <% if (!articles[i].is_monthphrase) { %>
       <span class="pull-right">
-        <a class="btn-link" onclick="show_comments('<%= articles[i].id %>'); return false;" title="Оставить комментарий к записи">
-          <i class="icon-comment"></i>
-        </a>
         <span class="badge badge-important"><i class="icon-calendar icon-white"></i> <%= articles[i].publish_date %></span>
       </span>
     <% } %>

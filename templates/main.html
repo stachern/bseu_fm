@@ -9,11 +9,7 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
   <script src="/js/daterangepicker.js"></script>
   <script src="/js/newsfeed.js"></script>
-  <script src="http://vk.com/js/api/openapi.js"></script>
   <script src="http://platform.twitter.com/widgets.js"></script>
-  <script>
-    VK.init({apiId: 1970055, onlyWidgets: true});
-  </script>
   <div id="feed"></div>
   <button id="loader" class="btn btn-small btn-danger">
     <div id="spinner"><img src="/img/spinner.gif"></div>
@@ -37,4 +33,3 @@
   {% include "widgets/dictionary.html" %}
   {% include "widgets/news_widget.html" %}
 {% endblock %}
-{% include "modals/comments.html" %}
