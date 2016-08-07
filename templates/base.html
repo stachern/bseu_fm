@@ -15,7 +15,6 @@
   <link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" rel="stylesheet">
   <link href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.0/outdatedbrowser.min.css" rel="stylesheet">
   <link href="/css/bootstrap.min.css" rel="stylesheet">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link rel="shortcut icon" href="/fm/favicon.ico" type="image/x-icon">
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -28,7 +27,6 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.0/outdatedbrowser.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script src="/js/panels.js"></script>
-  <script src="/js/custom_share.js"></script>
 </head>
 
 <body>
@@ -59,7 +57,6 @@
     <div class="container">
       <p class="muted credit">
         {% include "misc/ramblertop100_counter.html" %}
-        {% include "misc/yandex_share.html" %}
         {% block site_info %}
           <small class="pull-right">
             Сайт обновлен <time datetime="{{ site.date.isoformat() }}">{{ site.date.strftime('%d-%m-%Y') }}</time> © Факультет менеджмента |
