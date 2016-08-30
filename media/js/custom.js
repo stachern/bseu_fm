@@ -93,3 +93,28 @@ $(function() {
         $('.academics-' + thisItem).show();
     });
 });
+
+$(function () {
+    function setCurrentYear(currentYear) {
+        $('[data-toggle="tab"]').each(function () {
+			var baseAttr = $(this)
+					.attr('href')
+					.replace(/[0-9]/g, '') + currentYear;
+			$(this).attr('href', baseAttr);
+		});
+	}
+	var date = new Date();
+	var thisYear = date.getFullYear();
+	setCurrentYear(thisYear);
+	$('.board-' + thisYear).show();
+	$('.honour-board-select').val(thisYear).change(function () {
+		var currentYear = $(this).val();
+		$('#honours-board-tab li').removeClass('active');
+		$('.default-tab').addClass('active');
+		$('.tab-pane').removeClass('active');
+		$('#staff' + currentYear).addClass('active');
+		$('.tab-content').hide();
+		$('.board-' + currentYear).fadeIn(500);
+		setCurrentYear(currentYear);
+	});
+});

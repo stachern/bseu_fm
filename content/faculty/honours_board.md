@@ -6,13 +6,19 @@ submenu_index: 4
 ---
 
 <ul class="nav nav-tabs" id="honours-board-tab">
-  <li class="active"><a href="#staff" data-toggle="tab">Сотрудники</a></li>
-  <li><a href="#students" data-toggle="tab">Студенты</a></li>
-  <li><a href="#sport-heroes" data-toggle="tab">«Герои спорта»</a></li>
+  <li class="active default-tab"><a href="#staff" data-toggle="tab">Сотрудники</a></li>
+    <li><a href="#students" data-toggle="tab">Студенты</a></li>
+    <li><a href="#sport-heroes" data-toggle="tab">«Герои спорта»</a></li>
+    <li class="pull-right">
+      <select class="honour-board-select">
+        <option data-display="Select" disabled>Год</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+      </select>
+    </li>
 </ul>
-
-<div class="tab-content">
-  <div class="tab-pane active" id="staff">
+<div class="tab-content board-2015 hide">
+  <div class="tab-pane active" id="staff2015">
     <table class="honours-table">
       <tr>
         <td>
@@ -60,7 +66,7 @@ submenu_index: 4
       </tr>
     </table>
   </div>
-  <div class="tab-pane" id="students">
+  <div class="tab-pane" id="students2015">
     <table class="honours-table">
       <tr>
         <td>
@@ -108,7 +114,7 @@ submenu_index: 4
       </tr>
     </table>
   </div>
-  <div class="tab-pane" id="sport-heroes">
+  <div class="tab-pane" id="sport-heroes2015">
     <table class="honours-table">
       <tr>
         <td>
@@ -134,4 +140,128 @@ submenu_index: 4
       </tr>
     </table>
   </div>
+</div>
+<div class="tab-content board-2016 hide">
+    <div class="tab-pane active" id="staff2016">
+        <table class="honours-table">
+            <tr>
+                <td>
+                    <img src="/img/content/honours_board/verenich.jpg">
+                    <p><strong>Веренич Светлана Ивановна</strong></p>
+                    <p>заместитель декана факультета менеджмента, кандидат наук, доцент</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/baldin.jpg">
+                    <p><strong>Балдин Игорь Валентинович</strong></p>
+                    <p>кандидат экономических наук, доцент кафедры организации и управления</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/badina.jpg">
+                    <p><strong>Бадьина Валентина Михайловна</strong></p>
+                    <p>кандидат сельскохозяйственных наук, доцент кафедры экономики и управления предприятиями АПК</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/belyavskiy.jpg">
+                    <p><strong>Белявский Станислав Станиславович</strong></p>
+                    <p>кандидат физико-математических наук, доцент кафедры прикладной математики и экономической кибернетики</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="/img/content/honours_board/akulich.jpg">
+                    <p><strong>Акулич Владимир Алексеевич</strong></p>
+                    <p>кандидат экономических наук, доцент кафедры национальной экономики и государственного управления</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/nemtsova.jpg">
+                    <p><strong>Немцова Галина Александровна</strong></p>
+                    <p>aссистент кафедры экономики природопользования</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/dovidova.jpg">
+                    <p><strong>Довыдова Ольга Григорьевна</strong></p>
+                    <p>ассистент кафедры экономики промышленных предприятий</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/shavruk.jpg">
+                    <p><strong>Шаврук Елена Юрьевна</strong></p>
+                    <p>ассистент кафедры экономической информатики</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="tab-pane" id="students2016">
+        <table class="honours-table">
+            <tr>
+                <td>
+                    <img src="/img/content/honours_board/koryakovskaya.jpg">
+                    <p><strong>Коряковская Татьяна</strong></p>
+                    <p>студентка гр. 14ДКУ, председатель студсовета ФМ </p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/bondarenko.jpg">
+                    <p><strong>Бондаренко Андрей</strong></p>
+                    <p>студент гр. 14ДКИ, член комитета ПО ОО «БРСМ» ФМ, культорганизатор</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/kashko.jpg">
+                    <p><strong>Кашко Мария</strong></p>
+                    <p>староста гр. 13ДКИ</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/mistchenko.jpg">
+                    <p><strong>Мищенко Артем</strong></p>
+                    <p>студент гр. 13ДКТ</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="/img/content/honours_board/shevchenko.jpg">
+                    <p><strong>Шевченко Марина</strong></p>
+                    <p>студентка гр. 14ДКП-1, член профбюро студентов ФМ, отв. за культмассовый сектор</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/ermakov.jpg">
+                    <p><strong>Ермаков Антон</strong></p>
+                    <p> студент гр. 12ДКК»</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/aleketovich.jpg">
+                    <p><strong>Алексетович Екатерина</strong></p>
+                    <p>староста гр. 13ДКМ</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/brikina.jpg">
+                    <p><strong>Брикина Юлия</strong></p>
+                    <p>староста гр. 12ДКМ, председатель студсовета  общежития № 7</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="tab-pane" id="sport-heroes2016">
+        <table class="honours-table">
+            <tr>
+                <td>
+                    <img src="/img/content/honours_board/ivanovskiy.jpg">
+                    <p><strong>Ивановский Леонид</strong></p>
+                    <p>гр. 15ДКТ, член юниорской сборной Республики Беларусь по хоккею, чемпион мира по хоккею среди юношей до 18 лет, чемпион Республики Беларусь по хоккею среди юношей до 18 лет</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/milovanov.jpg">
+                    <p><strong>Милованов Андрей</strong></p>
+                    <p>гр. 13ЗКЭ, мастер спорта по настольному теннису, член национальной команды Республики Беларусь по настольному теннису, многократный победитель и призер республиканских и международных соревнований</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/filimonov.jpg">
+                    <p><strong>Филимонов Александр</strong></p>
+                    <p>гр. 12ЗКУ, I взрослый разряд по гандболу, член сборной команды «Витязь», участник национальных и международных соревнований, победитель Балтийской Лиги, призер Универсиады-2015</p>
+                </td>
+                <td>
+                    <img src="/img/content/honours_board/kotryakov.jpg">
+                    <p><strong>Котряков Олег</strong></p>
+                    <p>гр. 13ДКЭ, I взрослый разряд по хоккею с шайбой, игрок команды «Химик-СКА», участник и призер различных международных и республиканских соревнований в составе юношеской сборной Республики Беларусь (международного турнира на Кубок Президента Республики Беларусь, турнира четырех наций и др.)</p>
+                </td>
+            </tr>
+        </table>
+    </div>
 </div>
