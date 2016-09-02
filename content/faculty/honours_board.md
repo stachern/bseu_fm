@@ -11,9 +11,9 @@ submenu_index: 4
   <li><a href="#sport-heroes2016" data-toggle="tab">«Герои спорта»</a></li>
   <li class="pull-right">
     <select class="honours-board-select">
-      <optgroup label="Год">
-        <option value="2016">2016</option>
-        <option value="2015">2015</option>
+      <optgroup label="Учебный год">
+        <option value="2016">2016—2017</option>
+        <option value="2015">2015—2016</option>
       </optgroup>
     </select>
   </li>
