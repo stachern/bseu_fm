@@ -2,7 +2,7 @@ title: Доска Почёта ФМ
 slug: honours-board
 category: faculty
 tags: [_nav]
-submenu_index: 4
+submenu_index: 5
 ---
 
 <ul class="nav nav-tabs" id="honours-board-tab">
