@@ -10,7 +10,7 @@ type: tag_by_slug_sidebar
 
 Значение науки в нашей жизни переоценить сложно. И подтверждение тому высказывания многих выдающихся людей:
 
-<table style="border: 0">
+<table id="sno-quotations">
   <tr>
     <td>
       <img src="/img/sno/feerbah.jpg">
@@ -22,7 +22,7 @@ type: tag_by_slug_sidebar
   </tr>
   <tr>
     <td>
-      <img src="/img/sno/kurchatov.jpg" width="87">
+      <img src="/img/sno/kurchatov.jpg">
     </td>
     <td valign="top" style="font-size: 16px">
       Жизнь человека не вечна, но наука и знания переступают пороги столетий. <br>
@@ -40,7 +40,7 @@ type: tag_by_slug_sidebar
   </tr>
   <tr>
     <td>
-      <img src="/img/sno/marx.jpg" width="87">
+      <img src="/img/sno/marx.jpg">
     </td>
     <td valign="top" style="font-size: 16px">
       В науке нет широкой столбовой дороги, и только тот может достигнуть ее сияющих вершин, кто, не страшась усталости, карабкается по ее каменистым тропам.<br>
@@ -49,7 +49,7 @@ type: tag_by_slug_sidebar
   </tr>
   <tr>
     <td>
-      <img src="/img/sno/kuri.jpg" style="padding-right: 5px; margin-bottom: 5px" width="87">
+      <img src="/img/sno/kuri.jpg">
     </td>
     <td valign="top" style="font-size: 16px">
       Наука является основой всякого прогресса, облегчающего жизнь человечества и уменьшающего его страдания.<br>
@@ -58,7 +58,7 @@ type: tag_by_slug_sidebar
   </tr>
   <tr>
     <td>
-      <img src="/img/sno/marx.jpg" width="87">
+      <img src="/img/sno/marx.jpg">
     </td>
     <td valign="top" style="font-size: 16px">
       Всякое начало трудно, – эта истина справедлива для каждой науки.<br>
@@ -67,7 +67,7 @@ type: tag_by_slug_sidebar
   </tr>
   <tr>
     <td>
-      <img src="/img/sno/Plekhanov.jpg" width="87">
+      <img src="/img/sno/Plekhanov.jpg">
     </td>
     <td valign="top" style="font-size: 16px">
       Между наукой и жизнью существует теснейшая, неразрывная, ни для одной из них нимало не унизительная связь: чем более наука служит жизни, тем более жизнь обогащает науку.<br>
@@ -76,7 +76,7 @@ type: tag_by_slug_sidebar
   </tr>
   <tr>
     <td>
-      <img src="/img/sno/einshtein.jpg" width="87">
+      <img src="/img/sno/einshtein.jpg">
     </td>
     <td valign="top" style="font-size: 16px">
       Все идеи в науке родились в драматическом конфликте между реальностью и нашими попытками ее понять. <br>
@@ -85,7 +85,7 @@ type: tag_by_slug_sidebar
   </tr>
   <tr>
     <td>
-      <img src="/img/sno/paster.jpg" width="87">
+      <img src="/img/sno/paster.jpg">
     </td>
     <td valign="top" style="font-size: 16px">
       Открытия приходят лишь к тем, кто подготовлен к их пониманию. <br>

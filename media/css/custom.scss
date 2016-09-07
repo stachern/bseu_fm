@@ -574,3 +574,12 @@ summary {
   cursor: pointer;
   display: inline;
 }
+
+#sno-quotations {
+  border: 0;
+  border-spacing: 5px;
+
+  td:first-child {
+    width: 87px;
+  }
+}
