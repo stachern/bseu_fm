@@ -1,4 +1,4 @@
-title: Department of Applied Mathematics and Economic Cybernetics
+title: Department of Mathematical Methods in Economy
 slug: en
 category: departments/economic_cybernetics
 tags: [_nav, _eng]
