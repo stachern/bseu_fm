@@ -5,12 +5,12 @@ tags: [student_science]
 sidebar_index: 3
 ---
 
-![Гущо Анастасия](/img/content/professional_union/professional_union_lead2.jpg)
+![Пицкалёва Алина Игоревна](/img/content/professional_union/professional_union_lead2.jpg)
 
-*Гущо Анастасия*
+*Пицкалёва Алина Игоревна*
 
 Телефон:
-+375291601334
++375298918052
 <br>
 Email:
-375291601334@mail.ru
+alinkabseu@gmail.com
