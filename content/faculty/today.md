@@ -15,7 +15,7 @@ submenu_index: 2
 - [Экономики природопользования](/departments/environmental_economics)
 - [Национальной экономики и государственного управления](/departments/national_economy)
 - [Экономической информатики](/departments/economic_informatics)
-- [Прикладной математики и экономической кибернетики](/departments/economic_cybernetics)
+- [Математических методов в экономике](/departments/economic_cybernetics)
 
 ### Cпециальности и специализации
 

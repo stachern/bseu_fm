@@ -14,7 +14,7 @@ Departments
 *   [Department of Environmental Economics](/departments/environmental_economics/en)
 *   [Department of National Economy and State Governance](/departments/national_economy/en)
 *   [Department of Economic Informatics](/departments/economic_informatics/en)
-*   [Department of Applied Mathematics and Economic Cybernetics](/departments/economic_cybernetics/en)
+*   [Department of Mathematical Methods in Economy](/departments/economic_cybernetics/en)
 
 Majors and specializations
 --------------------------

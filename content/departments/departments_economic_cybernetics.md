@@ -1,4 +1,4 @@
-title: Кафедра прикладной математики и экономической кибернетики
+title: Кафедра математических методов в экономике
 slug: economic_cybernetics
 category: departments
 tags: [_nav]
