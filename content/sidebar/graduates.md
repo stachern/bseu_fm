@@ -22,3 +22,5 @@ sidebar_index: 3
       <li><a href="/files/sostav_gek_dfo.doc">ДФО</a></li>
       <li><a href="/files/sostav_gek_zfo.doc">ЗФО</a></li>
     </div>
+
+- [График вручения дипломов](/files/graduation_schedule.doc)
