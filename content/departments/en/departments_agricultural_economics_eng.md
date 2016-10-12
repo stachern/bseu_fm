@@ -9,9 +9,10 @@ The chair of the department
 ---------------------------
 
 ![dr. hab. oec., professor Mikhail K. Zhudro](/img/content/depts/agricultural_economics.jpg)
->dr. hab. oec., professor Mikhail K. Zhudro.
 
-The chair of the department is dr. hab. oec., professor Mikhail K. Zhudro.
+> candidate of science (Economics), associate professor L.V. Korbut.
+
+The chair of the department is candidate of science (Economics), associate professor L.V. Korbut.
 
 The Department of Economics and Management at Enterprise of Agro-Industrial Complex was established in 1998 as a successor of two departments, those of Organization and Planning at Agricultural Production and Economics of Agriculture. Its motto “Learn, Generate, Produce” is the quintessence of its faculty’s attitude to teaching and research. The department’s faculty is highly qualified specialists, professors and associate professors who constitute more than 67%, the rest are assistant lecturers.
 
