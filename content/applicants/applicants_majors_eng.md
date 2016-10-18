@@ -28,6 +28,8 @@ If you wish to obtain the skills to analyze and forecast the development of vari
 
 If you want to obtain modern economic, organizational and administrative, socio-psychological methods to manage economic entities, your major is **“Management”** (direction “Innovative Management”). You will learn Innovative and Crisis Management, Business-leadership, Technology of Decision-making and much more.
 
+If you want to acquire knowledge and skills in effective personnel recruitment, development of HR-policy of the company, business career management, application of modern forms of motivation and labour organization, creation of effective communication, personnel assessment and other personnel-technologies, contributing to business leadership, your specialty is "__Management__" (direction "Management (social and administrative)") and the specialization is "Human Resource Management".
+
 The faculty of management trains not only specialists of a particular profile. It trains leaders – personalities who are able to make the whole labor collective follow him/her to achieve high goals. Our graduates occupy posts of directors of largest industrial enterprises, successfully do agro-business, own their own companies producing various goods and services, represent our republic abroad, teach in the Alma-Mater and other educational institutions.
 
 *Choose any major and you will not make a mistake!*
