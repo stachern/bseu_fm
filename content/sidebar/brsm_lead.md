@@ -5,12 +5,9 @@ tags: [brsm]
 sidebar_index: 2
 ---
 
-![Лукашевич Ольга](/img/content/brsm/brsm_lead.jpg)
+![Антипенко Анастасия](/img/content/brsm/brsm_lead.jpg)
 
-*Лукашевич Ольга*
+_Антипенко Анастасия_
 
 Телефон:
-+375297233869
-
-E-mail:
-l.o.v.5@mail.ru
++375297157800
