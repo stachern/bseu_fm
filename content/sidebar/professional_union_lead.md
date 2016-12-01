@@ -5,9 +5,9 @@ tags: [professional_union]
 sidebar_index: 4
 ---
 
-![Макаров Антон](/img/content/professional_union/professional_union_lead.jpg)
+![Мартинович Роман](/img/content/professional_union/professional_union_lead.jpg)
 
-*Макаров Антон*
+_Мартинович Роман_
 
 Телефон:
-+375447474284
++375 (33) 330 80 89
