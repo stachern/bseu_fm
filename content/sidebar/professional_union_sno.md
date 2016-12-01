@@ -5,12 +5,12 @@ tags: [student_science]
 sidebar_index: 3
 ---
 
-![Пицкалёва Алина](/img/content/professional_union/professional_union_lead2.jpg)
+![Пицкалёва Алина](/img/sno/pitskaleva.jpg)
 
 _Пицкалёва Алина_
 
 Телефон:
-+375298918052
++375 (29) 891 80 52
 <br>
 Email:
 alinkabseu@gmail.com
