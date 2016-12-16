@@ -6,3 +6,4 @@ sidebar_index: 5
 ---
 
 - [БГЭУ - история, традиции, современность](/files/BSEU_prezent.ppt)
+- [Мы презентуем себя для вас](/applicants/presentation/)
