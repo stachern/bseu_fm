@@ -602,3 +602,85 @@ summary {
     padding-bottom: 35px;
   }
 }
+
+.council-item {
+  padding-bottom: 25px;
+
+  img {
+    width: 290px;
+  }
+
+  .img-centered {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.council-wrapper {
+  div {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  span {
+    color: $white;
+    display: block;
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .left-item {
+    display: inline-block;
+    margin-right: 45px;
+  }
+
+  .right-item {
+    display: inline-block;
+    margin-left: 45px;
+  }
+
+  .bg-color-1 {
+    background-color: $maroon;
+  }
+
+  .bg-color-2 {
+    background-color: $dark-red;
+  }
+
+  .bg-color-3 {
+    background-color: $vinous;
+  }
+
+  .bg-color-4 {
+    background-color: $bright-red;
+  }
+
+  .bg-color-5 {
+    background-color: $coral;
+  }
+
+  .bg-color-6 {
+    background-color: $light-pink;
+  }
+
+  .bg-color-7 {
+    background-color: $light-blue;
+  }
+
+  .bg-color-8 {
+    background-color: $violet-blue;
+  }
+
+  .bg-color-9 {
+    background-color: $ultramarine;
+  }
+
+  .bg-color-10 {
+    background-color: $dark-ultramarine;
+  }
+
+  .bg-color-11 {
+    background-color: $purplish-blue;
+  }
+}

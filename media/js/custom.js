@@ -72,7 +72,7 @@ $(function() {
 
 var collapse = function() {
   $('.i2style').click(function() {
-    $(this).parent().find('img').toggleClass('hide');
+    $(this).parent().find('.council-item').toggleClass('hide');
   });
 };
 
