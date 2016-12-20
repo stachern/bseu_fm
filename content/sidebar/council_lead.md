@@ -5,12 +5,9 @@ tags: [council]
 sidebar_index: 2
 ---
 
-![Сычевская Анастасия](/img/content/council/council_lead.jpg)
+![Коряковская Татьяна](/img/collages/koryakovskaya.jpg)
 
-*Сычевская Анастасия*
+_Коряковская Татьяна_
 
 Телефон:
-+375293961698
-
-E-mail:
-anastasiaisychevskaya@gmail.com
++375 (29) 768 06 14
