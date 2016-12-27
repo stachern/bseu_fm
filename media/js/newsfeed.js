@@ -44,12 +44,6 @@ function scroll_handler(e) {
   }, FEED._throttleDelay);
 }
 
-function show_comments(article_id) {
-  $('#vk-comments').html('');
-  VK.Widgets.Comments('vk-comments', { limit: 10, width: '530', attach: '*' }, article_id);
-  $('#commentModal').modal('show');
-}
-
 $(document).ready(function(){
     FEED.get_feed();
 
