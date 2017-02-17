@@ -684,3 +684,15 @@ summary {
     background-color: $purplish-blue;
   }
 }
+
+.school-items {
+  width:900px;
+
+  a {
+    background-color: $sidebar-background;
+    color: $white;
+    font-size: 22px;
+    line-height: 55px;
+    padding: 10px;
+  }
+}
