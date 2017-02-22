@@ -1,5 +1,5 @@
 title: Научно-педагогическая школа экономики и управления на предприятии
-slug: meconomics
+slug: industrial-economics
 category: science
 tags: [_nav, _ignore_nav, _category_header]
 submenu_index: None

@@ -1,5 +1,5 @@
 title: Научно-педагогическая школа управления производством
-slug: peconomics
+slug: organization-and-management
 category: science
 tags: [_nav, _ignore_nav, _category_header]
 submenu_index: None

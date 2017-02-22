@@ -1,5 +1,5 @@
 title: Научно-педагогическая школа по национальной экономике
-slug: neconomics
+slug: national-economy
 category: science
 tags: [_nav, _ignore_nav, _category_header]
 submenu_index: None

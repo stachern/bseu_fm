@@ -1,5 +1,5 @@
 title: Научно-педагогическая школа математических методов экономики
-slug: matheconomics
+slug: economic-cybernetics
 category: science
 tags: [_nav, _ignore_nav, _category_header]
 submenu_index: None

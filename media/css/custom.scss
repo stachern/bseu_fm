@@ -686,6 +686,7 @@ summary {
 }
 
 .school-items {
+  margin-left: 0;
   width: 900px;
 
   a {
@@ -694,5 +695,9 @@ summary {
     font-size: 22px;
     line-height: 55px;
     padding: 10px;
+  }
+
+  li {
+    list-style: none;
   }
 }
