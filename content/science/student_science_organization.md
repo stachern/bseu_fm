@@ -1,7 +1,7 @@
 title: Студенческое научное общество
 slug: student_science
 category: science
-tags: [_nav, _category_header]
+tags: [_nav]
 submenu_index: 2
 type: tag_by_slug_sidebar
 ---
