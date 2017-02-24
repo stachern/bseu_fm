@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+wok -q
+cd site
+rm -f fm.zip
+zip -rXq fm.zip fm
+zip -dq fm.zip \*/.DS_Store
+cd ..
