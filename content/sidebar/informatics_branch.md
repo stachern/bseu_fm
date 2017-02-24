@@ -1,5 +1,5 @@
 title: О филиале кафедры
-slug: informatics-branch
+slug: informatics-department-branch
 category: other
 tags: [economic_informatics]
 sidebar_index: 2

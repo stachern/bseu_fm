@@ -1,5 +1,5 @@
 title: О филиале кафедры
-slug: agricultural-branch
+slug: agricultural-department-branch
 category: other
 tags: [agricultural_economics]
 sidebar_index: 2

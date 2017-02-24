@@ -1,5 +1,5 @@
 title: О филиале кафедры
-slug: environmental-branch
+slug: environmental-department-branch
 category: other
 tags: [environmental_economics]
 sidebar_index: 2

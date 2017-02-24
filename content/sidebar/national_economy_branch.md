@@ -1,5 +1,5 @@
 title: О филиале кафедры
-slug: national-economy-branch
+slug: national-economy-department-branch
 category: other
 tags: [national_economy]
 sidebar_index: 2
