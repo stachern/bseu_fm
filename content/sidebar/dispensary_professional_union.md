@@ -1,7 +1,7 @@
 title: Профилакторий БГЭУ
 slug: dispensary_professional_union
 category: other
-tags: [professional_union]
+tags: []
 sidebar_index: 3
 ---
 
