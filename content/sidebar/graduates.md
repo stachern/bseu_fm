@@ -1,4 +1,4 @@
-title: Выпускнику-2017
+title: Выпускнику-2018
 slug: graduates
 category: other
 tags: [graduate]
