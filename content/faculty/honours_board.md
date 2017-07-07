@@ -6,12 +6,13 @@ submenu_index: 5
 ---
 
 <ul class="nav nav-tabs" id="honours-board-tab">
-  <li class="active"><a href="#staff2016" data-toggle="tab">Сотрудники</a></li>
-  <li><a href="#students2016" data-toggle="tab">Студенты</a></li>
-  <li><a href="#sport-heroes2016" data-toggle="tab">«Герои спорта»</a></li>
+  <li class="active"><a href="#staff2017" data-toggle="tab">Сотрудники</a></li>
+  <li><a href="#students2017" data-toggle="tab">Студенты</a></li>
+  <li><a href="#sport-heroes2017" data-toggle="tab">«Герои спорта»</a></li>
   <li class="pull-right">
     <select class="honours-board-select">
       <optgroup label="Учебный год">
+        <option value="2017">2017—2018</option>
         <option value="2016">2016—2017</option>
         <option value="2015">2015—2016</option>
       </optgroup>
@@ -144,7 +145,7 @@ submenu_index: 5
   </div>
 </div>
 
-<div class="tab-content board-2016">
+<div class="tab-content board-2016 hide">
   <div class="tab-pane active" id="staff2016">
     <table class="honours-table">
       <tr>
@@ -263,6 +264,131 @@ submenu_index: 5
           <img src="/img/content/honours_board/kotryakov.jpg">
           <p><strong>Котряков Олег</strong></p>
           <p>гр. 13ДКЭ, I взрослый разряд по хоккею с шайбой, игрок команды «Химик-СКА», участник и призер различных международных и республиканских соревнований в составе юношеской сборной Республики Беларусь (международного турнира на Кубок Президента Республики Беларусь, турнира четырех наций и др.)</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="tab-content board-2017">
+  <div class="tab-pane active" id="staff2017">
+    <table class="honours-table">
+      <tr>
+        <td>
+          <img src="/img/content/honours_board/bogdan.jpg">
+          <p><strong>Богдан Нина Ивановна</strong></p>
+          <p>доктор экономических наук, профессор кафедры национальной экономики и государственного управления</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/sinica.jpg">
+          <p><strong>Синица Любовь Макаровна</strong></p>
+          <p>кандидат экономических наук, доцент кафедры организации и управления</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/kruk.jpg">
+          <p><strong>Крюк Елена Владиславовна</strong></p>
+          <p>кандидат экономических наук, доцент кафедры математических методов в экономике</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/belousova.jpg">
+          <p><strong>Белоусова Татьяна Николаевна</strong></p>
+          <p>кандидат геолого-минералогических наук, доцент кафедры экономики природопользования</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="/img/content/honours_board/gec.jpg">
+          <p><strong>Гец Алла Алексеевна</strong></p>
+          <p>ассистент кафедры экономики и управления предприятиями АПК</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/zenko.jpg">
+          <p><strong>Зенько Светлана Николаевна</strong></p>
+          <p>ассистент кафедры экономики промышленных предприятий</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/oskin.jpg">
+          <p><strong>Оськин Дмитрий Аркадьевич</strong></p>
+          <p>ассистент кафедры экономической информатики</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/kozich.jpg">
+          <p><strong>Козич Татьяна Григорьевна </strong></p>
+          <p>ведущий специалист деканата по заочной форме обучения</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="tab-pane" id="students2017">
+    <table class="honours-table">
+      <tr>
+        <td>
+          <img src="/img/content/honours_board/antipenko.jpg">
+          <p><strong>Антипенко Анастасия </strong></p>
+          <p>студентка гр.15ДКП-2, секретарь комитета ПО ОО «БРСМ» факультета</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/pickaleva.jpg">
+          <p><strong>Пицкалева Алина</strong></p>
+          <p>студентка гр. 14ДКУ, председатель студенческого научного общества факультета, член Совета факультета</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/malinova.jpg">
+          <p><strong>Малинова Елизавета</strong></p>
+          <p>студентка гр.15ДКН, староста группы, член Совета университета</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/mosko.jpg">
+          <p><strong>Мосько Роман</strong></p>
+          <p>студент гр. 15ДКМ, член студсовета факультета, культорганизатор</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="/img/content/honours_board/ignateva.jpg">
+          <p><strong>Игнатьева Алина</strong></p>
+          <p>студентка гр. 15ДКА-2, член студсовета факультета</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/suprunuk.jpg">
+          <p><strong>Супрунюк Виктория</strong></p>
+          <p>студентка гр.14ДКП-2, фотокорреспондент факультета</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/tochko.jpg">
+          <p><strong>Точко Анна</strong></p>
+          <p>студентка гр. 15ДКМ, включена в Банк данных одаренной молодежи</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/cin.jpg">
+          <p><strong>Юань Цинь</strong></p>
+          <p>студентка гр. 15ДКТ, лучшая из числа китайских студентов факультета</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="tab-pane" id="sport-heroes2017">
+    <table class="honours-table">
+      <tr>
+        <td>
+          <img src="/img/content/honours_board/podshivalov.jpg">
+          <p><strong>Подшивалов Александр</strong></p>
+          <p>студент гр. 14ЗКП, мастер спорта по гандболу, член Национальной сборной Республики Беларусь, игрок гандбольного клуба «СКА-Минск», серебряный призер чемпионата Республики Беларусь</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/babazade.jpg">
+          <p><strong>Бабазаде Гасан</strong></p>
+          <p>студент гр. 14ДКП-2, мастер спорта по вольной борьбе, серебряный призер чемпионата Республики Беларусь, участник и призер международных соревнований</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/tarakanov.jpg">
+          <p><strong>Тараканов Алексей</strong></p>
+          <p>студент гр. 13ЗКА, кандидат в мастера спорта по футболу, член молодежной сборной Республики Беларусь по футболу, игрок футбольного клуба «Ислочь»</p>
+        </td>
+        <td>
+          <img src="/img/content/honours_board/sudilovskiy.jpg">
+          <p><strong>Судиловский Владислав</strong></p>
+          <p>студент гр. 14ДКК, кандидат в мастера спорта по водному поло, победитель кубка Республики Беларусь по водному поло, участник и призер международных соревнований</p>
         </td>
       </tr>
     </table>
