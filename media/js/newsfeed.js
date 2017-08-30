@@ -86,10 +86,16 @@ $(document).ready(function(){
       FEED.get_feed();
     });
 
-    $.getJSON("http://query.yahooapis.com/v1/public/yql/bseu_fm/news?format=json", function(data) {
-        var template_path = SUBDIR_PREFIX + "/js/templates/news.ejs",
-            rendered_html = new EJS({ url: template_path }).render({ news: data.query.results.item });
-        $('#rssdata ul.rss-items').append(rendered_html);
-        $('#rssdata ul.rss-items').slideDown();
-    });
+    $.getJSON("http://query.yahooapis.com/v1/public/yql/bseu_fm/news?format=json")
+        .done(function(data) {
+            if (!data.query.count) {
+                var err = $('<li><p>Не удалось загрузить ленту новостей...</p></li>');
+                $('#rssdata ul.rss-items').append(err).show();
+                return;
+            }
+            var template_path = SUBDIR_PREFIX + "/js/templates/news.ejs",
+                rendered_html = new EJS({ url: template_path }).render({ news: data.query.results.item });
+            $('#rssdata ul.rss-items').append(rendered_html);
+            $('#rssdata ul.rss-items').slideDown();
+        });
 });
